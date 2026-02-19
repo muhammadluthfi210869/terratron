@@ -1,0 +1,370 @@
+/* ============================================
+   EXCAVATOR PREVIEW - DARK LUXURY INDUSTRIAL
+   World-Class Mobile UI/UX Design System
+   ============================================ */
+
+/* === CSS RESET & BASE === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* === DARK LUXURY PALETTE === */
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --bg-card-hover: #1a1a1a;
+
+  /* === GOLD ACCENT === */
+  --gold-primary: #D4AF37;
+  --gold-secondary: #C9A227;
+  --gold-light: #F4E4BC;
+  --gold-glow: rgba(212, 175, 55, 0.3);
+
+  /* === TEXT === */
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --text-muted: #6B7280;
+
+  /* === STATUS COLORS (Industrial Safety) === */
+  --status-available: #22C55E;
+  --status-available-glow: rgba(34, 197, 94, 0.25);
+  --status-rented: #EF4444;
+  --status-rented-glow: rgba(239, 68, 68, 0.25);
+  --status-maintenance: #F59E0B;
+  --status-maintenance-glow: rgba(245, 158, 11, 0.25);
+
+  /* === WHATSAPP === */
+  --wa-green: #25D366;
+  --wa-green-dark: #1DAB50;
+  --wa-glow: rgba(37, 211, 102, 0.35);
+
+  /* === GRADIENTS === */
+  --gradient-hero: linear-gradient(180deg,
+      rgba(10, 10, 10, 0.3) 0%,
+      rgba(10, 10, 10, 0.7) 50%,
+      rgba(10, 10, 10, 0.95) 100%);
+  --gradient-gold: linear-gradient(135deg, var(--gold-primary), var(--gold-light), var(--gold-primary));
+  --gradient-card: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+
+  /* === GLASS EFFECT === */
+  --glass-bg: rgba(22, 22, 22, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(20px);
+
+  /* === TYPOGRAPHY === */
+  --font-display: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* === SPACING === */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* === BORDERS === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* === TRANSITIONS === */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* === SELECTION === */
+::selection {
+  background: var(--gold-primary);
+  color: var(--bg-primary);
+}
+
+/* === SCROLLBAR (Dark Luxury) === */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-primary);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-light);
+}
+
+/* === UTILITY CLASSES === */
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+  }
+}
+
+/* === TYPOGRAPHY UTILITIES === */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.text-gold {
+  color: var(--gold-primary);
+}
+
+.text-gradient {
+  background: var(--gradient-gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* === GLASS CARD === */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+}
+
+/* === GOLD BORDER GLOW === */
+.gold-border {
+  position: relative;
+}
+
+.gold-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: var(--gradient-gold);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.5;
+  transition: opacity var(--transition-base);
+}
+
+.gold-border:hover::before {
+  opacity: 1;
+}
+
+/* === METALLIC SHEEN ANIMATION === */
+@keyframes metallicSheen {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.metallic-text {
+  background: linear-gradient(90deg,
+      var(--gold-primary) 0%,
+      var(--gold-light) 25%,
+      var(--gold-primary) 50%,
+      var(--gold-light) 75%,
+      var(--gold-primary) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: metallicSheen 4s linear infinite;
+}
+
+/* === SEQUENTIAL GLOW === */
+@keyframes sequentialGlow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.3);
+  }
+}
+
+/* === PULSE GLOW === */
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 5px currentColor;
+  }
+
+  50% {
+    box-shadow: 0 0 20px currentColor, 0 0 30px currentColor;
+  }
+}
+
+/* === INFINITE SCROLL === */
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* === FADE IN UP === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === STAGGER REVEAL === */
+.stagger-item {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.stagger-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.stagger-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.stagger-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.stagger-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.stagger-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+/* === STATUS INDICATOR === */
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: var(--space-sm);
+}
+
+.status-dot.available {
+  background: var(--status-available);
+  box-shadow: 0 0 10px var(--status-available-glow);
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.status-dot.rented {
+  background: var(--status-rented);
+  box-shadow: 0 0 10px var(--status-rented-glow);
+}
+
+.status-dot.maintenance {
+  background: var(--status-maintenance);
+  box-shadow: 0 0 10px var(--status-maintenance-glow);
+}
+
+/* === HIDE SCROLLBAR FOR HORIZONTAL SCROLL === */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* === BEVEL BUTTON EFFECT === */
+.bevel-button {
+  position: relative;
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.2) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.3),
+    0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all var(--transition-fast);
+}
+
+.bevel-button:active {
+  transform: translateY(2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* === MONOCHROME FILTER === */
+.monochrome {
+  filter: grayscale(100%) brightness(0.8) contrast(1.2);
+  opacity: 0.6;
+  transition: all var(--transition-base);
+}
+
+.monochrome:hover {
+  filter: grayscale(0%) brightness(1) contrast(1);
+  opacity: 1;
+}

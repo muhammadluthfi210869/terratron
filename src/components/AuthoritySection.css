@@ -1,0 +1,426 @@
+/* ============================================
+   AUTHORITY SECTION - JAMINAN PERFORMA & KEAMANAN
+   World-Class Guarantee Display
+   ============================================ */
+
+.authority-section {
+    background: linear-gradient(180deg,
+            var(--bg-primary) 0%,
+            var(--bg-secondary) 50%,
+            var(--bg-primary) 100%);
+    padding: var(--space-3xl) 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* === SUBTLE BACKGROUND PATTERN === */
+.authority-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 20% 30%, rgba(212, 175, 55, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.02) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* === SECTION HEADER === */
+.authority-header {
+    text-align: center;
+    padding: 0 var(--space-lg);
+    margin-bottom: var(--space-2xl);
+}
+
+.header-eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.eyebrow-line {
+    width: 40px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+}
+
+.eyebrow-text {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: var(--gold-primary);
+    font-weight: 500;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    line-height: 1.1;
+}
+
+.title-accent {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 6vw, 2.2rem);
+    font-weight: 700;
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.02em;
+}
+
+/* === THE ADVANTAGE DECK (Cards Container) === */
+.advantage-deck {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    padding: 0 var(--space-lg);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* === ADVANTAGE CARD === */
+.advantage-card {
+    position: relative;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    cursor: default;
+    transform-origin: center;
+    transition: transform var(--transition-spring);
+}
+
+.advantage-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Card Glow Effect */
+.card-glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            var(--gold-primary) 50%,
+            transparent 100%);
+    opacity: 0.8;
+}
+
+/* Card Inner Content */
+.card-inner {
+    position: relative;
+    padding: var(--space-lg);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
+    gap: var(--space-sm) var(--space-md);
+    align-items: center;
+}
+
+/* Card Icon */
+.card-icon {
+    grid-row: 1 / 3;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: var(--radius-md);
+}
+
+.card-icon svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--gold-primary);
+}
+
+/* Card Metric - THE BIG NUMBER */
+.card-metric {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+.metric-value {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+    line-height: 1;
+}
+
+.metric-unit {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--gold-secondary);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* Card Title */
+.card-title {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: -4px;
+}
+
+/* Card Description */
+.card-description {
+    grid-column: 1 / -1;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    padding-top: var(--space-sm);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: var(--space-xs);
+}
+
+/* Card Accent Line */
+.card-accent-line {
+    position: absolute;
+    bottom: 0;
+    left: var(--space-lg);
+    right: var(--space-lg);
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(212, 175, 55, 0.3) 50%,
+            transparent 100%);
+}
+
+/* === THE BRIDGE - Narrative Connection === */
+.authority-bridge {
+    margin-top: var(--space-3xl);
+    padding: 0 var(--space-lg);
+    text-align: center;
+}
+
+.bridge-content {
+    position: relative;
+    padding: var(--space-xl);
+    background: linear-gradient(145deg,
+            rgba(22, 22, 22, 0.8) 0%,
+            rgba(22, 22, 22, 0.4) 100%);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Statement Quote */
+.bridge-statement {
+    position: relative;
+    margin-bottom: var(--space-lg);
+}
+
+.statement-quote {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: serif;
+    font-size: 3rem;
+    color: var(--gold-primary);
+    opacity: 0.2;
+    line-height: 1;
+}
+
+.statement-text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: var(--space-md);
+}
+
+.statement-highlight {
+    color: var(--gold-primary);
+    font-weight: 600;
+}
+
+/* CTA Button */
+.bridge-cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-xl);
+    background: transparent;
+    border: 1px solid var(--gold-primary);
+    border-radius: var(--radius-md);
+    color: var(--gold-primary);
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.bridge-cta:hover {
+    background: var(--gold-primary);
+    color: var(--bg-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.25);
+}
+
+.bridge-cta:active {
+    transform: translateY(0);
+}
+
+.cta-text {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-icon-left {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: transform var(--transition-base);
+}
+
+.cta-icon-left svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Shimmer Effect */
+.cta-shimmer {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.1) 50%,
+            transparent 100%);
+    transition: left 0.5s ease;
+}
+
+.bridge-cta:hover .cta-shimmer {
+    left: 100%;
+}
+
+/* Decoration */
+.bridge-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+}
+
+.decoration-line {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3));
+}
+
+.decoration-line.right {
+    background: linear-gradient(90deg, rgba(212, 175, 55, 0.3), transparent);
+}
+
+.decoration-diamond {
+    color: var(--gold-primary);
+    opacity: 0.4;
+}
+
+.decoration-diamond svg {
+    width: 12px;
+    height: 12px;
+}
+
+/* === RESPONSIVE - Tablet & Desktop === */
+@media (min-width: 640px) {
+    .authority-section {
+        padding: var(--space-3xl) var(--space-xl);
+    }
+
+    .title-accent {
+        font-size: 2.5rem;
+    }
+
+    .advantage-deck {
+        flex-direction: row;
+        max-width: 900px;
+        gap: var(--space-md);
+    }
+
+    .advantage-card {
+        flex: 1;
+    }
+
+    .card-inner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: var(--space-xl) var(--space-lg);
+    }
+
+    .card-icon {
+        margin: 0 auto var(--space-md);
+    }
+
+    .card-metric {
+        justify-content: center;
+        margin-bottom: var(--space-sm);
+    }
+
+    .metric-value {
+        font-size: 2.5rem;
+    }
+
+    .card-title {
+        margin: 0;
+    }
+
+    .card-description {
+        padding-top: var(--space-md);
+        margin-top: var(--space-md);
+    }
+
+    .statement-text {
+        max-width: 450px;
+        font-size: 1.1rem;
+    }
+}
+
+/* === DARK HOVER GLOW EFFECT === */
+@media (hover: hover) {
+    .advantage-card::after {
+        content: '';
+        position: absolute;
+        inset: -1px;
+        border-radius: inherit;
+        padding: 1px;
+        background: linear-gradient(145deg,
+                rgba(212, 175, 55, 0.3) 0%,
+                transparent 50%,
+                rgba(212, 175, 55, 0.1) 100%);
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        opacity: 0;
+        transition: opacity var(--transition-base);
+    }
+
+    .advantage-card:hover::after {
+        opacity: 1;
+    }
+}

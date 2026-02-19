@@ -1,0 +1,849 @@
+/* === HERO SECTION === */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #000000;
+    /* TRUE BLACK fallback */
+}
+
+/* === BACKGROUND SYSTEM === */
+.hero-background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+    /* ENHANCED RIM LIGHT - Golden Hour dramatic effect */
+    filter: contrast(1.18) brightness(0.85) saturate(1.05);
+    /* Mask for better excavator visibility - face not covered */
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4) 0%,
+            rgba(0, 0, 0, 0.9) 20%,
+            rgba(0, 0, 0, 1) 40%,
+            rgba(0, 0, 0, 0.85) 65%,
+            rgba(0, 0, 0, 0.3) 100%);
+    -webkit-mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4) 0%,
+            rgba(0, 0, 0, 0.9) 20%,
+            rgba(0, 0, 0, 1) 40%,
+            rgba(0, 0, 0, 0.85) 65%,
+            rgba(0, 0, 0, 0.3) 100%);
+}
+
+/* TRUE BLACK VOID Overlay - Lighter to show Golden Hour */
+.hero-overlay-void {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.75) 0%,
+            /* Lighter top to show sky */
+            rgba(0, 0, 0, 0.35) 25%,
+            rgba(0, 0, 0, 0.2) 45%,
+            /* Window to see excavator - much lighter */
+            rgba(0, 0, 0, 0.5) 70%,
+            rgba(0, 0, 0, 0.92) 90%,
+            rgba(0, 0, 0, 1) 100%);
+    /* TRUE BLACK BOTTOM */
+    pointer-events: none;
+}
+
+/* Enhanced Rim Light Glow - Golden Hour Effect */
+.hero-rim-light {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 150% 60% at 50% 30%,
+            rgba(255, 180, 80, 0.12) 0%,
+            transparent 50%),
+        radial-gradient(ellipse 100% 40% at 60% 35%,
+            rgba(212, 175, 55, 0.1) 0%,
+            transparent 45%);
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
+
+/* Noise Texture for Material Feel (Steel/Asphalt) */
+.hero-noise {
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.04;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+}
+
+/* === CONTENT === */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-md);
+    gap: var(--space-sm);
+}
+
+/* === NAMECARD - THE GIANT MONUMENT === */
+.hero-namecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+    width: 100%;
+    padding: 0 var(--space-sm);
+}
+
+.company-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1em;
+    line-height: 1.1;
+    width: 100%;
+}
+
+.name-main {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 8vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg,
+            var(--gold-primary) 0%,
+            var(--gold-light) 20%,
+            var(--gold-primary) 40%,
+            var(--gold-light) 60%,
+            var(--gold-primary) 80%,
+            var(--gold-light) 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: metallicSheen 5s linear infinite;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.8));
+    text-align: center;
+}
+
+.name-heavy {
+    font-family: var(--font-display);
+    font-size: clamp(1.2rem, 6vw, 2.8rem);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    opacity: 0.95;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+/* Gold Divider Line - Proportional to name */
+.gold-divider {
+    width: min(60%, 180px);
+    height: 2px;
+    margin-top: var(--space-sm);
+    background: linear-gradient(90deg,
+            transparent 0%,
+            var(--gold-primary) 15%,
+            var(--gold-light) 50%,
+            var(--gold-primary) 85%,
+            transparent 100%);
+    border-radius: 1px;
+    box-shadow:
+        0 0 15px var(--gold-glow),
+        0 0 30px rgba(212, 175, 55, 0.12);
+}
+
+/* === THE SILENT AUTHORITY - WORLD CLASS MINIMALIST BRANDING === */
+.silent-brand-header {
+    position: absolute;
+    top: var(--space-md);
+    left: var(--space-md);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.brand-anchor {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.brand-logo-minimal {
+    width: 38px;
+    height: 38px;
+    background: #111111;
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.brand-logo-minimal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+
+.brand-v-line {
+    width: 1px;
+    height: 32px;
+    background: linear-gradient(180deg,
+            transparent 0%,
+            var(--gold-primary) 50%,
+            transparent 100%);
+    opacity: 0.6;
+}
+
+.brand-identity-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-name-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1;
+}
+
+.brand-name-main {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+}
+
+.brand-name-sep {
+    color: var(--gold-primary);
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.brand-name-sub {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(-- gold-light);
+    letter-spacing: 0.3em;
+    opacity: 0.8;
+}
+
+.brand-system-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.system-tag {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.15em;
+    opacity: 0.6;
+}
+
+.system-pulse-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.system-pulse-dot {
+    width: 4px;
+    height: 4px;
+    background: var(--gold-primary);
+    /* Changed from green to gold for luxury consistency */
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--gold-glow);
+    animation: pulseGlow 2s infinite;
+}
+
+.system-status {
+    font-family: var(--font-mono);
+    font-size: 0.5rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+    letter-spacing: 0.1em;
+}
+
+/* Metadata Grid */
+.brand-meta-grid {
+    display: flex;
+    gap: 20px;
+    padding-left: 2px;
+}
+
+.meta-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.meta-label {
+    font-family: var(--font-mono);
+    font-size: 0.45rem;
+    font-weight: 800;
+    color: var(--gold-primary);
+    opacity: 0.4;
+    letter-spacing: 0.1em;
+}
+
+.meta-val {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    opacity: 0.7;
+    letter-spacing: 0.05em;
+}
+
+/* Tagline below the main title */
+.fleet-tagline-center {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: var(--space-sm);
+    background: rgba(212, 175, 55, 0.05);
+    padding: 4px 12px;
+    border-radius: 4px;
+    border: 1px dashed rgba(212, 175, 55, 0.2);
+}
+
+/* Updated CTA Group with WhatsApp Button */
+.hero-cta-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.hero-primary-cta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow:
+        0 4px 15px rgba(37, 211, 102, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+}
+
+.hero-primary-cta:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow:
+        0 8px 25px rgba(37, 211, 102, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.hero-primary-cta:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+.cta-wa-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* === VERIFIED EMBLEM - INLINE CHECKMARK (Non-Interactive) === */
+.verified-emblem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: var(--space-md);
+    padding: 6px 14px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    /* Explicitly NOT clickable */
+    pointer-events: none;
+    user-select: none;
+}
+
+.emblem-checkmark {
+    color: var(--gold-primary);
+    filter: drop-shadow(0 0 4px var(--gold-glow));
+}
+
+.emblem-text {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: var(--gold-primary);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-shadow:
+        0 0 8px var(--gold-glow),
+        0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* === STATS TAPE COUNTER - INDUSTRIAL ODOMETER PANEL === */
+.stats-tape {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--space-lg);
+    width: calc(100% - var(--space-lg));
+    max-width: 340px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow:
+        0 4px 30px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 0 20px var(--gold-glow);
+}
+
+/* Glass effect overlay */
+.tape-glass-effect {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.08) 0%,
+            transparent 50%,
+            rgba(0, 0, 0, 0.2) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Inner container for cells */
+.tape-inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Individual stat cell */
+.tape-cell {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: var(--space-xs) 0;
+}
+
+/* Primary cell (center) - slightly emphasized */
+.tape-cell-primary .tape-value {
+    color: var(--gold-light);
+    text-shadow:
+        0 0 20px var(--gold-glow),
+        0 0 40px var(--gold-glow);
+}
+
+/* Tape value - the number */
+.tape-value {
+    font-family: var(--font-mono);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 15px var(--gold-glow);
+}
+
+.tape-suffix {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.85;
+}
+
+/* Tape label - descriptor */
+.tape-label {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0.65;
+}
+
+/* Vertical gold divider */
+.tape-divider {
+    width: 1px;
+    height: 55%;
+    background: linear-gradient(180deg,
+            transparent 0%,
+            rgba(212, 175, 55, 0.6) 20%,
+            var(--gold-primary) 50%,
+            rgba(212, 175, 55, 0.6) 80%,
+            transparent 100%);
+    box-shadow: 0 0 8px var(--gold-glow);
+    flex-shrink: 0;
+}
+
+/* Subtle scanline effect for industrial feel */
+.tape-scanline {
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(0deg,
+            transparent 0px,
+            transparent 2px,
+            rgba(0, 0, 0, 0.1) 2px,
+            rgba(0, 0, 0, 0.1) 4px);
+    pointer-events: none;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+/* === TRUST LINE - INLINE AUTHORITY BADGES === */
+.trust-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-md);
+    padding: var(--space-xs) var(--space-md);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.trust-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.trust-check-svg {
+    color: var(--gold-primary);
+    filter: drop-shadow(0 0 6px var(--gold-glow));
+    flex-shrink: 0;
+}
+
+.trust-separator {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.5rem;
+}
+
+/* === SCROLL INDICATOR - MINIMAL INDUSTRIAL === */
+.scroll-indicator {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.5;
+    z-index: 5;
+}
+
+.scroll-arrow {
+    color: var(--gold-primary);
+    opacity: 0.7;
+}
+
+.scroll-arrow svg {
+    filter: drop-shadow(0 0 8px var(--gold-glow));
+}
+
+/* === HERO PARTNERS SECTION - THE PREMIUM GLASS DECK (Opsi 1) === */
+.hero-partners-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding: var(--space-md) 0 var(--space-xl);
+    background: linear-gradient(180deg,
+            transparent 0%,
+            rgba(0, 0, 0, 0.4) 10%,
+            rgba(0, 0, 0, 0.95) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.partners-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: var(--space-xs);
+}
+
+.partners-text {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--gold-primary);
+    letter-spacing: 0.25em;
+    white-space: nowrap;
+    opacity: 0.8;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.partners-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(212, 175, 55, 0.4) 50%,
+            transparent 100%);
+}
+
+/* === THE DECK (GRID) === */
+.partners-deck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* FORCE single row - no wrapping */
+    gap: 8px;
+    padding: 0 var(--space-xs);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scroll if needed on very small screens */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Hide scrollbar */
+    -ms-overflow-style: none;
+}
+
+.partners-deck::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome/Safari */
+}
+
+/* === THE GLASS CARD - SIMPLIFIED === */
+.partner-card {
+    /* Fixed dimensions */
+    width: 50px;
+    height: 38px;
+    /* Flexbox centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Appearance */
+    background: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    /* Behavior */
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+}
+
+.partner-logo-colored {
+    /* Logo sizing - percentage of parent */
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+    /* Ensure proper display */
+    object-fit: contain;
+    display: block;
+    /* Grayscale effect */
+    filter: grayscale(100%);
+    opacity: 0.75;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+/* HOVER STATE */
+.partner-card:hover {
+    border-color: rgba(212, 175, 55, 0.7);
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+}
+
+.partner-card:hover .partner-logo-colored {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* Animated Highlight line on hover */
+.card-highlight {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent 0%,
+            transparent 40%,
+            rgba(255, 255, 255, 0.15) 50%,
+            transparent 60%,
+            transparent 100%);
+    transition: all 0.6s ease;
+    z-index: 3;
+}
+
+.partner-card:hover .card-highlight {
+    left: 100%;
+}
+
+@keyframes metallicSheen {
+    0% {
+        background-position: 200% center;
+    }
+
+    100% {
+        background-position: -200% center;
+    }
+}
+
+/* === PULSE GLOW === */
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        opacity: 0.6;
+        box-shadow: 0 0 4px var(--gold-glow);
+    }
+
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 12px var(--gold-primary), 0 0 20px var(--gold-glow);
+    }
+}
+
+/* === RESPONSIVE === */
+@media (min-width: 768px) {
+    .name-main {
+        font-size: 5rem;
+    }
+
+    .name-heavy {
+        font-size: 4rem;
+    }
+
+    .gold-divider {
+        width: 140px;
+    }
+
+    .stats-tape {
+        max-width: 420px;
+        height: 85px;
+    }
+
+    .tape-value {
+        font-size: 2rem;
+    }
+
+    .tape-label {
+        font-size: 0.65rem;
+    }
+
+    .tape-divider {
+        height: 50%;
+    }
+
+    .trust-line {
+        gap: var(--space-md);
+    }
+
+    .trust-item {
+        font-size: 0.65rem;
+    }
+}
+
+/* === VERY SMALL SCREENS === */
+@media (max-width: 360px) {
+    .stats-tape {
+        width: calc(100% - var(--space-md));
+        height: 64px;
+    }
+
+    .tape-value {
+        font-size: 1.3rem;
+    }
+
+    .tape-label {
+        font-size: 0.5rem;
+        letter-spacing: 0.1em;
+    }
+
+    .tape-divider {
+        height: 45%;
+    }
+
+    .trust-line {
+        flex-wrap: wrap;
+        gap: var(--space-xs);
+    }
+}
+
+/* === TOP BRAND RESPONSIVE === */
+@media (max-width: 480px) {
+    .top-brand-header {
+        top: 12px;
+        left: 12px;
+        min-width: auto;
+        height: 48px;
+    }
+
+    .top-brand-content {
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .brand-logo-frame {
+        width: 34px;
+        height: 34px;
+    }
+
+    .brand-name-top {
+        font-size: 0.75rem;
+    }
+
+    .brand-meta-row {
+        display: none;
+        /* Hide metadata on small mobile to prevent clutter */
+    }
+}

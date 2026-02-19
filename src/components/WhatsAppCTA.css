@@ -1,0 +1,294 @@
+/* ============================================
+   WHATSAPP FAB - CIRCULAR FLOATING ACTION BUTTON
+   World-Class Premium Chat CTA
+   Position: Bottom Right (Thumb Zone)
+   ============================================ */
+
+/* === FAB CONTAINER === */
+.wa-fab-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* Safe area for notched devices */
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* === FAB BUTTON - CIRCULAR === */
+.wa-fab-button {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,
+            #25D366 0%,
+            #128C7E 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+
+    /* Elevation */
+    box-shadow:
+        0 4px 20px rgba(37, 211, 102, 0.4),
+        0 8px 40px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+    /* Transitions */
+    transition:
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s ease;
+}
+
+/* Hover State */
+.wa-fab-button:hover {
+    transform: scale(1.1);
+    box-shadow:
+        0 6px 30px rgba(37, 211, 102, 0.5),
+        0 12px 50px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Active/Press State */
+.wa-fab-button:active {
+    transform: scale(0.95);
+    box-shadow:
+        0 2px 15px rgba(37, 211, 102, 0.4),
+        0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* === WHATSAPP ICON === */
+.fab-icon {
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: relative;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: transform 0.2s ease;
+}
+
+.wa-fab-button:hover .fab-icon {
+    transform: scale(1.05);
+}
+
+/* === PULSE RING ANIMATION === */
+.fab-pulse-ring {
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 2px solid rgba(37, 211, 102, 0.6);
+    animation: fabPulse 2.5s ease-out infinite;
+    pointer-events: none;
+}
+
+.fab-pulse-ring-delayed {
+    animation-delay: 1.25s;
+}
+
+@keyframes fabPulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.4);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+/* === TOOLTIP === */
+.wa-fab-tooltip {
+    position: absolute;
+    right: calc(100% + 12px);
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    padding: 10px 16px;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    white-space: nowrap;
+    pointer-events: none;
+
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Tooltip Arrow */
+.wa-fab-tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: rgba(0, 0, 0, 0.9);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tooltip-title {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #25D366;
+}
+
+.tooltip-sub {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+}
+
+/* === GLOW EFFECT ON BUTTON === */
+.wa-fab-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%,
+            rgba(255, 255, 255, 0.3) 0%,
+            transparent 50%);
+    pointer-events: none;
+}
+
+/* === ATTENTION ANIMATION (Every 4 seconds) === */
+@keyframes fabAttention {
+
+    0%,
+    90%,
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    92% {
+        transform: scale(1.15) rotate(-5deg);
+    }
+
+    94% {
+        transform: scale(1.1) rotate(5deg);
+    }
+
+    96% {
+        transform: scale(1.12) rotate(-3deg);
+    }
+
+    98% {
+        transform: scale(1.08) rotate(2deg);
+    }
+}
+
+.wa-fab-button {
+    animation: fabAttention 6s ease-in-out infinite;
+}
+
+.wa-fab-button:hover {
+    animation: none;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 480px) {
+    .wa-fab-container {
+        bottom: 20px;
+        right: 16px;
+    }
+
+    .wa-fab-button {
+        width: 56px;
+        height: 56px;
+    }
+
+    .fab-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* Tooltip on left for mobile */
+    .wa-fab-tooltip {
+        right: calc(100% + 8px);
+        padding: 8px 12px;
+    }
+
+    .tooltip-title {
+        font-size: 0.8rem;
+    }
+
+    .tooltip-sub {
+        font-size: 0.6rem;
+    }
+}
+
+/* === TABLET & DESKTOP === */
+@media (min-width: 768px) {
+    .wa-fab-container {
+        bottom: 32px;
+        right: 32px;
+    }
+
+    .wa-fab-button {
+        width: 64px;
+        height: 64px;
+    }
+
+    .fab-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* === LARGE DESKTOP === */
+@media (min-width: 1200px) {
+    .wa-fab-container {
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .wa-fab-button {
+        width: 68px;
+        height: 68px;
+    }
+
+    .fab-icon {
+        width: 34px;
+        height: 34px;
+    }
+}
+
+/* === REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+    .fab-pulse-ring {
+        animation: none;
+        opacity: 0.3;
+    }
+
+    .wa-fab-button {
+        animation: none;
+    }
+
+    .wa-fab-button,
+    .fab-icon {
+        transition: none;
+    }
+}

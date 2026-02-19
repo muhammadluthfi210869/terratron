@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://terratron.id/sitemap.xml
+
+# Prevent indexing of specific admin or script folders if any
+Disallow: /scripts/
+Disallow: /node_modules/

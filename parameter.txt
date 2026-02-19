@@ -1,0 +1,190 @@
+
+
+1. PARAMETER EGO: "THE GIANT NAMECARD"
+(Masalah: Mereka ingin merasa menjadi Raja di wilayahnya)
+
+Owner alat berat punya ego besar. Website bukan sekadar info, tapi Prasasti Digital.
+
+Kriteria Lolos: Saat video preview dimulai (detik ke-0 sampai ke-3), layar HP harus didominasi oleh NAMA PT MEREKA dengan font yang Tebal, Emas/Putih, dan Tegas.
+
+Marketing Insight: Jangan taruh logo kecil di pojok. Tulis nama PT mereka besar-besar.
+
+Salah: "Solusi Alat Berat Terpercaya" (Teks kecil: PT Maju Jaya)
+
+Benar: PT MAJU JAYA PERKASA (Sub-text: Mitra Alat Berat & Konstruksi Terpercaya).
+
+Efek: Saat mereka melihat nama mereka sendiri terlihat "Gagah" di layar kaca, otak reptil mereka berteriak: "Ini baru level gue!"
+
+2. PARAMETER VISUAL: "UNIT TEMPUR" (BUKAN UNIT PAJANGAN)
+(Masalah: Foto studio terlihat palsu/broker. Foto lapangan terlihat kotor/miskin)
+
+Culture Indonesia unik. Unit terlalu bersih = Unit mainan/Broker. Unit terlalu kotor = Unit rongsok.
+
+Kriteria Lolos: Gambar Hero (Gambar Utama) harus menampilkan Excavator yang "Gagah & Siap Tempur".
+
+Visual Hack: Gunakan foto unit (editan AI/Stock) yang posisinya sedang "Action" (Bucket terangkat atau sedang di atas tanah merah), TAPI bodinya mengkilap (terawat). Background-nya harus nuansa proyek (langit mendung/tanah), jangan white background.
+
+Efek: Ini memberi sinyal bawah sadar: "Perusahaan ini punya unit yang BEKERJA (menghasilkan uang), tapi TERAWAT (bonafide)."
+
+3. PARAMETER OTORITAS: "THE ANTI-BROKER BADGE"
+(Masalah: Ketakutan terbesar penyewa adalah tertipu Broker/Calo)
+
+Di Indonesia, status "Owner Murni" itu kasta tertinggi. Kamu harus memvalidasi kasta ini.
+
+Kriteria Lolos: Di bagian atas (Header) atau tepat di bawah tombol CTA, harus ada elemen visual "VERIFIED OWNER" atau "UNIT MILIK SENDIRI".
+
+Elemen Wajib: Tampilkan ikon-ikon dokumen: SILO - SIA - NIB. Walaupun itu cuma ikon dummy, keberadaan ikon itu meneriakkan: "Dokumen Kami Lengkap, Bos!"
+
+Efek: Ini membunuh keraguan penyewa (Skeptisisme). Owner merasa websitenya "Melindungi" martabat dia dari tuduhan calo.
+
+4. PARAMETER BAHASA: "FIELD COMMANDER TONE"
+(Masalah: Bahasa korporat terlalu lembek. Bahasa pasar terlalu murahan)
+
+Jangan pakai bahasa startup ("Kami memberdayakan masa depan..."). Halah. Basi. Gunakan bahasa Komando Lapangan.
+
+Kriteria Lolos: Copywriting di tombol dan judul harus Singkat, Padat, Berisi.
+
+Ganti "Hubungi Kami" -> "CEK KETERSEDIAAN UNIT" atau "HUBUNGI POOL".
+
+Ganti "Tentang Kami" -> "KAPASITAS ARMADA".
+
+Gunakan kata sakti: "READY", "STANDBY", "24 JAM", "SEHAT".
+
+Efek: Owner merasa kamu "Satu Frekuensi". Kamu bukan anak IT cupu, kamu mengerti bahasa proyek.
+
+5. PARAMETER CALL-TO-ACTION (CTA): "JALUR KHUSUS BOS"
+(Masalah: Formulir kontak itu musuh. Email itu lambat)
+
+Budaya bisnis Indonesia adalah Fast Response via WhatsApp.
+
+Kriteria Lolos: Tombol WhatsApp harus MELAYANG (Sticky) atau Paling Besar warnanya (biasanya Hijau atau Emas). Label tombolnya harus spesifik: "WHATSAPP ADMIN/OWNER".
+
+Marketing Insight: Jangan kasih opsi email. Fokuskan mata mereka ke tombol WA.
+
+Efek: Owner melihat ini sebagai "Mesin Uang". "Orang klik ini, langsung masuk WA gue. Deal."
+
+1. The "Giant Namecard" (Ego Parameter)
+Design Translation: Cinematic Typography & Motion Weight
+
+Jangan sekadar menaruh teks besar. Teks itu harus terasa memiliki massa dan gravitasi.
+
+Typography: Gunakan typeface jenis Extended Sans-Serif yang tebal dan maskulin (contoh: Monument Extended atau Druk Wide). Font ini secara psikologis memakan ruang horizontal, menyimbolkan "luas wilayah kekuasaan".
+
+Motion Physics (Untuk Video Preview):
+
+Initial State: Layar gelap total (OLED Black).
+
+Action: Nama PT tidak boleh fade-in (terlalu lembut). Nama PT harus masuk dengan Staggered Reveal yang cepat dan tegas, seolah dicap ke layar.
+
+Sound Design (Implied): Bayangkan suara pintu besi tebal yang tertutup rapat. Thud.
+
+Visual Texture: Berikan efek Metallic Sheen (kilau logam emas/perak) yang bergerak perlahan melintasi teks saat ponsel dimiringkan (simulasi gyroscope di video). Ini memberikan kesan "Mahal" dan "Nyata".
+
+2. The "Unit Tempur" (Visual Parameter)
+Design Translation: Atmospheric Depth & Hero Staging
+
+Masalah: Bersih tapi Action. Solusi: "The Calm Before The Storm" Aesthetic.
+
+Composition: Gunakan teknik Z-axis layering.
+
+Layer Belakang: Langit proyek yang dramatis (mendung berawan atau golden hour sore hari di tambang), sedikit blur untuk kedalaman (depth of field).
+
+Layer Tengah: Unit Excavator (Kobelco/Komatsu/CAT) dengan resolusi sangat tinggi. Pastikan sharpness dimaksimalkan pada bagian hidrolik dan bucket.
+
+Layer Depan: Partikel debu halus atau percikan tanah yang diam (freeze frame) atau bergerak slow motion.
+
+Lighting: Gunakan pencahayaan Rim Light (cahaya dari belakang objek) untuk memisahkan excavator dari background. Ini membuat unit terlihat "Suci" namun tetap berada di habitat aslinya.
+
+Color Grading: Desaturated (kurangi warna warni norak), tapi naikkan kontras pada warna Kuning/Oranye alat berat. Ini fokus visual.
+
+3. The "Anti-Broker Badge" (Authority Parameter)
+Design Translation: Trust Architecture & Glassmorphism
+
+Validasi tidak boleh terlihat seperti stiker murahan. Ia harus terlihat seperti Sertifikat Keamanan Bank.
+
+Component UI: Buat sebuah floating card dengan material Frosted Glass (blur effect) di bawah Hero Section.
+
+Iconography: Jangan pakai ikon vektor kartun. Gunakan Line Icons yang presisi setebal 1.5px atau 2px dengan warna Emas atau Putih Solid.
+
+Micro-Interaction: Di video preview, saat mata (kamera) melewati bagian ini, ikon-ikon (SILO/SIA/NIB) harus menyala berurutan (sequential lighting) dengan warna hijau atau emas. Ini adalah sinyal visual "System Check: OK".
+
+Copy: "VERIFIED OWNER" harus menggunakan font Monospaced (seperti tulisan koding/mesin) untuk memberi kesan data teknis yang akurat, bukan janji manis marketing.
+
+4. The "Field Commander Tone" (Language Parameter)
+Design Translation: Brutalist Information Architecture
+
+Hilangkan dekorasi bahasa. UI harus berfungsi seperti Dashboard Kokpit.
+
+Layout Grid: Gunakan Bento Grid atau Masonry Layout yang kaku dan kotak-kotak. Jangan ada sudut yang terlalu bulat (radius sudut maksimal 4px - 8px). Kesannya kokoh, industrial.
+
+Typography Hierarchy:
+
+Label: Kecil, Uppercase, Tracking (jarak antar huruf) lebar. Contoh: STATUS UNIT
+
+Value: Besar, Bold, Warna Kontras. Contoh: READY - SITE C
+
+Color Coding: Gunakan "Safety Colors" industri. Kuning Strip Hitam, Hijau Safety, Merah Stop. Otak owner sudah terbiasa memproses warna-warna ini di lapangan sebagai sinyal penting.
+
+5. The "Jalur Khusus Bos" (CTA Parameter)
+Design Translation: The Thumb Zone & Haptic Trigger
+
+Tombol WA bukan sekadar link, itu adalah Pemicu Transaksi.
+
+Positioning: Sticky Bottom Bar. Tombol ini tidak boleh hilang saat di-scroll. Ia harus selalu ada di "Thumb Zone" (area jangkauan jempol).
+
+Button Design:
+
+Bentuk: Full width atau Pill shape besar.
+
+Efek: Berikan sedikit Bevel (efek timbul 3D halus) agar terlihat seperti tombol fisik di dashboard mesin, bukan tombol datar web 2.0. Pengguna harus merasa ingin "menekannya".
+
+Warna: Hijau WhatsApp (Hex #25D366) adalah wajib, tapi buat sedikit lebih gelap/elegan, lalu berikan efek Glow halus (diffused shadow) di sekitarnya.
+
+Copywriting UI:
+
+Utama: WHATSAPP OWNER (Bold)
+
+Sub-text (kecil di bawahnya): Fast Response 24 Jam
+
+1. Kill Switch: The "Live Status" Architecture
+(Membunuh skeptisisme: "Website cuma pajangan")
+
+Jangan hanya tampilkan daftar unit PC200 atau D85. Itu membosankan. Ubah UX-nya menjadi Dashboard Ketersediaan.
+
+Implementasi Visual: Pada daftar armada, jangan hanya foto unit. Berikan label status dengan color coding industrial:
+
+🟢 AVAILABLE (Menyala hijau redup)
+
+🔴 RENTED - ON SITE (Merah bata, dengan keterangan lokasi, misal: Site Morowali)
+
+🟡 MAINTENANCE (Kuning, menunjukkan bahwa unit dirawat)
+
+Efek Psikologis bagi Owner: Saat Owner melihat preview video di mana ada unit yang berlabel "RENTED", egonya tersentuh. Dia melihat bisnisnya sedang berjalan. Ini bukan kartu nama, ini Laporan Situasi.
+
+Efek Psikologis bagi Klien (Penyewa): "Wah, unit dia banyak yang Rented. Berarti alat dia bagus dan laku. Aku harus booking yang Available sekarang sebelum diambil orang." -> Scarcity Effect.
+
+2. Kill Switch: The "Badge of Honor" Strip
+(Membunuh skeptisisme: "Siapa yang percaya sama lu?")
+
+Owner alat berat sangat bangga dengan proyek besar yang pernah mereka pegang (Waskita, PP, Adhi Karya, Proyek IKN, Tambang Kaltim).
+
+Implementasi Visual: Tepat di bawah Hero Section, buat satu baris horizontal dengan infinite scroll (bergerak perlahan) yang berisi logo-logo BUMN atau Kontraktor Besar.
+
+Design Note: Ubah semua logo menjadi Monochrome (Satu Warna)—sebaiknya abu-abu gelap atau emas pudar—agar menyatu dengan estetika "Dark Luxury". Jangan biarkan warna-warni logo merusak kemewahan.
+
+Pesan Bawah Sadar: "Kami bukan pemain baru. Raksasa infrastruktur saja pakai alat kami. Anda siapa meragukan kami?"
+
+3. Kill Switch: The "Digital Concierge" Experience
+(Membunuh skeptisisme: "Enakan telepon langsung")
+
+Owner malas jika website membuat jarak. Kita harus menvisualisasikan bahwa website ini justru memangkas jarak.
+
+Implementasi Visual: Di video preview, tunjukkan simulasi:
+
+User klik tombol "Cek Spesifikasi PC200".
+
+User klik "Sewa via WA".
+
+Visualkan notifikasi WA masuk di HP Owner. (Edit video: Tampilkan layar HP dengan notifikasi: "Halo Pak Bos, ada request sewa PC200 dari Website...")
+
+Pesan Bawah Sadar: "Website ini bukan pengganti Anda. Website ini adalah Sekretaris 24 Jam yang menyaring 'orang iseng' dan hanya menyodorkan 'pembeli serius' langsung ke WhatsApp Anda."

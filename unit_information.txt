@@ -1,0 +1,715 @@
+
+================================================================================
+  TERRATRON — UNIT INFORMATION MASTER DOCUMENT
+  PT NURDIANA HEAVY EQUIPMENT
+  Revisi: Februari 2026
+  Versi: 2.0 (World-Class Standard)
+================================================================================
+
+CATATAN ARSITEKTUR:
+  → LAYER 1 = Data untuk FLEET CARD (Grid di halaman Armada/Homepage)
+  → LAYER 2 = Data untuk UNIT DETAIL PAGE (Halaman individual per unit)
+  Kedua layer ini TERPISAH. Developer wajib membaca pembatas section ini.
+
+================================================================================
+                        UNIT 1: SANY SY75
+                        "The Efficiency King"
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 1 — FLEET CARD]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TARGET KEYWORD: Sewa Excavator SANY SY75, Excavator 7 Ton Hemat BBM, 
+                Sewa Excavator Karawang, Sewa Excavator Bekasi Murah
+
+BADGE:
+  [⚡ UNIT 2022 UP]  [⛽ HEMAT SOLAR 20%]  [🏙️ CITY FRIENDLY]
+
+HEADLINE (H2 di Card):
+  SANY SY75 — Excavator 7 Ton Paling Irit di Kelasnya
+
+TAGLINE CARD:
+  Menekan biaya solar proyek tanpa kompromi tenaga gali.
+
+SPESIFIKASI RINGKAS (8 Field Standar — Wajib Seragam Semua Unit):
+  • Operating Weight    : 7.280 kg
+  • Bucket Capacity     : 0.30 m³
+  • Max Dig Depth       : 4.10 m
+  • Engine              : Isuzu (58 HP)
+  • Fuel Consumption    : ±6–8 Liter/Jam
+  • Dimensi Transport   : 6.1m × 2.2m × 2.6m
+  • Track Type          : Steel Track (Rubber Pad by Request)
+  • Tahun Unit          : 2022 ke Atas
+
+STATUS UNIT:
+  ● TERSEDIA — Cek ketersediaan jadwal via WA
+
+HARGA INDIKATIF:
+  Mulai dari Rp 2.800.000 / shift (8 jam, area Jabodetabek + Jawa Barat)
+  *Harga belum termasuk solar. Hubungi admin untuk penawaran proyek.
+
+MINIMUM SEWA:
+  1 shift (8 jam) | Kontrak bulanan tersedia (min. 150 jam/bulan)
+
+CTA CARD:
+  👉 [CEK KETERSEDIAAN VIA WHATSAPP]
+  📋 [LIHAT SPESIFIKASI LENGKAP]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 2 — UNIT DETAIL PAGE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+H1 (SEO Title — Halaman Detail):
+  Sewa Excavator SANY SY75 (7 Ton) — Hemat BBM, Lincah, Siap Kerja 
+  di Cikarang, Karawang & Seluruh Jawa Barat
+
+SKENARIO TEMPUR (SEO Narrative — ±120 kata):
+  Unit SANY SY75 ini adalah jawaban bagi kontraktor yang ingin margin proyek 
+  tetap tebal tanpa mengorbankan kapasitas kerja. Mesin Isuzu-nya yang terkenal
+  bandel mampu menekan konsumsi solar hingga 20% lebih irit dibanding unit 
+  kelas sama dari tahun-tahun sebelumnya — artinya penghematan nyata di setiap 
+  shift kerja.
+  
+  Dengan lebar transportasi hanya 2.2 meter, unit ini aman ditowing 
+  menggunakan truk CDD biasa tanpa butuh Lowbed, memangkas biaya mobilisasi 
+  secara signifikan. Sangat ideal untuk proyek Galian Saluran U-Ditch, 
+  Pematangan Lahan Perumahan, dan Galian Pondasi Bangunan di area semi-padat.
+  
+  Terratron mengoperasikan unit SANY SY75 aktif untuk wilayah layanan 
+  Cikarang, Karawang, Bekasi, Purwakarta, dan sekitar Jawa Barat.
+
+─── A. LOAD CHART: KEMAMPUAN ANGKAT AMAN ─────────────────────────────────────
+
+Jangan ambil risiko alat terguling. Berikut batas aman beban angkat 
+(Safe Working Load) berdasarkan jangkauan lengan di permukaan datar:
+
+  ┌─────────────────────┬──────────────────────┬──────────────────────┐
+  │ Jangkauan (Radius)  │ Angkat Depan (Front)  │ Angkat Samping (Side)│
+  ├─────────────────────┼──────────────────────┼──────────────────────┤
+  │ 3.0 Meter           │ ± 2.850 kg            │ ± 1.950 kg           │
+  │ 4.5 Meter           │ ± 1.950 kg            │ ± 1.250 kg           │
+  │ Max Reach (6.0m)    │ ± 1.100 kg            │ ±   850 kg           │
+  └─────────────────────┴──────────────────────┴──────────────────────┘
+  *Data estimasi untuk bucket standar 0.3m³. Faktor keamanan 75% tipping load.
+
+─── B. LOGISTIK & MOBILISASI ─────────────────────────────────────────────────
+
+  • Tipe Truk Pengirim  : Self-Loader CDD Long / Fuso — TIDAK butuh Lowbed
+  • Lebar Jalan Minimum : 2.8 Meter (aman untuk jalan desa & aspal perumahan)
+  • Tinggi Gapura/Kabel : Min. 3.0 Meter (waspadai kabel listrik rendah)
+  • Ground Pressure     : 33 kPa (aman untuk tanah lunak, shoe 450mm)
+  • Estimasi Biaya Towing: Hubungi admin (bervariasi per jarak & daerah)
+
+─── C. OPSI ATTACHMENT ───────────────────────────────────────────────────────
+
+  Unit standar menggunakan Bucket GP 0.30 m³.
+  Attachment tersedia by request (konfirmasi ketersediaan via WA):
+  • Bucket Ditch Cleaning (0.50 m³) — untuk galian saluran lebar
+  • Bucket Ripper — untuk tanah keras / cadas ringan
+
+─── D. KOMPARASI: SANY SY75 vs KOMATSU PC75 ─────────────────────────────────
+
+  Pilih SANY SY75 jika:
+  ✓ Prioritas utama adalah penghematan solar (BBM dominan di RAB proyek)
+  ✓ Area proyek semi-padat: perumahan cluster, pinggir jalan raya
+  ✓ Pekerjaan: Galian U-Ditch, loading truk engkel, pematangan lahan ringan
+  ✓ Budget mobilisasi terbatas (tidak perlu Lowbed)
+
+  Pilih Komatsu PC75 jika:
+  ✗ Medan sangat berat: berbatu keras, akar pohon besar, lumpur dalam
+  ✗ Lokasi terpencil dimana sparepart Komatsu lebih mudah didapat
+
+─── E. FAQ: TEKNIS & OPERASIONAL ────────────────────────────────────────────
+
+  Q: Apakah SANY SY75 kuat untuk tanah cadas?
+  A: Sangat kuat. Digging Force-nya setara PC75. Untuk batu boulder besar,
+     kami sarankan upgrade ke PC200 atau gunakan attachment ripper.
+
+  Q: Berapa konsumsi solar per jam di kondisi kerja berat?
+  A: Rata-rata lapangan 6–8 Liter/Jam. Sangat efisien untuk kontraktor 
+     yang menetapkan anggaran solar ketat dalam RAB.
+
+  Q: Apakah operator dilengkapi SIO?
+  A: Ya. Seluruh operator Nurdiana memiliki SIO (Surat Izin Operator) 
+     Kelas 2 aktif yang diterbitkan Kemnaker RI.
+
+─── F. FAQ: FINANSIAL & KONTRAK (Objection Handler) ─────────────────────────
+
+  Q: Sistem pembayaran seperti apa? Harus DP dulu?
+  A: Tersedia skema DP 30% sebelum mobilisasi, sisanya per termin sesuai 
+     progres. Untuk kontrak bulanan, bisa diatur menyesuaikan cash flow 
+     proyek. Hubungi admin untuk negosiasi.
+
+  Q: Apakah ada kontrak resmi / SPK?
+  A: Ya. Setiap sewa dilengkapi Surat Perjanjian Kerja (SPK) bermaterai 
+     yang melindungi kedua belah pihak secara hukum.
+
+  Q: Apakah harga sudah termasuk biaya mobilisasi?
+  A: Belum. Biaya mobilisasi (ongkos angkut unit ke lokasi dan kembali) 
+     dihitung terpisah berdasarkan jarak dari depot kami. Kami transparan 
+     di awal — tidak ada biaya tersembunyi.
+
+  Q: Jika unit rusak di tengah proyek, siapa yang tanggung jawab?
+  A: Nurdiana. Mekanik kami standby, dan jika downtime melebihi 8 jam 
+     akibat kerusakan dari pihak kami, jam tersebut tidak dihitung dalam 
+     tagihan. Kerusakan akibat kesalahan operasi ditangani sesuai SPK.
+
+  Q: Bisakah sewa tanpa operator (bare unit)?
+  A: Bisa, dengan syarat operator pihak penyewa wajib menunjukkan SIO aktif 
+     yang valid. Hubungi admin untuk detail ketentuan.
+
+─── G. AREA LAYANAN ──────────────────────────────────────────────────────────
+
+  Cikarang · Karawang · Bekasi · Purwakarta · Subang · Bandung Timur
+  *Area luar Jawa Barat bisa dikonfirmasi, menyesuaikan biaya mobilisasi.
+
+─── H. GALERI PROYEK (Slot Foto Aktual) ─────────────────────────────────────
+
+  FOTO 1: [SANY SY75 sedang memasang Box Culvert — Cikarang Pusat]
+  FOTO 2: [Unit loading tanah merah ke Dump Truck — Purwakarta]
+  FOTO 3: [Kondisi track & bucket close-up]
+  Label: "Dokumentasi Lapangan — Januari 2025"
+
+CTA DETAIL PAGE:
+  👉 [HUBUNGI KAMI — BOOKING UNIT INI VIA WHATSAPP]
+  📥 [DOWNLOAD SPEC SHEET (PDF)]
+
+
+================================================================================
+                        UNIT 2: CATERPILLAR 305.5E2
+                        "The Compact Precision"
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 1 — FLEET CARD]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TARGET KEYWORD: Sewa Mini Excavator CAT, Alat Berat Masuk Gang, 
+                Galian Kabel Optik Jakarta, Sewa Excavator Dalam Kota
+
+BADGE:
+  [📏 LEBAR CUMA 1.98M]  [🏙️ ZERO TAIL SWING]  [🎯 PRESISI TINGGI]
+
+HEADLINE (H2 di Card):
+  CAT 305.5E2 — Mini Excavator Spesialis Ruang Sempit & Kota
+
+TAGLINE CARD:
+  Lebar 1.98m. Masuk gang. Zero tail swing. Tidak merusak utilitas eksisting.
+
+SPESIFIKASI RINGKAS (8 Field Standar):
+  • Operating Weight    : 5.400 kg
+  • Bucket Capacity     : 0.22 m³
+  • Max Dig Depth       : 3.89 m
+  • Engine              : CAT C1.1 (36 HP)
+  • Fuel Consumption    : ±4–5 Liter/Jam
+  • Dimensi Transport   : 5.3m × 1.98m × 2.55m
+  • Track Type          : Steel Track (Rubber Track by Request)
+  • Tahun Unit          : 2020 ke Atas
+
+STATUS UNIT:
+  ● TERSEDIA — Cek ketersediaan jadwal via WA
+
+HARGA INDIKATIF:
+  Mulai dari Rp 2.200.000 / shift (8 jam, area dalam kota & Jabodetabek)
+  *Harga belum termasuk solar. Rubber track: additional charge.
+
+MINIMUM SEWA:
+  1 shift (8 jam) | Paket harian & mingguan tersedia
+
+OPSI ATTACHMENT (Ditampilkan di Card sebagai badge tambahan):
+  [🔨 TERSEDIA ATTACHMENT BREAKER]
+
+CTA CARD:
+  👉 [CEK KETERSEDIAAN VIA WHATSAPP]
+  📋 [LIHAT SPESIFIKASI LENGKAP]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 2 — UNIT DETAIL PAGE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+H1 (SEO Title — Halaman Detail):
+  Sewa Mini Excavator CAT 305.5E2 (5.5 Ton) — Spesialis Proyek Dalam Kota,
+  Galian Kabel & Ruang Sempit di Jabodetabek & Jawa Barat
+
+SKENARIO TEMPUR (SEO Narrative — ±130 kata):
+  Akses jalan sempit bukan lagi halangan. CAT 305.5E2 hadir dengan lebar 
+  kurang dari 2 meter — satu-satunya mini excavator di kelas ini yang mampu 
+  memasuki gang perumahan, trotoar kota, dan halaman dalam properti tanpa 
+  merusak pagar atau dinding tetangga.
+  
+  Teknologi Zero Tail Swing-nya memastikan badan belakang unit tidak 
+  menonjol keluar track saat berputar — kritis untuk pekerjaan di lingkungan 
+  terpadat sekalipun. Sistem hidrolik Caterpillar yang halus menjamin presisi 
+  galian untuk Jalur Kabel Optik, Pipa PDAM, dan jalur utilitas bawah tanah 
+  tanpa merusak infrastruktur yang sudah ada.
+  
+  Unit ini tersedia untuk proyek di Bekasi, Jakarta, Tangerang, Depok, 
+  Bogor, Bandung, dan seluruh wilayah Jawa Barat.
+
+─── A. OPSI ATTACHMENT (Sistem Modular — 1 Unit, 2 Kapasitas) ────────────────
+
+  PENTING: CAT 305.5E2 ini adalah satu unit fisik yang mendukung 
+  2 mode operasi berbeda melalui pergantian attachment:
+
+  ┌─────────────────────┬────────────────────────────────────────────────────┐
+  │ MODE                │ DETAIL                                             │
+  ├─────────────────────┼────────────────────────────────────────────────────┤
+  │ STANDARD (GP Bucket)│ Bucket 0.22 m³ — Galian kabel, pipa, landscaping  │
+  │ BREAKER EDITION     │ Hydraulic Breaker, Chisel ∅68mm, 400–800 BPM      │
+  │                     │ → Bobok beton, kupas aspal, demolisi ruko/rumah    │
+  └─────────────────────┴────────────────────────────────────────────────────┘
+  
+  Pergantian attachment: ±30–45 menit di lokasi. Konfirmasi kebutuhan 
+  attachment saat booking agar kami persiapkan dari depot.
+
+  PRODUKTIVITAS MODE BREAKER (Estimasi Output per Jam):
+  ┌──────────────────────────┬────────────┬───────────────────────┐
+  │ Material                 │ Ketebalan  │ Output / Jam          │
+  ├──────────────────────────┼────────────┼───────────────────────┤
+  │ Beton Lantai (K-250)     │ 10–15 cm   │ ±15–20 m²             │
+  │ Dinding Bata / Batako    │ Standar    │ ±25–30 m²             │
+  │ Aspal Jalan (Hotmix)     │ 5–10 cm    │ ±30–40 m²             │
+  └──────────────────────────┴────────────┴───────────────────────┘
+  *Kecepatan tergantung kekerasan beton dan skill operator.
+
+─── B. LOAD CHART: KEMAMPUAN ANGKAT UTILITAS ────────────────────────────────
+
+  ┌─────────────────────┬──────────────────────────┬──────────────────────┐
+  │ Jangkauan (Radius)  │ Angkat Depan (Blade Down) │ Angkat Samping       │
+  ├─────────────────────┼──────────────────────────┼──────────────────────┤
+  │ 2.0 Meter           │ ± 2.300 kg                │ ± 1.400 kg           │
+  │ 3.5 Meter           │ ± 1.250 kg                │ ±   780 kg           │
+  │ Max Reach (5.6m)    │ ±   650 kg                │ ±   450 kg           │
+  └─────────────────────┴──────────────────────────┴──────────────────────┘
+  *Ideal untuk mengangkat Pipa HDPE, rol kabel optik, dan U-Ditch 40×40.
+
+─── C. LOGISTIK & MOBILISASI ─────────────────────────────────────────────────
+
+  • Tipe Truk Pengirim  : Truk Towing / CDD Bak Terbuka
+  • Lebar Jalan Minimum : 2.0 Meter (masuk gang senggol & trotoar kota)
+  • Tinggi Gapura       : Min. 2.6 Meter
+  • Fitur Kritis        : Zero Tail Swing — aman 360° di ruang terbatas
+  • Mode Breaker        : Jam operasi wajib 08.00–17.00 WIB di area warga
+                          (kebisingan 98–102 dB, getaran terlokalisir)
+
+─── D. KOMPARASI: CAT 305.5 VS TENAGA MANUAL ────────────────────────────────
+
+  Pilih CAT 305.5E2 jika:
+  ✓ Deadline ketat — setara kecepatan 15–20 orang kuli gali
+  ✓ Galian harus presisi tanpa merusak utilitas eksisting
+  ✓ Area kerja sempit: tengah kota, gang perumahan, proyek bertahap
+  ✓ Perlu opsi bobok beton (gunakan mode Breaker)
+
+  Pertimbangkan tenaga manual jika:
+  ✗ Volume galian sangat kecil (< 10 m³) dan akses hanya setapak kaki
+  ✗ Pekerjaan finishing detail yang butuh tangan manusia
+
+─── E. FAQ: TEKNIS & OPERASIONAL ────────────────────────────────────────────
+
+  Q: Apakah track-nya merusak keramik atau aspal?
+  A: Tidak, jika menggunakan Rubber Track (karet). Standar kami steel track,
+     tapi opsi rubber track tersedia untuk proteksi lantai & aspal. 
+     Informasikan saat booking.
+
+  Q: Apakah unit ini berisik untuk kerja dekat RS atau Sekolah?
+  A: Mode bucket: sangat senyap. Mode breaker: 98–102 dB, wajib dibatasi 
+     jam kerja. Mesin CAT modern jauh lebih halus dari unit lama.
+
+  Q: Berapa lama pergantian attachment dari bucket ke breaker?
+  A: ±30–45 menit di lokasi oleh operator + mekanik kami.
+
+─── F. FAQ: FINANSIAL & KONTRAK (Objection Handler) ─────────────────────────
+
+  Q: Bisa sewa harian tanpa komitmen jangka panjang?
+  A: Bisa. Minimum 1 shift (8 jam). Untuk area Bekasi & Jakarta tersedia 
+     paket harian fleksibel. Hubungi admin untuk penawaran.
+
+  Q: Apakah ada kontrak resmi?
+  A: Ya. SPK bermaterai disiapkan untuk setiap perjanjian sewa, 
+     melindungi hak dan kewajiban kedua pihak.
+
+  Q: Apakah harga sudah termasuk biaya mobilisasi?
+  A: Belum. Biaya towing dihitung terpisah berdasarkan jarak dari depot.
+     Kami informasikan total biaya transparan sebelum Anda konfirmasi.
+
+  Q: Jika unit rusak saat operasional mode breaker, bagaimana?
+  A: Kerusakan karena faktor mekanikal normal = tanggung jawab Nurdiana.
+     Kerusakan karena kesalahan operasi (misal: overload, benturan keras 
+     non-prosedural) = ditangani sesuai ketentuan SPK yang sudah disepakati.
+
+─── G. AREA LAYANAN ──────────────────────────────────────────────────────────
+
+  Jakarta · Bekasi · Tangerang · Depok · Bogor · Bandung · Cikarang
+  *Seluruh Jawa Barat bisa dijangkau. Konfirmasi biaya mobilisasi via admin.
+
+─── H. GALERI PROYEK (Slot Foto Aktual) ─────────────────────────────────────
+
+  FOTO 1 (Mode Bucket): [CAT 305.5 menggali jalur kabel optik — trotoar Bekasi]
+  FOTO 2 (Mode Bucket): [Unit masuk halaman belakang rumah — galian kolam renang]
+  FOTO 3 (Mode Breaker): [Pembongkaran ruko tua — area komersial Cikarang]
+  FOTO 4 (Mode Breaker): [Kupas aspal jalan rusak — kawasan pabrik]
+  Label: "Dokumentasi Lapangan — 2024–2025"
+
+CTA DETAIL PAGE:
+  👉 [BOOKING UNIT INI — KONFIRMASI ATTACHMENT VIA WHATSAPP]
+  📥 [DOWNLOAD SPEC SHEET (PDF)]
+
+
+================================================================================
+                        UNIT 3: KOMATSU PC75
+                        "The Legend"
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 1 — FLEET CARD]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TARGET KEYWORD: Sewa Komatsu PC75, Excavator Land Clearing Jawa Barat,
+                Sewa Excavator Medan Berat, Alat Berat Tanah Keras
+
+BADGE:
+  [🛡️ HEAVY DUTY]  [🚜 LAND CLEARING]  [💪 OFF-ROAD READY]
+
+HEADLINE (H2 di Card):
+  Komatsu PC75 — Si "Badak" untuk Medan Paling Ekstrem
+
+TAGLINE CARD:
+  Tanah keras, akar besar, lumpur dalam. Unit ini tidak mengenal menyerah.
+
+SPESIFIKASI RINGKAS (8 Field Standar):
+  • Operating Weight    : 7.550 kg
+  • Bucket Capacity     : 0.34 m³
+  • Max Dig Depth       : 4.52 m
+  • Engine              : Komatsu S4D92E (57 HP)
+  • Fuel Consumption    : ±7–9 Liter/Jam (kerja berat)
+  • Dimensi Transport   : 6.3m × 2.3m × 2.7m
+  • Track Type          : Steel Track Triple Grouser (Rubber Pad by Request)
+  • Tahun Unit          : 2018 ke Atas (PC75UU-5 / PC78US-6)
+
+STATUS UNIT:
+  ● TERSEDIA — Cek ketersediaan jadwal via WA
+
+HARGA INDIKATIF:
+  Mulai dari Rp 2.900.000 / shift (8 jam, area Jabodetabek + Jawa Barat)
+  *Harga belum termasuk solar. Medan berat & jarak jauh menyesuaikan.
+
+MINIMUM SEWA:
+  1 shift (8 jam) | Kontrak proyek jangka panjang tersedia & lebih hemat
+
+CTA CARD:
+  👉 [CEK KETERSEDIAAN VIA WHATSAPP]
+  📋 [LIHAT SPESIFIKASI LENGKAP]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 2 — UNIT DETAIL PAGE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+H1 (SEO Title — Halaman Detail):
+  Sewa Komatsu PC75 (Midi Excavator) — Spesialis Land Clearing, Medan Berat
+  & Galian Pondasi di Bogor, Karawang & Jawa Barat
+
+SKENARIO TEMPUR (SEO Narrative — ±130 kata):
+  Tidak semua unit excavator diciptakan sama. Komatsu PC75 adalah kategori 
+  berbeda — dirancang untuk medan yang akan membuat excavator biasa menyerah 
+  di jam pertama. Breakout force-nya yang superior, dikombinasikan dengan 
+  steel track tipe Triple Grouser, memberikan cengkeraman dan daya gali 
+  yang tidak tertandingi di kelas Midi Excavator.
+  
+  Pilihan utama kontraktor untuk Land Clearing lahan perkebunan, pembukaan 
+  akses jalan desa di tanah berbatu, galian pondasi gudang dan pabrik, 
+  hingga penanganan darurat unit lain yang terperangkap di medan lumpur.
+  
+  Armada PC75 Nurdiana rata-rata tahun 2018 ke atas dengan rekam jejak 
+  perawatan terdokumentasi. Beroperasi aktif di wilayah Bogor, Karawang, 
+  Purwakarta, Subang, dan seluruh Jawa Barat.
+
+─── A. LOAD CHART: HEAVY LIFTING KELAS MIDI ─────────────────────────────────
+
+  ┌─────────────────────┬──────────────────────────┬──────────────────────┐
+  │ Jangkauan (Radius)  │ Angkat Depan (Blade Down) │ Angkat Samping       │
+  ├─────────────────────┼──────────────────────────┼──────────────────────┤
+  │ 3.0 Meter           │ ± 3.100 kg                │ ± 2.100 kg           │
+  │ 4.5 Meter           │ ± 2.050 kg                │ ± 1.350 kg           │
+  │ Max Reach (6.3m)    │ ± 1.150 kg                │ ±   900 kg           │
+  └─────────────────────┴──────────────────────────┴──────────────────────┘
+  *Mampu mengangkat Box Culvert sedang & Pipa Beton RCP diameter 80cm.
+
+─── B. LOGISTIK & MOBILISASI (MEDAN BERAT) ───────────────────────────────────
+
+  • Tipe Truk           : Self-Loader Fuso / Tronton
+  • Lebar Jalan Minimum : 3.0 Meter
+  • Kondisi Tanah       : Sangat toleran — berlumpur, berbatu, tidak rata
+  • Track               : Steel Triple Grouser (cengkeraman maksimal)
+  • Off-Road Capability : Tinggi — desain untuk medan sulit
+  • Rubber Pad          : Tersedia by request untuk proteksi permukaan keras
+
+─── C. OPSI ATTACHMENT ───────────────────────────────────────────────────────
+
+  Attachment tersedia by request (konfirmasi ketersediaan):
+  • Bucket Heavy Duty (0.34 m³) — standar, untuk tanah keras & berbatu
+  • Bucket Ditch Cleaning (0.50 m³) — untuk galian saluran & parit lebar
+  • Ripper Tip — untuk tanah cadas dan penetrasi akar pohon besar
+
+─── D. KOMPARASI: PC75 vs SANY SY75 ─────────────────────────────────────────
+
+  Pilih Komatsu PC75 jika:
+  ✓ Medan ekstrem: berbatu, berlumpur, akar pohon, lahan belum pernah dibuka
+  ✓ Volume galian besar (>1.000 m³) atau proyek land clearing
+  ✓ Loading ke Dump Truck besar (Index 8 / Tronton — butuh boom tinggi)
+  ✓ Sparepart availability kritis (Komatsu = paling mudah di pelosok)
+
+  Pilih SANY SY75 jika:
+  ✗ Medan normal/ringan dan efisiensi solar menjadi prioritas utama
+  ✗ Area semi-padat yang butuh unit lebih compact & ringan
+
+─── E. FAQ: TEKNIS & OPERASIONAL ────────────────────────────────────────────
+
+  Q: Unit tahun berapa? Apakah ada rekam jejak perawatan?
+  A: Armada kami rata-rata 2018 ke atas (PC75UU-5 / PC78US-6). 
+     Setiap unit memiliki buku servis dan history perawatan berkala 
+     yang bisa ditunjukkan saat request.
+
+  Q: Apakah bisa kerja di kemiringan atau tebing?
+  A: Bisa. PC75 sangat stabil dengan Low Center of Gravity. Operator 
+     kami terlatih khusus untuk Slope Finishing dan pekerjaan di medan miring.
+
+  Q: Berapa lama bisa land clearing per hektar?
+  A: Sangat tergantung kondisi vegetasi. Estimasi umum untuk semak & 
+     pohon diameter <20cm: ±0.5–1 Ha/hari per unit (8 jam kerja).
+
+─── F. FAQ: FINANSIAL & KONTRAK (Objection Handler) ─────────────────────────
+
+  Q: Jika unit rusak di lapangan yang jauh dari kota, bagaimana?
+  A: Mekanik Nurdiana standby on-call 24 jam. Sparepart Komatsu adalah 
+     yang paling mudah didapat di seluruh Indonesia — ini sengaja kami 
+     pertimbangkan dalam memilih armada. Downtime >8 jam karena faktor 
+     mekanikal kami tidak ditagihkan.
+
+  Q: Untuk kontrak proyek panjang (>1 bulan), apakah ada harga khusus?
+  A: Ya. Kontrak jangka panjang mendapatkan tarif yang jauh lebih kompetitif.
+     Hubungi tim komersial kami untuk diskusi proyek Anda.
+
+  Q: Apakah ada jaminan unit tidak ditarik di tengah kontrak?
+  A: Ada. Setiap kontrak dilindungi SPK. Unit yang sudah terikat kontrak 
+     tidak akan kami realokasikan tanpa persetujuan penyewa.
+
+─── G. AREA LAYANAN ──────────────────────────────────────────────────────────
+
+  Bogor · Karawang · Purwakarta · Subang · Sukabumi · Garut · Cianjur
+  *Area Kalimantan & Sumatera: konfirmasi terlebih dahulu (biaya ferry + logistik).
+
+─── H. GALERI PROYEK (Slot Foto Aktual) ─────────────────────────────────────
+
+  FOTO 1: [PC75 land clearing lahan kebun — Bogor Selatan]
+  FOTO 2: [PC75 galian pondasi gudang — Kawasan Industri Karawang]
+  FOTO 3: [Unit menarik dump truck yang terperangkap lumpur]
+  Label: "Dokumentasi Lapangan — 2024"
+
+CTA DETAIL PAGE:
+  👉 [HUBUNGI KAMI — BOOKING UNIT INI VIA WHATSAPP]
+  📥 [DOWNLOAD SPEC SHEET (PDF)]
+
+
+================================================================================
+                        UNIT 4: SUMITOMO SH75
+                        "The Speedster"
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 1 — FLEET CARD]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TARGET KEYWORD: Sewa Sumitomo SH75, Excavator Loading Cepat Bekasi,
+                Cut and Fill Perumahan Jawa Barat, Sewa Excavator Ritase Tinggi
+
+BADGE:
+  [🚀 CYCLE TIME TERCEPAT]  [⏱️ KEJAR TAYANG]  [❄️ FULL AC CABIN]
+
+HEADLINE (H2 di Card):
+  Sumitomo SH75 — Excavator Tercepat untuk Loading & Kejar Target Ritase
+
+TAGLINE CARD:
+  Swing lebih cepat. Ritase lebih banyak. Proyek selesai lebih awal.
+
+SPESIFIKASI RINGKAS (8 Field Standar):
+  • Operating Weight    : 7.400 kg
+  • Bucket Capacity     : 0.32 m³
+  • Max Dig Depth       : 4.38 m
+  • Engine              : Isuzu 4LE2 Turbocharged (55 HP)
+  • Fuel Consumption    : ±6–8 Liter/Jam
+  • Dimensi Transport   : 6.2m × 2.3m × 2.65m
+  • Track Type          : Steel Track (Rubber Pad by Request)
+  • Tahun Unit          : 2019 ke Atas
+
+STATUS UNIT:
+  ● TERSEDIA — Cek ketersediaan jadwal via WA
+
+HARGA INDIKATIF:
+  Mulai dari Rp 2.900.000 / shift (8 jam, area Jabodetabek + Jawa Barat)
+  *Harga belum termasuk solar.
+
+MINIMUM SEWA:
+  1 shift (8 jam) | Kontrak bulanan tersedia (min. 150 jam/bulan)
+
+CTA CARD:
+  👉 [CEK KETERSEDIAAN VIA WHATSAPP]
+  📋 [LIHAT SPESIFIKASI LENGKAP]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[LAYER 2 — UNIT DETAIL PAGE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+H1 (SEO Title — Halaman Detail):
+  Sewa Sumitomo SH75 (Midi Excavator) — Spesialis Cut & Fill, Loading Cepat
+  & Kejar Target Ritase di Cikarang, Bekasi & Jawa Barat
+
+SKENARIO TEMPUR (SEO Narrative — ±130 kata):
+  Di proyek Cut & Fill yang mengejar volume harian, setiap detik cycle time 
+  adalah uang. Sumitomo SH75 dirancang tepat untuk konteks ini. 
+  Sumitomo Intelligent Hydraulic System (SIHS) memprioritaskan kecepatan 
+  boom-up dan arm-in — hasilnya, swing cycle lebih cepat 15% dibanding 
+  kompetitor di kelas yang sama.
+  
+  Artinya: lebih banyak dump truck yang terisi, lebih banyak ritase per shift,
+  dan target volume harian tercapai dengan jam kerja yang sama. Ditambah 
+  mesin Isuzu 4LE2 Turbo yang efisien, kecepatan ini tidak datang dengan 
+  harga boros solar — sistem hidroliknya cerdas menyesuaikan aliran oli 
+  berdasarkan beban aktual.
+  
+  Kabin tertutup ber-AC memastikan operator tetap segar dan produktif 
+  hingga akhir shift. Beroperasi aktif di Cikarang, Karawang, Bekasi, 
+  Subang, dan seluruh Jawa Barat.
+
+─── A. PRODUKTIVITAS: CYCLE TIME & LOADING ───────────────────────────────────
+
+  ┌────────────────────────────┬─────────────────────┬──────────────────────┐
+  │ Aktivitas                  │ Estimasi Cycle Time │ Output / Jam         │
+  ├────────────────────────────┼─────────────────────┼──────────────────────┤
+  │ Gali – Buang (90° Swing)   │ 10–12 Detik         │ ±120–140 m³          │
+  │ Loading Dump Truck (6m³)   │ 2–3 Menit / Truk    │ ±20–25 Truk          │
+  └────────────────────────────┴─────────────────────┴──────────────────────┘
+  *Asumsi operator skill medium-high & kondisi tanah gembur/pasir/tanah merah.
+
+─── B. LOAD CHART ────────────────────────────────────────────────────────────
+
+  ┌─────────────────────┬──────────────────────────┬──────────────────────┐
+  │ Jangkauan (Radius)  │ Angkat Depan (Blade Down) │ Angkat Samping       │
+  ├─────────────────────┼──────────────────────────┼──────────────────────┤
+  │ 3.0 Meter           │ ± 2.950 kg                │ ± 2.000 kg           │
+  │ 4.5 Meter           │ ± 1.900 kg                │ ± 1.200 kg           │
+  │ Max Reach (6.1m)    │ ± 1.050 kg                │ ±   820 kg           │
+  └─────────────────────┴──────────────────────────┴──────────────────────┘
+
+─── C. LOGISTIK & MOBILISASI ─────────────────────────────────────────────────
+
+  • Tipe Truk           : Self-Loader Fuso / Tronton
+  • Lebar Jalan Minimum : 3.0 Meter
+  • Mesin               : Isuzu 4LE2 Turbo — halus & responsif
+  • Kabin               : Tertutup penuh dengan AC (Full Cabin)
+  • Keunggulan Utama    : SIHS — prioritas kecepatan boom & arm vs beban
+
+─── D. KOMPARASI: SH75 vs KOMATSU PC75 ──────────────────────────────────────
+
+  Pilih Sumitomo SH75 jika:
+  ✓ Target utama adalah ritase harian (jumlah truk yang terisi)
+  ✓ Material: tanah gembur, pasir, tanah merah — proyek Cut & Fill perumahan
+  ✓ Site ada AC cabin yang diutamakan untuk produktivitas operator full-shift
+  ✓ Penghematan solar tetap penting meski unit "cepat"
+
+  Pilih Komatsu PC75 jika:
+  ✗ Tanah sangat keras, berbatu, atau perlu Digging Power ekstra
+  ✗ Medan off-road ekstrem (PC75 menang di daya, SH75 menang di kecepatan)
+
+─── E. FAQ: TEKNIS & OPERASIONAL ────────────────────────────────────────────
+
+  Q: Apakah boros solar karena sistemnya cepat?
+  A: Justru sebaliknya. SIHS mengatur aliran oli hidrolik sesuai beban aktual.
+     Untuk loading tanah lunak, konsumsi solar sangat efisien dibanding 
+     sistem hidrolik konvensional.
+
+  Q: Kabin ada AC? Kondisi kabin seperti apa?
+  A: Unit SH75 kami full cabin tertutup dengan AC dingin. Kondisi interior 
+     dijaga bersih dan layak. Operator bekerja nyaman dari pagi hingga sore.
+
+  Q: Apakah cocok untuk material keras atau tanah cadas?
+  A: SH75 tetap mampu, tapi bukan keunggulan utamanya. Untuk tanah keras 
+     atau medan berat, Komatsu PC75 adalah pilihan yang lebih tepat.
+
+─── F. FAQ: FINANSIAL & KONTRAK (Objection Handler) ─────────────────────────
+
+  Q: Apakah ada garansi target ritase tercapai?
+  A: Kami tidak dapat menjamin variabel di luar kendali unit (antrean truk, 
+     kondisi medan, cuaca). Namun, kami dapat memberikan data cycle time 
+     aktual dari proyek referensi sebagai acuan estimasi Anda.
+
+  Q: Sistem pembayaran untuk proyek bulanan?
+  A: Tersedia sistem pembayaran termin. Biasanya DP 30% sebelum mobilisasi, 
+     sisanya per termin 2 minggu atau sesuai kesepakatan. SPK wajib dibuat.
+
+  Q: Area layanan mana saja yang bisa dijangkau?
+  A: Cikarang · Karawang · Bekasi · Subang · Bandung Timur · Serang
+     Luar Jawa Barat: konfirmasi ketersediaan dan biaya mobilisasi.
+
+─── G. AREA LAYANAN ──────────────────────────────────────────────────────────
+
+  Cikarang · Karawang · Bekasi · Subang · Cikampek · Bandung · Serang
+
+─── H. GALERI PROYEK (Slot Foto Aktual) ─────────────────────────────────────
+
+  FOTO 1: [Barisan dump truck antri loading oleh SH75 — Kawasan Industri]
+  FOTO 2: [Pematangan lahan perumahan — Proyek Cut & Fill Karawang]
+  FOTO 3: [Close-up kabin AC + kondisi interior operator]
+  Label: "Dokumentasi Lapangan — 2024–2025"
+
+CTA DETAIL PAGE:
+  👉 [HUBUNGI KAMI — BOOKING UNIT INI VIA WHATSAPP]
+  📥 [DOWNLOAD SPEC SHEET (PDF)]
+
+
+================================================================================
+  APPENDIX: KONTEN SHARED (Dipakai di Semua Halaman Unit)
+================================================================================
+
+─── ABOUT THE OPERATOR (Trust Block) ────────────────────────────────────────
+
+  SEMUA OPERATOR NURDIANA:
+  ✓ Memiliki SIO (Surat Izin Operator) Kelas 2 aktif — diterbitkan Kemnaker RI
+  ✓ Berpengalaman minimum 3 tahun operasional di lapangan
+  ✓ Terlatih prosedur K3 (Keselamatan & Kesehatan Kerja)
+  ✓ Dilengkapi APD standar proyek (helm, rompi, sepatu safety)
+
+─── GARANSI LAYANAN (Trust Statement) ───────────────────────────────────────
+
+  • Downtime akibat kerusakan mekanikal kami: tidak ditagihkan (> 8 jam)
+  • Mekanik standby on-call 24 jam selama masa kontrak
+  • Sparepart ready stock untuk semua brand armada kami
+  • Tidak ada biaya tersembunyi — semua diinformasikan di awal
+
+─── DOKUMEN LEGAL (Untuk Section Kepercayaan) ────────────────────────────────
+
+  • SIUP / NIB Perusahaan
+  • NPWP PT Nurdiana Heavy Equipment
+  • Sertifikasi K3 Alat Berat
+  • Referensi Proyek (tersedia atas permintaan)
+
+─── FAQ UMUM (Berlaku untuk Semua Unit) ─────────────────────────────────────
+
+  Q: Bagaimana cara memesan / booking unit?
+  A: Hubungi admin kami via WhatsApp. Sampaikan: jenis unit, lokasi proyek,
+     durasi sewa, dan tanggal mulai. Kami respons dalam <2 jam kerja.
+
+  Q: Apakah bisa request survei lokasi sebelum booking?
+  A: Bisa dan sangat kami anjurkan untuk proyek kompleks. Tim teknis kami 
+     akan menilai akses jalan, kondisi medan, dan merekomendasikan unit 
+     yang paling sesuai. Gratis untuk area Jabodetabek.
+
+  Q: Apakah ada referensi proyek yang bisa dilihat?
+  A: Ya. Kami memiliki dokumentasi proyek-proyek yang sudah selesai. 
+     Referensi klien tersedia atas permintaan melalui admin.
+
+================================================================================
+  END OF DOCUMENT
+  Total Unit: 4 (SANY SY75 | CAT 305.5E2 | Komatsu PC75 | Sumitomo SH75)
+  CAT 305.5E2 Breaker = Attachment Option dari Unit 2, BUKAN unit terpisah
+================================================================================

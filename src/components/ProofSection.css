@@ -1,0 +1,406 @@
+/* ============================================================
+   TACTICAL THEATER - REKAM JEJAK LAPANGAN
+   "Authority Through Focus"
+   ============================================================ */
+
+.tactical-theater-section {
+    position: relative;
+    padding: var(--space-3xl) 0;
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Ambient Effects */
+.theater-ambient-glow {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.03) 0%, transparent 70%),
+        radial-gradient(circle at 0% 0%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+    pointer-events: none;
+}
+
+.theater-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    position: relative;
+    z-index: 10;
+}
+
+/* === HUD TOP BAR === */
+.theater-hud-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-xl);
+    padding: 0 var(--space-md);
+}
+
+.hud-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hud-label {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.2em;
+}
+
+.hud-value {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--gold-primary);
+    font-weight: 700;
+}
+
+.hud-title-center {
+    text-align: center;
+}
+
+.hud-section-title {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.4em;
+    color: #fff;
+    margin: 0 0 12px;
+}
+
+.hud-line-glow {
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+    margin: 0 auto;
+    box-shadow: 0 0 10px var(--gold-glow);
+}
+
+/* === THEATER STAGE === */
+.theater-stage {
+    position: relative;
+    width: 100%;
+    margin-bottom: var(--space-xl);
+}
+
+.theater-view-block {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: var(--space-xl);
+    align-items: center;
+}
+
+/* Visual Frame */
+.theater-visual-frame {
+    position: relative;
+    aspect-ratio: 16/9;
+    background: #0a0a0a;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow:
+        0 40px 100px rgba(0, 0, 0, 0.8),
+        inset 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.theater-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.1) brightness(0.85);
+}
+
+.theater-scanline {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+    background-size: 100% 4px;
+    pointer-events: none;
+}
+
+.theater-vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(0, 0, 0, 0.6) 100%);
+    pointer-events: none;
+}
+
+.theater-frame-edges .edge {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--gold-primary);
+    opacity: 0.6;
+}
+
+.edge.tl {
+    top: 15px;
+    left: 15px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.edge.tr {
+    top: 15px;
+    right: 15px;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.edge.bl {
+    bottom: 15px;
+    left: 15px;
+    border-right: 0;
+    border-top: 0;
+}
+
+.edge.br {
+    bottom: 15px;
+    right: 15px;
+    border-left: 0;
+    border-top: 0;
+}
+
+.theater-category-badge {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: rgba(212, 175, 55, 0.9);
+    color: #000;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    font-weight: 800;
+    padding: 6px 12px;
+    letter-spacing: 0.15em;
+    transform: skew(-15deg);
+}
+
+/* Content HUD */
+.theater-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.theater-project-name {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.theater-mission-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.data-node {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.node-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gold-primary);
+}
+
+.node-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.node-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.node-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--gold-primary);
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+
+.node-desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.theater-metadata-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.m-label {
+    font-family: var(--font-mono);
+    font-size: 0.55rem;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 0.2em;
+}
+
+.m-value {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.m-value.gold {
+    color: var(--gold-primary);
+}
+
+/* === NAVIGATION === */
+.theater-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.theater-nav-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.theater-nav-btn:hover {
+    border-color: var(--gold-primary);
+    background: rgba(212, 175, 55, 0.05);
+    transform: translateY(-2px);
+}
+
+.nav-tip {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+}
+
+.theater-nav-btn svg {
+    width: 18px;
+    height: 18px;
+    color: var(--gold-primary);
+}
+
+.theater-index-indicator {
+    display: flex;
+    gap: 10px;
+}
+
+.index-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.index-dot.active {
+    background: var(--gold-primary);
+    transform: scale(1.5);
+    box-shadow: 0 0 10px var(--gold-glow);
+}
+
+/* === GRID BACKGROUND === */
+.theater-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.03) 1px, transparent 0);
+    background-size: 40px 40px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 1024px) {
+    .theater-view-block {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
+    }
+
+    .theater-visual-frame {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .theater-text-block {
+        text-align: center;
+    }
+
+    .data-node {
+        justify-content: center;
+        text-align: left;
+    }
+
+    .theater-metadata-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .hud-meta {
+        display: none;
+    }
+
+    .theater-hud-top {
+        justify-content: center;
+    }
+
+    .theater-project-name {
+        font-size: 1.8rem;
+    }
+
+    .nav-tip {
+        display: none;
+    }
+
+    .theater-metadata-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .theater-nav-btn {
+        padding: 12px;
+    }
+}

@@ -1,0 +1,196 @@
+/* ============================================
+   TACTICAL DYNAMIC CAPSULE - COMMAND INTERFACE
+   World-Class Refined Industrial Aesthetic
+   ============================================ */
+
+.floating-dock-wrapper {
+    position: fixed;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tactical-capsule {
+    background: rgba(10, 10, 10, 0.75);
+    backdrop-filter: blur(32px) saturate(180%);
+    -webkit-backdrop-filter: blur(32px) saturate(180%);
+    border: 0.5px solid rgba(212, 175, 55, 0.2);
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.6),
+        inset 0 0 20px rgba(212, 175, 55, 0.05);
+    border-radius: 20px;
+    /* Squircle feel */
+    overflow: hidden;
+    padding: 6px;
+}
+
+.dock-inner {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.dock-item {
+    position: relative;
+    padding: 10px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    border-radius: 14px;
+    transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dock-icon-wrapper {
+    position: relative;
+    z-index: 2;
+    color: var(--text-muted);
+    transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.dock-label-lux {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    z-index: 2;
+    transition: all 0.4s ease;
+}
+
+/* Active State Sophistication */
+.dock-item.active .dock-icon-wrapper {
+    color: var(--gold-primary);
+    transform: translateY(-2px);
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.4));
+}
+
+.dock-item.active .dock-label-lux {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+.active-indicator-pill {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.02) 100%);
+    border: 0.5px solid rgba(212, 175, 55, 0.15);
+    border-radius: 14px;
+    z-index: 1;
+}
+
+/* Tactical Logo Lux */
+.logo-item-lux .tactical-logo {
+    width: 32px;
+    height: 32px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.logo-img-lux {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 2px;
+}
+
+/* SIGNAL ORB STATE (The Morphed View) */
+.signal-orb {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.orb-core {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.orb-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.orb-progress {
+    position: absolute;
+    inset: 0;
+    transform: rotate(-90deg);
+}
+
+.orb-scanner {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: var(--gold-primary);
+    box-shadow: 0 0 10px var(--gold-primary);
+    opacity: 0.3;
+    animation: scanner-sweep 2s infinite ease-in-out;
+    pointer-events: none;
+}
+
+@keyframes scanner-sweep {
+
+    0%,
+    100% {
+        top: 10%;
+        opacity: 0;
+    }
+
+    50% {
+        top: 90%;
+        opacity: 0.5;
+    }
+}
+
+/* Ambient Background Glow */
+.dock-ambient-glow {
+    position: absolute;
+    bottom: -20px;
+    width: 100px;
+    height: 40px;
+    background: var(--gold-primary);
+    filter: blur(40px);
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* RESPONSIVE REFINEMENT */
+@media (max-width: 640px) {
+    .dock-item {
+        padding: 8px 12px;
+    }
+
+    .dock-label-lux {
+        display: none;
+        /* Icon-only on very small screens for clarity */
+    }
+
+    .dock-item.active .dock-label-lux {
+        display: block;
+        font-size: 0.5rem;
+    }
+}

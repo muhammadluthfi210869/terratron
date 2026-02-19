@@ -1,0 +1,137 @@
+/* ============================================
+   TRUST STRIP - COMPACT CLIENT LOGOS
+   World-Class Dark Luxury Marquee
+   ============================================ */
+
+.trust-strip {
+    position: relative;
+    padding: var(--space-md) 0;
+    background: #000000;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    overflow: hidden;
+}
+
+/* === LABEL === */
+.trust-label-wrapper {
+    padding: 0 var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+
+.trust-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+}
+
+.label-text {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    letter-spacing: 0.2em;
+    white-space: nowrap;
+    opacity: 0.7;
+}
+
+.label-line {
+    flex: 1;
+    max-width: 40px;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(212, 175, 55, 0.4) 50%,
+            transparent 100%);
+}
+
+/* === SCROLL CONTAINER === */
+.trust-scroll-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.trust-scroll {
+    display: flex;
+    gap: var(--space-3xl);
+    animation: trustScroll 40s linear infinite;
+    width: max-content;
+    padding: 0 var(--space-lg);
+}
+
+.trust-scroll:hover {
+    animation-play-state: paused;
+}
+
+@keyframes trustScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-33.333%);
+    }
+}
+
+/* === LOGO ITEM === */
+.trust-logo-item {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trust-logo {
+    height: 28px;
+    width: auto;
+    max-width: 80px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.5) contrast(1.2);
+    opacity: 0.4;
+    transition: all 0.4s ease;
+}
+
+.trust-logo:hover {
+    filter: grayscale(0%) brightness(1) contrast(1);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* === FADE EDGES === */
+.trust-fade {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.trust-fade-left {
+    left: 0;
+    background: linear-gradient(90deg, #000000 0%, transparent 100%);
+}
+
+.trust-fade-right {
+    right: 0;
+    background: linear-gradient(270deg, #000000 0%, transparent 100%);
+}
+
+/* === RESPONSIVE === */
+@media (min-width: 768px) {
+    .trust-strip {
+        padding: var(--space-lg) 0;
+    }
+
+    .trust-logo {
+        height: 35px;
+        max-width: 100px;
+    }
+
+    .label-text {
+        font-size: 0.65rem;
+    }
+
+    .label-line {
+        max-width: 80px;
+    }
+}
