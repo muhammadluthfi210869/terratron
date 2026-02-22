@@ -57,7 +57,7 @@ const FAQSection = () => {
             </div>
 
             <div className="faq-seo-footer">
-                <p>Melayani penyewaan alat berat untuk area: <strong>Bogor, Puncak, Cikarang, Bekasi, Tangerang, dan Seluruh Jawa Barat.</strong></p>
+                <p>Melayani penyewaan alat berat untuk area: <strong>Tasikmalaya, Ciamis, Banjar, Pangandaran, dan Seluruh Priangan Timur.</strong></p>
             </div>
         </section>
     )

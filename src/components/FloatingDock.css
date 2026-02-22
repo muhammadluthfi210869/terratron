@@ -79,10 +79,26 @@
 .active-indicator-pill {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.02) 100%);
-    border: 0.5px solid rgba(212, 175, 55, 0.15);
+    background: linear-gradient(180deg, rgba(212, 175, 55, 0.12) 0%, rgba(212, 175, 55, 0.04) 100%);
+    border: 0.5px solid rgba(212, 175, 55, 0.25);
     border-radius: 14px;
     z-index: 1;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.1);
+    animation: activeBreathing 3s infinite ease-in-out;
+}
+
+@keyframes activeBreathing {
+
+    0%,
+    100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.02);
+    }
 }
 
 /* Tactical Logo Lux */

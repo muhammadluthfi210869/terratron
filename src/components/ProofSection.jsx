@@ -27,7 +27,7 @@ const ProofSection = () => {
                         <span className="hud-value">TRN/OPS/00{currentIndex + 1}</span>
                     </div>
                     <div className="hud-title-center">
-                        <h2 className="hud-section-title">REKAM JELAJAH LAPANGAN</h2>
+                        <h2 className="hud-section-title">REKAM JELAJAH TASIKMALAYA - CIAMIS</h2>
                         <div className="hud-line-glow" />
                     </div>
                     <div className="hud-meta text-right">
@@ -48,7 +48,7 @@ const ProofSection = () => {
                             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                         >
                             <div className="theater-visual-frame">
-                                <img src={activeProject.image} alt={activeProject.title} className="theater-main-img" />
+                                <img src={activeProject.image} alt={activeProject.imageAlt || activeProject.title} className="theater-main-img" />
                                 <div className="theater-scanline" />
                                 <div className="theater-vignette" />
                                 <div className="theater-frame-edges">

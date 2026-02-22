@@ -12,7 +12,7 @@ export const fleetData = [
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     {
         id: 'sany-sy75',
-        slug: 'sewa-excavator-sany-sy75-7-ton-hemat-bbm-karawang',
+        slug: 'sewa-excavator-sany-sy75-7-ton-hemat-bbm-ciamis',
         category: 'mini',
         model: 'SANY SY75',
         type: 'Midi Excavator',
@@ -21,7 +21,7 @@ export const fleetData = [
 
         // ── VISUAL ASSETS ─────────────────────────────────────
         image: '/asset/units/COVER_SANY_SY75.jpeg',
-        seoAlt: 'Sewa Excavator SANY SY75 7 Ton hemat BBM untuk proyek galian saluran dan pematangan lahan di Karawang Bekasi Jawa Barat',
+        seoAlt: 'Sewa Excavator SANY SY75 7 Ton hemat BBM untuk proyek galian saluran dan pematangan lahan di Ciamis Tasikmalaya',
         gallery: [
             {
                 src: '/asset/units/SANY_SY75_1.jpeg',
@@ -38,8 +38,8 @@ export const fleetData = [
 
         // ── SEO META ──────────────────────────────────────────
         pageMeta: {
-            title: 'Sewa Excavator SANY SY75 (7 Ton) Karawang & Bekasi — Hemat BBM 20%, Siap Kerja',
-            description: 'Rental Excavator SANY SY75 di Karawang, Cikarang & Bekasi. 7 Ton paling irit solar di kelasnya. Mesin Isuzu bandel, operator SIO aktif, SPK resmi. Cek harga sekarang.'
+            title: 'Sewa Excavator SANY SY75 (7 Ton) Ciamis & Tasikmalaya — Hemat BBM 20%, Siap Kerja',
+            description: 'Rental Excavator SANY SY75 di Ciamis, Tasikmalaya & Banjar. 7 Ton paling irit solar di kelasnya. Mesin Isuzu bandel, operator SIO aktif, SPK resmi. Cek harga sekarang.'
         },
 
         // ── BADGES (Displayed on Card) ────────────────────────
@@ -52,9 +52,9 @@ export const fleetData = [
         // ── STATUS & PRICING ──────────────────────────────────
         status: 'available',
         rentedCity: null,
-        location: 'POOL KARAWANG',
+        location: 'POOL PRIANGAN TIMUR',
         priceIndicative: 'Mulai Rp 2.800.000 / shift (8 jam)',
-        priceNote: 'Belum termasuk solar. Harga area Jabodetabek + Jawa Barat.',
+        priceNote: 'Belum termasuk solar. Harga area Ciamis, Tasikmalaya, Banjar, Pangandaran.',
         minimumRent: 'Min. 1 shift (8 jam) | Kontrak bulanan min. 150 jam',
 
         // ── SPECS (8 Field Standar Wajib Seragam) ────────────
@@ -82,7 +82,7 @@ export const fleetData = [
                 <li><strong>Pematangan Lahan Perumahan</strong> — Efisiensi solar terjaga seharian</li>
                 <li><strong>Galian Pondasi Bangunan</strong> — Aman di area semi-padat & pinggir jalan raya</li>
             </ul>
-            <p>Beroperasi aktif untuk wilayah <strong>Cikarang, Karawang, Bekasi, Purwakarta</strong>, dan sekitar Jawa Barat.</p>
+            <p>Beroperasi aktif untuk wilayah <strong>Ciamis, Tasikmalaya, Banjar, Pangandaran</strong>, dan sekitar Priangan Timur.</p>
         `,
 
         // ── LOAD CHART (Rendered as Table in UI) ──────────────
@@ -158,8 +158,8 @@ export const fleetData = [
         hourMeter: 'Tersedia saat request',
 
         // ── SERVICE AREA ──────────────────────────────────────
-        serviceArea: ['Cikarang', 'Karawang', 'Bekasi', 'Purwakarta', 'Subang', 'Bandung Timur'],
-        serviceAreaNote: 'Area luar Jawa Barat bisa dikonfirmasi, menyesuaikan biaya mobilisasi.'
+        serviceArea: ['Ciamis', 'Tasikmalaya', 'Banjar', 'Pangandaran', 'Singaparna', 'Rajapolah'],
+        serviceAreaNote: 'Area luar Priangan Timur bisa dikonfirmasi, menyesuaikan biaya mobilisasi.'
     },
 
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -167,7 +167,7 @@ export const fleetData = [
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     {
         id: 'cat-305',
-        slug: 'sewa-mini-excavator-cat-305-5e2-spesialis-ruang-sempit-bekasi',
+        slug: 'sewa-mini-excavator-cat-305-5e2-spesialis-ruang-sempit-tasikmalaya',
         category: 'mini',
         model: 'CAT 305.5E2',
         type: 'Mini Excavator',
@@ -176,7 +176,7 @@ export const fleetData = [
 
         // ── VISUAL ASSETS ─────────────────────────────────────
         image: '/asset/units/COVER_CAT 305.5E2.jpeg',
-        seoAlt: 'Sewa Mini Excavator CAT 305.5E2 lebar 1.98 meter zero tail swing untuk galian kabel pipa ruang sempit Bekasi Jakarta Jawa Barat',
+        seoAlt: 'Sewa Mini Excavator CAT 305.5E2 lebar 1.98 meter zero tail swing untuk galian kabel pipa ruang sempit Ciamis Tasikmalaya',
         gallery: [
             {
                 src: '/asset/units/CAT_305.5E2_1.jpeg',
@@ -198,8 +198,8 @@ export const fleetData = [
 
         // ── SEO META ──────────────────────────────────────────
         pageMeta: {
-            title: 'Sewa Mini Excavator CAT 305.5E2 Bekasi & Jakarta — Spesialis Ruang Sempit, Galian Kabel & Breaker',
-            description: 'Rental Mini Excavator CAT 305.5E2 di Bekasi, Jakarta & Jawa Barat. Lebar 1.98m, zero tail swing, tersedia attachment Hydraulic Breaker. Operator SIO aktif, SPK resmi.'
+            title: 'Sewa Mini Excavator CAT 305.5E2 Tasikmalaya & Ciamis — Spesialis Ruang Sempit, Galian Kabel & Breaker',
+            description: 'Rental Mini Excavator CAT 305.5E2 di Tasikmalaya, Ciamis & Banjar. Lebar 1.98m, zero tail swing, tersedia attachment Hydraulic Breaker. Operator SIO aktif, SPK resmi.'
         },
 
         // ── BADGES ────────────────────────────────────────────
@@ -212,7 +212,7 @@ export const fleetData = [
         // ── STATUS & PRICING ──────────────────────────────────
         status: 'available',
         rentedCity: null,
-        location: 'POOL BEKASI',
+        location: 'POOL PRIANGAN TIMUR',
         priceIndicative: 'Mulai Rp 2.200.000 / shift (8 jam)',
         priceNote: 'Belum termasuk solar. Rubber track: additional charge. Mode Breaker: rate menyesuaikan.',
         minimumRent: 'Min. 1 shift (8 jam) | Paket harian & mingguan tersedia',
@@ -241,7 +241,7 @@ export const fleetData = [
                 <li><strong>Mode Bucket (Standard)</strong> — Galian Kabel Optik, Pipa PDAM, Landscaping, Galian Kolam Renang</li>
                 <li><strong>Mode Breaker</strong> — Bobok beton, kupas aspal, demolisi ruko/rumah. Pergantian ±30–45 menit di lokasi.</li>
             </ul>
-            <p>Tersedia untuk proyek di <strong>Bekasi, Jakarta, Tangerang, Depok, Bogor, Bandung</strong>, dan seluruh wilayah Jawa Barat.</p>
+            <p>Tersedia untuk proyek di <strong>Tasikmalaya, Ciamis, Banjar, Pangandaran, Garut</strong>, dan seluruh wilayah Priangan Timur.</p>
         `,
 
         // ── LOAD CHART ────────────────────────────────────────
@@ -309,7 +309,7 @@ export const fleetData = [
             },
             {
                 q: 'Bisa sewa harian tanpa komitmen jangka panjang?',
-                a: 'Bisa. Minimum 1 shift (8 jam). Paket harian fleksibel tersedia, khususnya area Bekasi & Jakarta. Hubungi admin.'
+                a: 'Bisa. Minimum 1 shift (8 jam). Paket harian fleksibel tersedia, khususnya area Tasikmalaya & Ciamis. Hubungi admin.'
             },
             {
                 q: 'Apakah buut kompresor tambahan untuk breaker?',
@@ -326,8 +326,8 @@ export const fleetData = [
         hourMeter: 'Tersedia saat request',
 
         // ── SERVICE AREA ──────────────────────────────────────
-        serviceArea: ['Bekasi', 'Jakarta', 'Tangerang', 'Depok', 'Bogor', 'Bandung', 'Cikarang'],
-        serviceAreaNote: 'Seluruh Jawa Barat bisa dijangkau. Konfirmasi biaya mobilisasi via admin.'
+        serviceArea: ['Tasikmalaya', 'Ciamis', 'Banjar', 'Garut', 'Pangandaran', 'Kawali', 'Cisaga'],
+        serviceAreaNote: 'Seluruh Priangan Timur bisa dijangkau. Konfirmasi biaya mobilisasi via admin.'
     },
 
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -335,7 +335,7 @@ export const fleetData = [
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     {
         id: 'komatsu-pc75',
-        slug: 'sewa-excavator-komatsu-pc75-land-clearing-medan-berat-bogor',
+        slug: 'sewa-excavator-komatsu-pc75-land-clearing-tasikmalaya-ciamis',
         category: 'mini',
         model: 'KOMATSU PC75',
         type: 'Midi Excavator',
@@ -344,7 +344,7 @@ export const fleetData = [
 
         // ── VISUAL ASSETS ─────────────────────────────────────
         image: '/asset/units/COVER_KOMATSU PC75.jpeg',
-        seoAlt: 'Sewa Excavator Komatsu PC75 untuk land clearing lahan sawit dan galian medan berat berbatu di Bogor Karawang Jawa Barat',
+        seoAlt: 'Sewa Excavator Komatsu PC75 untuk land clearing lahan sawit dan galian medan berat berbatu di Tasikmalaya Ciamis',
         gallery: [
             {
                 src: '/asset/units/KOMATSU_PC75_1.jpeg',
@@ -361,8 +361,8 @@ export const fleetData = [
 
         // ── SEO META ──────────────────────────────────────────
         pageMeta: {
-            title: 'Sewa Komatsu PC75 (Midi Excavator) Bogor & Karawang — Spesialis Land Clearing & Medan Berat',
-            description: 'Rental Excavator Komatsu PC75 di Bogor, Karawang & Jawa Barat. Spesialis land clearing, galian batu, off-road ekstrem. Unit 2018+, operator SIO, SPK resmi.'
+            title: 'Sewa Komatsu PC75 (Midi Excavator) Tasikmalaya & Ciamis — Spesialis Land Clearing & Medan Berat',
+            description: 'Rental Excavator Komatsu PC75 di Tasikmalaya, Ciamis & Banjar. Spesialis land clearing, galian batu, off-road ekstrem. Unit 2018+, operator SIO, SPK resmi.'
         },
 
         // ── BADGES ────────────────────────────────────────────
@@ -375,7 +375,7 @@ export const fleetData = [
         // ── STATUS & PRICING ──────────────────────────────────
         status: 'available',
         rentedCity: null,
-        location: 'POOL KARAWANG',
+        location: 'POOL PRIANGAN TIMUR',
         priceIndicative: 'Mulai Rp 2.900.000 / shift (8 jam)',
         priceNote: 'Belum termasuk solar. Medan berat & jarak jauh menyesuaikan. Kontrak proyek lebih hemat.',
         minimumRent: 'Min. 1 shift (8 jam) | Kontrak proyek jangka panjang lebih kompetitif',
@@ -406,7 +406,7 @@ export const fleetData = [
                 <li><strong>Off-Road Extremes</strong> — Tanah berlumpur, berbatu, lahan yang belum pernah dibuka</li>
                 <li><strong>Recovery</strong> — Menarik dump truck atau alat berat lain yang terperangkap lumpur</li>
             </ul>
-            <p>Armada PC75 Terratron Indonesia rata-rata 2018 ke atas dengan rekam jejak perawatan terdokumentasi. Beroperasi aktif di <strong>Bogor, Karawang, Purwakarta, Subang</strong>, dan seluruh Jawa Barat.</p>
+            <p>Armada PC75 Terratron Indonesia rata-rata 2018 ke atas dengan rekam jejak perawatan terdokumentasi. Beroperasi aktif di <strong>Tasikmalaya, Ciamis, Banjar, Pangandaran</strong>, dan seluruh Priangan Timur.</p>
         `,
 
         // ── LOAD CHART ────────────────────────────────────────
@@ -484,7 +484,7 @@ export const fleetData = [
         hourMeter: 'Tersedia saat request',
 
         // ── SERVICE AREA ──────────────────────────────────────
-        serviceArea: ['Bogor', 'Karawang', 'Purwakarta', 'Subang', 'Sukabumi', 'Garut', 'Cianjur'],
+        serviceArea: ['Tasikmalaya', 'Ciamis', 'Banjar', 'Pangandaran', 'Garut', 'Banjarsari', 'Cisaga'],
         serviceAreaNote: 'Area Kalimantan & Sumatera: konfirmasi terlebih dahulu (biaya ferry + logistik).'
     },
 
@@ -493,7 +493,7 @@ export const fleetData = [
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     {
         id: 'sumitomo-sh75',
-        slug: 'sewa-excavator-sumitomo-sh75-loading-cepat-cut-fill-cikarang',
+        slug: 'sewa-excavator-sumitomo-sh75-loading-cepat-tasik-ciamis',
         category: 'mini',
         model: 'SUMITOMO SH75',
         type: 'Midi Excavator',
@@ -502,7 +502,7 @@ export const fleetData = [
 
         // ── VISUAL ASSETS ─────────────────────────────────────
         image: '/asset/units/COVER_SUMITOMO SH75.jpeg',
-        seoAlt: 'Sewa Excavator Sumitomo SH75 untuk loading cepat cut and fill perumahan dan proyek ritase tinggi di Cikarang Karawang Bekasi Jawa Barat',
+        seoAlt: 'Sewa Excavator Sumitomo SH75 untuk loading cepat cut and fill perumahan dan proyek ritase tinggi di Tasikmalaya Ciamis Banjar',
         gallery: [
             {
                 src: '/asset/units/SUMITOMO_SH75_1.jpeg',
@@ -519,8 +519,8 @@ export const fleetData = [
 
         // ── SEO META ──────────────────────────────────────────
         pageMeta: {
-            title: 'Sewa Sumitomo SH75 (Midi Excavator) Cikarang & Karawang — Spesialis Loading Cepat & Cut Fill',
-            description: 'Rental Excavator Sumitomo SH75 di Cikarang, Karawang & Bekasi. Cycle time tercepat di kelasnya, full AC cabin. Spesialis Cut & Fill perumahan & proyek ritase tinggi.'
+            title: 'Sewa Sumitomo SH75 (Midi Excavator) Tasikmalaya & Ciamis — Spesialis Loading Cepat & Cut Fill',
+            description: 'Rental Excavator Sumitomo SH75 di Tasikmalaya, Ciamis & Banjar. Cycle time tercepat di kelasnya, full AC cabin. Spesialis Cut & Fill perumahan & proyek ritase tinggi.'
         },
 
         // ── BADGES ────────────────────────────────────────────
@@ -533,7 +533,7 @@ export const fleetData = [
         // ── STATUS & PRICING ──────────────────────────────────
         status: 'available',
         rentedCity: null,
-        location: 'POOL CIKARANG',
+        location: 'POOL PRIANGAN TIMUR',
         priceIndicative: 'Mulai Rp 2.900.000 / shift (8 jam)',
         priceNote: 'Belum termasuk solar. Kontrak bulanan min. 150 jam dengan tarif lebih hemat.',
         minimumRent: 'Min. 1 shift (8 jam) | Kontrak bulanan min. 150 jam/bulan',
@@ -563,7 +563,7 @@ export const fleetData = [
                 <li><strong>Pematangan Lahan Industri</strong> — Volume besar dengan jadwal ketat</li>
                 <li><strong>Loading Dump Truck</strong> — Memaksimalkan jumlah truk yang terisi per shift</li>
             </ul>
-            <p>Kabin tertutup ber-AC memastikan operator tetap produktif hingga akhir shift tanpa fatik berlebih. Beroperasi aktif di <strong>Cikarang, Karawang, Bekasi, Subang</strong>, dan seluruh Jawa Barat.</p>
+            <p>Kabin tertutup ber-AC memastikan operator tetap produktif hingga akhir shift tanpa fatik berlebih. Beroperasi aktif di <strong>Tasikmalaya, Ciamis, Banjar, Pangandaran</strong>, dan seluruh Priangan Timur.</p>
         `,
 
         // ── LOAD CHART ────────────────────────────────────────
@@ -637,7 +637,7 @@ export const fleetData = [
             },
             {
                 q: 'Area layanan mana saja?',
-                a: 'Cikarang, Karawang, Bekasi, Subang, Cikampek, Bandung, Serang. Luar Jawa Barat konfirmasi ketersediaan dan biaya mobilisasi.'
+                a: 'Tasikmalaya, Ciamis, Banjar, Pangandaran, Garut, Singaparna. Luar Priangan Timur konfirmasi ketersediaan dan biaya mobilisasi.'
             }
         ],
 
@@ -646,8 +646,425 @@ export const fleetData = [
         hourMeter: 'Tersedia saat request',
 
         // ── SERVICE AREA ──────────────────────────────────────
-        serviceArea: ['Cikarang', 'Karawang', 'Bekasi', 'Subang', 'Cikampek', 'Bandung', 'Serang'],
-        serviceAreaNote: 'Luar Jawa Barat: konfirmasi ketersediaan dan biaya mobilisasi terlebih dahulu.'
+        serviceArea: ['Tasikmalaya', 'Ciamis', 'Banjar', 'Pangandaran', 'Garut', 'Singaparna'],
+        serviceAreaNote: 'Luar Priangan Timur: konfirmasi ketersediaan dan biaya mobilisasi terlebih dahulu.'
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // UNIT 5: KOBELCO SK50P — "The Urban Ninja"
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        id: 'kobelco-sk50p',
+        slug: 'sewa-excavator-kobelco-sk50p-mini-lincah-tasikmalaya',
+        category: 'mini',
+        model: 'KOBELCO SK50P',
+        type: 'Mini Excavator',
+        tagline: 'Kompak, tangguh, dan lincah bermanuver di area pemukiman padat.',
+        nickName: 'The Urban Ninja',
+
+        image: '/asset/units/cover_kobelcoSK50p.jpeg',
+        seoAlt: 'Sewa Excavator Mini Kobelco SK50P untuk galian perumahan dan saluran sempit di Tasikmalaya Ciamis',
+        gallery: [
+            {
+                src: '/asset/units/Kobelco SK50P.jpeg',
+                caption: 'Kobelco SK50P — Kondisi Aktual',
+                type: 'unit'
+            }
+        ],
+        galleryLabel: 'Dokumentasi Lapangan',
+        pageMeta: {
+            title: 'Sewa Excavator Kobelco SK50P — Lincah untuk Proyek Perumahan & Saluran',
+            description: 'Rental Excavator Kobelco SK50P class 5 Ton. Sangat lincah di lahan sempit, cocok untuk galian utilitas dan landscaping.'
+        },
+        badges: [
+            { label: 'SUPER LINCAH', icon: 'power' },
+            { label: 'BBM EKONOMIS', icon: 'fuel' },
+            { label: 'AMAN DI GANG PADAT', icon: 'city' }
+        ],
+        status: 'available',
+        rentedCity: null,
+        location: 'POOL PRIANGAN TIMUR',
+        priceIndicative: 'Mulai Rp 2.400.000 / shift (8 jam)',
+        priceNote: 'Belum termasuk solar. Harga area Priangan Timur',
+        minimumRent: 'Min. 1 shift (8 jam)',
+        specs: {
+            year: 'Standard',
+            weight: '5.100 kg',
+            bucket: '0.16 m³',
+            maxDigDepth: '3.8 m',
+            engine: 'Yanmar 4TNV88 (39 HP)',
+            fuelConsumption: '±4–6 Liter/Jam',
+            transportDimension: '5.2m × 1.96m × 2.6m',
+            trackType: 'Steel Track (Rubber Pad by Request)'
+        },
+        bestFor: 'Proyek perumahan, galian utilitas sempit, pembuatan parit kecil, dan landscaping dengan manuver luar biasa di ruang terbatas.',
+        longDescription: `
+            <p><strong>Kobelco SK50P</strong> adalah alat yang dirancang untuk mengatasi tantangan proyek di area yang benar-benar padat dan sulit diakses. Bobotnya yang ringan dan ukurannya yang kompak memastikan Anda bisa masuk ke pemukiman dan bekerja dengan produktivitas tinggi tanpa merusak fasilitas eksisting.</p>
+            <p>Responsivitas hidroliknya menjadikan alat ini sangat presisi. Sangat meminimalisir kesalahan dan kerusakan utilitas eksisting yang biasa terjadi pada galian di area sipil maupun perumahan elit.</p>
+        `,
+        loadChartTitle: 'Kemampuan Angkat Utilitas Ringan',
+        loadChartNote: 'Aman untuk ngangkat Pipa HDPE dan material parit.',
+        loadChart: [
+            { radius: '2.5 Meter', front: '± 2.000 kg', side: '± 1.200 kg' },
+            { radius: '4.0 Meter', front: '± 1.000 kg', side: '± 650 kg' }
+        ],
+        logistics: {
+            truckType: 'Towing / CDD Bak',
+            minRoadWidth: '2.0 Meter',
+            minGateHeight: '2.8 Meter',
+            groundPressure: 'Rendah',
+            mobilizationNote: 'Aman ditowing truk standar, biaya murah.'
+        },
+        attachments: [
+            { name: 'Bucket GP 0.16 m³', status: 'Standard', desc: 'Galian konvensional dan parit' }
+        ],
+        comparison: {
+            choose_this_if: ['Ruang terbatas', 'Galian utilitas kecil', 'Biaya angkut rendah'],
+            choose_other_if: ['Volume galian lebih besar → Pilih SANY SY75'],
+            compare_label: 'vs SANY SY75'
+        },
+        faqUnit: [
+            { q: 'Masuk gang perumahan?', a: 'Sangat bisa. Lebarnya di bawah 2 meter.' }
+        ],
+
+        documents: ['SILO', 'SIO Operator', 'SPK Resmi'],
+        hourMeter: 'Tersedia',
+        serviceArea: ['Tasikmalaya', 'Ciamis', 'Banjar']
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // UNIT 6: SUMITOMO SH80 — "The Compact Powerhouse"
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        id: 'sumitomo-sh80',
+        slug: 'sewa-excavator-sumitomo-sh80-8-ton-galian-pondasi-ciamis',
+        category: 'mini',
+        model: 'SUMITOMO SH80 (Setara PC80)',
+        type: 'Midi Excavator',
+        tagline: 'Tenaga ekstra di kelas Midi untuk galian pondasi tangguh dan ritase stabil.',
+        nickName: 'The Compact Powerhouse',
+
+        image: '/asset/units/cover_sumitomopc80.jpeg',
+        seoAlt: 'Sewa Excavator Sumitomo SH80 Setara PC80 untuk pematangan lahan dan galian pondasi',
+        gallery: [
+            {
+                src: '/asset/units/cover_sumitomopc80.jpeg',
+                caption: 'Sumitomo SH80 Setara PC80',
+                type: 'unit'
+            }
+        ],
+        galleryLabel: 'Dokumentasi Lapangan',
+        pageMeta: {
+            title: 'Sewa Excavator Sumitomo SH80 (Kelas 8 Ton) — Tenaga Ekstra Galian Pondasi',
+            description: 'Rental Excavator Sumitomo SH80 (Setara PC80). Tenaga gali luar biasa tangguh untuk pematangan lahan dan parit menengah.'
+        },
+        badges: [
+            { label: 'EXTRA DIG POWER', icon: 'muscle' },
+            { label: 'SANGAT STABIL', icon: 'shield' },
+            { label: 'MID-SCALE PROJECT', icon: 'tractor' }
+        ],
+        status: 'available',
+        rentedCity: null,
+        location: 'POOL PRIANGAN TIMUR',
+        priceIndicative: 'Mulai Rp 2.900.000 / shift (8 jam)',
+        priceNote: 'Belum termasuk solar.',
+        minimumRent: 'Min. 1 shift (8 jam)',
+        specs: {
+            year: 'Standard',
+            weight: '8.000 kg',
+            bucket: '0.38 m³',
+            maxDigDepth: '4.6 m',
+            engine: 'Isuzu 4LE2 (54 HP)',
+            fuelConsumption: '±7–9 Liter/Jam',
+            transportDimension: '6.4m × 2.3m × 2.7m',
+            trackType: 'Steel Track'
+        },
+        bestFor: 'Proyek galian pondasi ukuran menengah ke atas, pengerjaan basement ringan, dan pematangan lahan skala tanggung.',
+        longDescription: `
+            <p><strong>Sumitomo SH80</strong> atau secara operasional sering dirujuk setara PC80, adalah unit andalan untuk menjembatani proyek yang terlalu besar bagi mini excavator, namun terlalu kecil diakses oleh Standard Excavator 20 Ton.</p>
+            <p>Dengan bobot 8 ton, stabilitas kerjanya sangat luar biasa. Kemampuan mengeruk tanah padat atau lahan belukar sangat bisa diandalkan, sekaligus tetap menjaga keunggulan biaya sewa yang tidak membengkak layaknya menyewa alat besar.</p>
+        `,
+        loadChartTitle: 'Safe Working Load',
+        loadChartNote: 'Stabil untuk mengangkat gorong-gorong dan material berat skala menengah.',
+        loadChart: [
+            { radius: '3.0 Meter', front: '± 3.200 kg', side: '± 2.200 kg' }
+        ],
+        logistics: {
+            truckType: 'Tronton / Fuso',
+            minRoadWidth: '3.0 Meter',
+            minGateHeight: '3.0 Meter',
+            groundPressure: 'Menengah',
+            mobilizationNote: 'Tersedia sewa long term antar kota.'
+        },
+        attachments: [
+            { name: 'Bucket GP 0.38 m³', status: 'Standard', desc: 'Bucket besar mempercepat time cycle' }
+        ],
+        comparison: {
+            choose_this_if: ['Perlu tenaga lebih di kelas Midi', 'Loading truck skala sedang secara cepat'],
+            choose_other_if: ['Butuh excavator kelas besar 20 Ton → Pilih SH200'],
+            compare_label: 'vs SH200'
+        },
+        faqUnit: [
+            { q: 'Penyewa biasa menyebutnya PC80?', a: 'Iya! PC sebenarnya penamaan dari merk Komatsu, namun klien lapangan sering secara general menyebut semua kelas 8 Ton sebagai PC80. Unit ini adalah Sumitomo SH80 yang setara spesifikasinya secara performa dengan lini PC.' }
+        ],
+        documents: ['SILO', 'SIO Operator', 'SPK Resmi'],
+        hourMeter: 'Tersedia',
+        serviceArea: ['Ciamis', 'Tasikmalaya', 'Banjar']
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // UNIT 7: SUMITOMO SH200 — "The Volume Conqueror"
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        id: 'sumitomo-sh200',
+        slug: 'sewa-excavator-20-ton-sumitomo-sh200-cut-fill-tasikmalaya',
+        category: 'medium',
+        model: 'SUMITOMO SH200 (Setara PC200)',
+        type: 'Medium Excavator',
+        tagline: 'Raja ritase untuk manuver pengerukan volume massal dalam waktu singkat.',
+        nickName: 'The Volume Conqueror',
+
+        image: '/asset/units/cover_sumitomopc200.jpeg',
+        seoAlt: 'Sewa Excavator Sumitomo SH200 (20 Ton) untuk pengerukan massal dan infrastruktur di Priangan Timur',
+        gallery: [
+            {
+                src: '/asset/units/cover_sumitomopc200.jpeg',
+                caption: 'Sumitomo SH200 (Setara PC200)',
+                type: 'unit'
+            },
+            {
+                src: '/asset/units/excavator-pc200.png',
+                caption: 'Ilustrasi Model SH200/PC200 Class',
+                type: 'operasional'
+            }
+        ],
+        galleryLabel: 'Dokumentasi Lapangan',
+        pageMeta: {
+            title: 'Sewa Excavator 20 Ton Sumitomo SH200 — Ahli Cut & Fill Massal',
+            description: 'Rental Excavator Kelas 20 Ton (Sumitomo SH200 / Setara PC200). Solusi proyek infrastruktur, pertambangan, dan pengerukan volume besar.'
+        },
+        badges: [
+            { label: 'INFRASTRUCTURE', icon: 'power' },
+            { label: 'VOLUME MASSAL', icon: 'rocket' },
+            { label: 'HEAVY SCALE', icon: 'muscle' }
+        ],
+        status: 'available',
+        rentedCity: null,
+        location: 'POOL PRIANGAN TIMUR',
+        priceIndicative: 'Mulai Rp 180.000 / Jam',
+        priceNote: 'Minimal sewa 100 jam. Harga belum termasuk solar & mobilisasi lowbed.',
+        minimumRent: 'Min. 100 Jam',
+        specs: {
+            year: 'Standard',
+            weight: '20.000 kg',
+            bucket: '0.90 m³',
+            maxDigDepth: '6.6 m',
+            engine: 'Isuzu (157 HP)',
+            fuelConsumption: '±14–18 Liter/Jam',
+            transportDimension: '9.4m × 2.8m × 3.0m',
+            trackType: 'Steel Track'
+        },
+        bestFor: 'Proyek infrastruktur berskala besar, quarry, cut and fill bukit, bendungan, dan sektor dengan kebutuhan pergerakan volume masif.',
+        longDescription: `
+            <p>Bila proyek dihadapkan pada target jutaan kubik tanah atau batuan, Anda tidak bisa menggunakan alat kecil. <strong>Sumitomo SH200</strong> (setara kelas PC200 untuk ukuran 20 Ton) adalah monster yang dipanggil untuk mendominasi lapangan dan menghemat ratusan jam kerja.</p>
+            <p>Didesain untuk berkolaborasi secara intens dengan formasi puluhan Dump Truck Tronton, excavator kelas berat ini sanggup memindahkan hampir 1 kubik material dalam satu kali ayunan <em>boom</em>. Respons hidrolik stabil dari Sumitomo menjaga efisiensi siklus loading secara taktis dan tak tertandingi bahkan di bawah beban penuh di medan terik lahan perbukitan.</p>
+        `,
+        loadChartTitle: 'Standard Working Load 20 Ton',
+        loadChartNote: 'Data untuk boom standar, tanah padat.',
+        loadChart: [
+            { radius: '5.0 Meter', front: '± 7.500 kg', side: '± 5.500 kg' }
+        ],
+        logistics: {
+            truckType: 'Truk Lowbed / Dolly',
+            minRoadWidth: '4.0 Meter',
+            minGateHeight: '3.5 Meter',
+            groundPressure: 'Medium-High',
+            mobilizationNote: 'Butuh regulasi trayek alat berat (voorijder malam hari).'
+        },
+        attachments: [
+            { name: 'Standard Bucket 0.90 m³', status: 'Standard', desc: 'Kapasitas ekstrem penyayat tebing' }
+        ],
+        comparison: {
+            choose_this_if: ['Cut & Fill bukit', 'Pembangunan infrastruktur jalan', 'Quarry / tambang skala menengah'],
+            choose_other_if: ['Proyek perumahan yang jalannya sempit → Pilih Kelas Midi / SH75'],
+            compare_label: 'vs SH75'
+        },
+        faqUnit: [
+            { q: 'Apakah unit mobilisasinya susah?', a: 'Mobilisasi dilakukan menggunakan truk Lowbed khusus, kami yang mengatur jadwal pengiriman biasanya berjalan pada jalur trayek malam untuk menghindari jam sibuk sipil.' }
+        ],
+        documents: ['SILO', 'SIO Operator', 'SPK Resmi'],
+        hourMeter: 'Tersedia',
+        serviceArea: ['Ciamis', 'Tasikmalaya', 'Banjar', 'Pangandaran', 'Garut', 'Priangan Timur']
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // UNIT 8: DOZER KOMATSU D31P — "The Swamp Master"
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        id: 'komatsu-d31p',
+        slug: 'sewa-dozer-komatsu-d31p-swamp-dozer-ciamis-tasikmalaya',
+        category: 'dozer',
+        model: 'KOMATSU D31P',
+        type: 'Swamp Dozer',
+        tagline: 'Raja lahan basah. Pemadatan dan perataan tanah lunak tanpa kendala amblas.',
+        nickName: 'The Swamp Master',
+
+        image: '/asset/units/cover_komatsuD31p.jpeg',
+        seoAlt: 'Sewa Swamp Dozer Komatsu D31P untuk perataan tanah rawa dan leveling permukaan tanah di Tasikmalaya dan Ciamis',
+        gallery: [
+            {
+                src: '/asset/units/cover_komatsuD31p.jpeg',
+                caption: 'Komatsu D31P - Cover',
+                type: 'unit'
+            },
+            {
+                src: '/asset/units/dozer Komatsu D31P.jpeg',
+                caption: 'Komatsu D31P - Lapangan Operasional',
+                type: 'operasional'
+            }
+        ],
+        galleryLabel: 'Dokumentasi Lapangan',
+        pageMeta: {
+            title: 'Sewa Komatsu D31P Swamp Dozer — Ahli Perataan Tanah Lunak & Rawa',
+            description: 'Rental Dozer Komatsu D31P. Ground clearance rendah dan piringan sepatu LGP yang menghindari unit tenggelam terperangkap di lahan basah/rawa.'
+        },
+        badges: [
+            { label: 'SWAMP DOZER', icon: 'shield' },
+            { label: 'ANTI AMBLAS', icon: 'power' },
+            { label: 'PRESISI LEVELING', icon: 'target' }
+        ],
+        status: 'available',
+        rentedCity: null,
+        location: 'POOL PRIANGAN TIMUR',
+        priceIndicative: 'Mulai Rp 170.000 / Jam',
+        priceNote: 'Minimal sewa 50 jam. Harga di luar solar BBM & mobilisasi.',
+        minimumRent: 'Min. 50 Jam',
+        specs: {
+            year: 'Standard',
+            weight: '7.000 kg',
+            bucket: 'Blade 1.15 m³ (PAT)',
+            maxDigDepth: '-',
+            engine: 'Komatsu S4D102E (70 HP)',
+            fuelConsumption: '±6–9 Liter/Jam',
+            transportDimension: '3.9m × 2.8m × 2.7m',
+            trackType: 'Swamp Shoe (LGP - Low Ground Pressure)'
+        },
+        bestFor: 'Site preparation di kondisi tanah perumahan basah, lahan sawah alih fungsi primer, dan perataan (leveling) setelah pembuangan cut and fill oleh eskavator.',
+        longDescription: `
+            <p>Ketika Anda memasuki kawasan yang dominan tanah lunak atau struktur rawanya masih belum stabil, menggunakan buldoser tipe biasa sangat berisiko amblas (bogged down). Solusi mutlak untuk masalah site plan Anda adalah armada *Swamp* (P-type) kami, <strong>Komatsu D31P</strong>.</p>
+            <p>Desain *Low Ground Pressure (LGP)* pada track lebarnya secara pintar mendistribusikan bobot 7 ton-nya. Opsi blade spesialis PAT (Power Angle Tilt) memungkinkan pisau buldosernya memuat presisi kontur sesuai blueprint arsitektur tanah, mendorong timbunan dengan luwes menghasilkan tapak padat tanpa jejak amblas.</p>
+        `,
+        loadChartTitle: 'Blade Capacity',
+        loadChartNote: 'Kapasitas material di depan PAT Blade',
+        loadChart: [
+            { radius: 'Kapasitas Standard', front: '± 1.15 M.Kubik / Dorong', side: '-' }
+        ],
+        logistics: {
+            truckType: 'Self Loader Fuso / Tronton',
+            minRoadWidth: '3.5 Meter (Posisi Serong)',
+            minGateHeight: '3.0 Meter',
+            groundPressure: 'Sangat Rendah (Anti Amblas di Lahan Rawa Sipil)',
+            mobilizationNote: 'Lebar track mengharuskan Fuso minimal.'
+        },
+        attachments: [
+            { name: 'PAT Blade (Power Angle Tilt)', status: 'Standard', desc: 'Bisa diputar sudut memotong jalan/lereng dengan akurasi 100%' }
+        ],
+        comparison: {
+            choose_this_if: ['Tanah rawa lunak / bekas sawah', 'Menyiapkan pad perumahan / leveling ruko'],
+            choose_other_if: ['Area luas padat dan butuh dorongan batu raksasa → Pilih D51P Kelas Tembus'],
+            compare_label: 'vs Dozer D51'
+        },
+        faqUnit: [
+            { q: 'P pada "D31P" untuk apa?', a: 'Kode "P" atau "PX" pada unit Komatsu menandakan tipe Swamp atau Swamp Dozer. Desain sepatu track (shoe)-nya jauh lebih lebar berupa segitiga penahan yang menjaga unit selalu terapung secara teknikal di atas lumpur tebal.' }
+        ],
+        documents: ['SILO', 'SIO Operator', 'SPK Resmi'],
+        hourMeter: 'Tersedia',
+        serviceArea: ['Ciamis', 'Tasikmalaya', 'Banjar', 'Pangandaran', 'Garut', 'Priangan Timur']
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // UNIT 9: DOZER KOMATSU D51P — "The Earth Mover"
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        id: 'komatsu-d51p',
+        slug: 'sewa-dozer-komatsu-d51p-medium-swamp-dozer-tasikmalaya',
+        category: 'dozer',
+        model: 'KOMATSU D51P',
+        type: 'Medium Swamp Dozer',
+        tagline: 'Keseimbangan daya dorong ekstrem dengan kelincahan Swamp Track.',
+        nickName: 'The Earth Mover',
+
+        image: '/asset/units/cover_komatsuD51.jpeg',
+        seoAlt: 'Sewa Medium Dozer Komatsu D51P pendorong tanah dan perataan kawasan industri di Priangan Timur Ciamis Tasik',
+        gallery: [
+            {
+                src: '/asset/units/cover_komatsuD51.jpeg',
+                caption: 'Komatsu D51P - Tampilan Fisik',
+                type: 'unit'
+            },
+            {
+                src: '/asset/units/dozer Komatsu D51.jpeg',
+                caption: 'Komatsu D51P - Menyiapkan Land Clearing',
+                type: 'operasional'
+            }
+        ],
+        galleryLabel: 'Dokumentasi Lapangan',
+        pageMeta: {
+            title: 'Sewa Dozer Komatsu D51P (Medium Swamp) — Master Eksekusi Lahan Industri Skala Besar',
+            description: 'Rental Swamp Dozer Komatsu D51P kelas 13 Ton. Tenaga besar untuk mengamankan leveling di lahan industri dan perkebunan.'
+        },
+        badges: [
+            { label: 'SUPER VISIBILITY', icon: 'target' },
+            { label: 'MEDIUM SCALE', icon: 'power' },
+            { label: 'HIGH PUSH POWER', icon: 'muscle' }
+        ],
+        status: 'available',
+        rentedCity: null,
+        location: 'POOL PRIANGAN TIMUR',
+        priceIndicative: 'Mulai Rp 250.000 / Jam',
+        priceNote: 'Minimal sewa 50 jam. BBM Solar diluar kewajiban. Mobilisasi Tronton.',
+        minimumRent: 'Min. 50-100 Jam',
+        specs: {
+            year: 'Standard',
+            weight: '13.000 kg',
+            bucket: 'Blade 2.90 m³ (PAT)',
+            maxDigDepth: '-',
+            engine: 'Komatsu (130 HP)',
+            fuelConsumption: '±12–15 Liter/Jam',
+            transportDimension: '4.8m × 3.0m × 2.9m',
+            trackType: 'Swamp Shoe LGP'
+        },
+        bestFor: 'Proyek pematangan lahan kawasan industri besar (>10 hektar), pembukaan perkebunan mentah, dan distribusi volume massal yang butuh power signifikan melebihi kelas D31.',
+        longDescription: `
+            <p>Untuk site prep kawasan pabrik, konstruksi area bandara, dan perkebunan sawit yang luas, kecepatan perataan adalah kunci margin deviasi Anda. <strong>Komatsu D51P</strong> masuk pada jajaran dozer kelas medium (13 ton) yang menawarkan dorongan super kuat tanpa kompromi meski berpijak di area basah berlumpur.</p>
+            <p>Desain kap mesin inovatif *Super Slant Nose* menjadikan pandangan visual operator dari dalam kabin menguasai arena operasi seutuhnya. Operator mampu memantau ujung *blade* saat meratakan tanggul tanpa diganggu moncong mesin secara frontal (blind spot free)—menjamin akurasi manuver pada tebing rawa dan mereduksi pengerjaan ulang yang amat menyita anggaran operasional proyek.</p>
+        `,
+        loadChartTitle: 'Blade Capacity / Kubikasi Dorong',
+        loadChartNote: 'Kapasitas material dorongan penuh',
+        loadChart: [
+            { radius: 'Kapasitas Standard', front: '± 2.90 M.Kubik / Dorong', side: '-' }
+        ],
+        logistics: {
+            truckType: 'Tronton / Lowbed',
+            minRoadWidth: '4.0 Meter',
+            minGateHeight: '3.5 Meter',
+            groundPressure: 'Rendah-Sedang',
+            mobilizationNote: 'Blade sangat lebar melarang mobilisasi area perumahan sempit tanpa pengawalan.'
+        },
+        attachments: [
+            { name: 'Standard Blade Ekstra Lebar', status: 'Standard', desc: 'Membabat jalan perhutani dalam hitungan menit.' }
+        ],
+        comparison: {
+            choose_this_if: ['Proyek reklamasi / perataan kawasan industri luas', 'Bukit dan lahan tak rata banyak batuan'],
+            choose_other_if: ['Hanya untuk meratakan tanah cluster perumahan desa → Pilih D31P'],
+            compare_label: 'vs Dozer D31'
+        },
+        faqUnit: [
+            { q: 'Apakah alat ini kuat menumbangkan semak belukar berat tebal?', a: 'Daya tempurnya 130 tenaga kuda, menumbangkan ilalang kasar dan perdu belukar pada pembukaan lahan mentah adalah santapannya.' }
+        ],
+        documents: ['SILO', 'SIO Operator', 'SPK Resmi'],
+        hourMeter: 'Tersedia',
+        serviceArea: ['Ciamis', 'Tasikmalaya', 'Banjar', 'Pangandaran', 'Garut', 'Priangan Timur']
     }
 ]
 
@@ -687,47 +1104,51 @@ export const attachmentData = [
 export const deploymentHistory = [
     {
         id: 'proj-1',
-        category: 'CUT & FILL',
-        title: 'Pematangan Lahan Pabrik 20 Hektar — KIIC Karawang',
-        image: '/asset/projects/big_project.jpeg',
-        units: '3x SANY SY75, 2x Komatsu PC75',
-        challenge: 'Medan tanah lempung basah (Clay) dengan target rata 20 hektar dalam 90 hari.',
-        solution: 'Penggunaan matras kayu & koordinasi ritase 3 shift untuk percepatan loading material basah.',
-        location: 'KIIC Karawang, Jawa Barat',
-        duration: '3 Bulan (On Time)'
+        category: 'PERSIAPAN LAHAN MEDIS',
+        title: 'Pekerjaan Grading & Stripping Pembangunan RS Mitra Idaman Banjar',
+        image: '/asset/projects/rs_mitra_grading_v3_1771639871654.png',
+        imageAlt: 'Jasa Grading Tanah Banjar, Sewa Mini Excavator Banjar, Stripping Lahan Proyek',
+        units: '1x Mini Excavator CAT 305',
+        challenge: 'Area pembangunan fasilitas kesehatan membutuhkan pengupasan tanah bagian atas (stripping) dan pembentukan elevasi dasar (grading) dengan tingkat presisi tinggi sebelum pondasi dicor.',
+        solution: 'Kami mengandalkan Mini Excavator Caterpillar 305. Ukurannya yang compact dipadukan dengan hidrolik presisi khas CAT memastikan pengupasan lapisan tanah atas di lokasi RS Mitra Idaman Banjar dilakukan dengan sangat rapi dan akurat, sesuai dengan patok elevasi dari konsultan perencana.',
+        location: 'RS Mitra Idaman, Banjar',
+        duration: '14 Hari (Target Presisi)'
     },
     {
         id: 'proj-2',
-        category: 'DEMOLISI',
-        title: 'Pembongkaran Struktur Beton Ruko — Cikarang Pusat',
-        image: '/asset/projects/sipil_project.jpeg',
-        units: '1x CAT 305.5E2 (Breaker Edition), 1x Komatsu PC75',
-        challenge: 'Struktur beton bertulang di area komersial aktif dengan akses jalan terbatas.',
-        solution: 'Metode pembongkaran bertahap dengan CAT 305.5 Breaker + PC75 untuk loading puing.',
-        location: 'Cikarang Pusat, Jawa Barat',
-        duration: '21 Hari (Zero Accident)'
+        category: 'DEMOLISI STRUKTUR LAMA',
+        title: 'Pekerjaan Bongkaran Bangunan Eksisting RS Mitra Idaman Banjar',
+        image: '/asset/projects/rs_mitra_demo_v3_1771639888009.png',
+        imageAlt: 'Jasa Bongkar Gedung Banjar, Demolisi Bangunan Banjar, Sewa Excavator Sumitomo SH78',
+        units: '1x Excavator Sumitomo SH78',
+        challenge: 'Sebelum RS Mitra Idaman yang baru bisa dibangun, struktur bangunan lama di lokasi harus dihancurkan dan dibersihkan (site clearance) dengan cepat tanpa mengganggu aktivitas warga sekitar.',
+        solution: 'Tugas berat ini dieksekusi oleh Excavator Sumitomo SH78. Unit kelas 7 ton ini memiliki kombinasi tenaga pembongkaran yang brutal namun dengan kecepatan swing yang lincah. Puing-puing beton dan dinding bangunan lama berhasil dibongkar dan dimuat ke dump truck dengan efisiensi waktu maksimal, memastikan lahan bersih tepat waktu untuk fase konstruksi selanjutnya.',
+        location: 'RS Mitra Idaman, Banjar',
+        duration: '7 Hari (Site Clearance)'
     },
     {
         id: 'proj-3',
-        category: 'INFRASTRUKTUR',
-        title: 'Galian Jalur Kabel Optik & Pipa PDAM — Bekasi Barat',
-        image: '/asset/projects/tol_project.jpeg',
-        units: '2x CAT 305.5E2 (Standard)',
-        challenge: 'Galian presisi di trotoar kota tanpa merusak utilitas bawah tanah eksisting.',
-        solution: 'Deploy 2 unit CAT 305.5 (Zero Tail Swing) untuk galian paralel dengan rubber track.',
-        location: 'Bekasi Barat, Jawa Barat',
-        duration: '45 Hari (Progressive)'
+        category: 'LEVELING INFRASTRUKTUR',
+        title: 'Pekerjaan Grading & Leveling Lahan di Binangun, Kota Banjar',
+        image: '/asset/projects/binangun_leveling_v3_1771639913360.png',
+        imageAlt: 'Jasa Leveling Tanah Binangun, Cut and Fill Banjar, Sewa Dozer Komatsu D31P',
+        units: 'Komatsu PC75 & Dozer Komatsu D31P',
+        challenge: 'Pekerjaan meratakan kontur tanah yang bergelombang (Leveling) di area Binangun, Banjar yang menuntut pemindahan kubikasi tanah sekaligus pemadatan awal.',
+        solution: 'Kami menggunakan formasi combo alat berat: Excavator Komatsu PC75 bertugas menggali dan mendistribusikan tumpukan tanah, yang langsung disusul oleh Bulldozer Komatsu D31P (Swamp Dozer). Pemilihan Dozer D31P dengan Low Ground Pressure sangat strategis untuk mendorong dan meratakan tanah di kontur Binangun tanpa risiko unit amblas, menghasilkan hamparan sub-grade yang rata dan padat sempurna.',
+        location: 'Binangun, Kota Banjar',
+        duration: '21 Hari (Pemadatan Awal)'
     },
     {
         id: 'proj-4',
-        category: 'LAND CLEARING',
-        title: 'Pembukaan Akses Jalan Desa — Purwakarta Selatan',
-        image: '/asset/projects/tambang_project.jpeg',
-        units: '2x Komatsu PC75',
-        challenge: 'Medan berbatu dan akar pohon besar di lahan perbukitan yang belum pernah dibuka.',
-        solution: 'PC75 dengan ripper tip untuk breaking akar, kemudian loading ke area disposal.',
-        location: 'Purwakarta Selatan, Jawa Barat',
-        duration: '30 Hari (Complete)'
+        category: 'DEMOLISI RITEL KOMERSIAL',
+        title: 'Pembongkaran Serentak Rantai Ritel Erablue di Priangan Timur',
+        image: '/asset/projects/erablue_demo_v3_1771639932998.png',
+        imageAlt: 'Jasa Pembongkaran Ruko Ciamis, Bongkar Bangunan Rajapolah, Sewa Alat Berat Tasikmalaya',
+        units: 'Armada Excavator Multi-Unit',
+        challenge: 'Persiapan lahan untuk ekspansi gerai toko elektronik nasional (Erablue) yang menuntut pembongkaran ruko dan bangunan tua di tiga pusat komersial yang padat lalu lintas secara paralel.',
+        solution: 'Tim pembongkaran kami dipercaya mengeksekusi lahan di Pusat Kota Ciamis, Kota Banjar, dan area Rajapolah - Tasikmalaya. Manuver operator kami memastikan bangunan eksisting rata dengan tanah dan sisa puing terangkut bersih tanpa merusak struktur properti tetangga yang berhimpitan. Eksekusi cepat di tiga wilayah strategis Priangan Timur ini membantu Erablue mengejar target Grand Opening mereka.',
+        location: 'Ciamis, Banjar, Rajapolah (Tasikmalaya)',
+        duration: '10 Hari per Titik'
     }
 ]
 
@@ -740,7 +1161,7 @@ export const faqData = [
         answer: 'Harga sewa mencakup unit dan upah operator standar (8 jam kerja). Solar (HSD) dan uang makan operator menjadi tanggung jawab penyewa. Hubungi kami untuk simulasi biaya All-In termasuk solar.'
     },
     {
-        question: 'Berapa biaya mobilisasi ke area Bogor / Purwakarta / luar Bekasi?',
+        question: 'Berapa biaya mobilisasi ke area Pangandaran / Garut / luar Tasikmalaya?',
         answer: 'Biaya mobilisasi dihitung berdasarkan jarak dari Pool kami ke lokasi proyek (pulang-pergi). Kami menggunakan Self-Loader sendiri sehingga biaya lebih kompetitif. Estimasi diberikan transparan sebelum Anda konfirmasi.'
     },
     {
@@ -778,7 +1199,7 @@ export const clientLogos = [
 // ============================================================
 export const companyStats = {
     projects: '50',
-    units: '4',
+    units: '11',
     clients: '45',
     experience: '8'
 }

@@ -2177,16 +2177,120 @@
 }
 
 /* Responsive */
+/* ── CTA SHIMMERING EFFECT ── */
+.shimmering-cta {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.shimmer-effect {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.4),
+            transparent);
+    animation: shimmer-anim 3s infinite linear;
+    z-index: 2;
+    pointer-events: none;
+}
+
+@keyframes shimmer-anim {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 200%;
+    }
+}
+
+.btn-text {
+    position: relative;
+    z-index: 3;
+}
+
+/* ── FLOATING HUD CONTROLS ── */
+.floating-action-hud {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.floating-back-btn,
+.floating-wa-btn {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: var(--gold-primary);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.floating-back-btn:hover {
+    border-color: var(--gold-primary);
+    background: rgba(212, 175, 55, 0.1);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.floating-wa-btn {
+    padding: 16px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 40px rgba(37, 211, 102, 0.4);
+}
+
+.wa-ring-pulse {
+    position: absolute;
+    inset: -4px;
+    border: 2px solid #25d366;
+    border-radius: 50%;
+    animation: wa-pulse 2s infinite ease-out;
+}
+
+@keyframes wa-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.6);
+        opacity: 0;
+    }
+}
+
+.btn-label-float {
+    font-size: 0.7rem;
+    color: var(--text-primary);
+}
+
 @media (max-width: 768px) {
-    .guarantee-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .trust-items-row {
-        grid-template-columns: 1fr;
-    }
-
-    .operator-trust-block {
-        padding: 24px 20px;
+    .floating-action-hud {
+        bottom: 20px;
+        right: 20px;
+        left: 20px;
     }
 }

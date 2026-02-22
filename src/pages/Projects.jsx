@@ -51,7 +51,7 @@ const Projects = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                        "50+ Proyek Terselesaikan di Jabodetabek & Jawa Barat. Spesialis Cut & Fill, Demolisi, dan Infrastruktur Jalan."
+                        "50+ Proyek Terselesaikan di Ciamis, Tasikmalaya, dan Priangan Timur. Spesialis Cut & Fill, Demolisi, dan Infrastruktur Jalan."
                     </motion.p>
                 </div>
             </section>

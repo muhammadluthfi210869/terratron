@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import SchemaOrg from '../components/SchemaOrg'
-import NavbarPustaka from '../components/NavbarPustaka'
 import { articlesData } from '../data/articlesData'
 import './Pustaka.css'
 
@@ -139,11 +138,7 @@ const Pustaka = ({ onBack }) => {
 
             <SchemaOrg schema={selectedArticleSchema} />
 
-            <NavbarPustaka
-                onBack={onBack}
-                activeCategory={activeCategory}
-                onCategoryChange={setActiveCategory}
-            />
+
 
             <main className="pustaka-content">
                 {selectedArticle ? (
@@ -245,7 +240,21 @@ const Pustaka = ({ onBack }) => {
 
                         <section className="pustaka-grid">
                             <div className="grid-header">
-                                <h2 className="grid-title">Terratron Indonesia ARCHIVE // {activeCategory}</h2>
+                                <h2 className="grid-title">Terratron Indonesia ARCHIVE</h2>
+
+                                {/* Integrated Category Filters */}
+                                <div className="pustaka-categories-inline">
+                                    {['SEMUA', 'PROBLEM SOLVING', 'COST ESTIMATION', 'LOCAL TERRAIN'].map((cat) => (
+                                        <button
+                                            key={cat}
+                                            className={`cat-tab-inline ${activeCategory === cat ? 'active' : ''}`}
+                                            onClick={() => setActiveCategory(cat)}
+                                        >
+                                            {cat}
+                                        </button>
+                                    ))}
+                                </div>
+
                                 <div className="record-count">REC: {filteredArticles.length}</div>
                             </div>
                             <div className="intelligence-feed-grid">

@@ -125,40 +125,40 @@ const GroundingSection = () => {
                 {/* Footer */}
                 <motion.footer className="site-footer" variants={itemVariants}>
                     <div className="service-areas">
-                        <span className="area-label">TARGET OPERASIONAL & KAWASAN INDUSTRI:</span>
+                        <span className="area-label">TARGET OPERASIONAL & KAWASAN:</span>
                         <div className="area-links">
-                            <Link to="/sewa-alat-berat/lokasi/karawang" className="area-link">Sewa Excavator KIIC Karawang</Link>
+                            <Link to="/sewa-alat-berat/lokasi/ciamis" className="area-link">Sewa Excavator Ciamis Kota</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cikarang" className="area-link">Rental Alat Berat Jababeka Cikarang</Link>
+                            <Link to="/sewa-alat-berat/lokasi/tasikmalaya" className="area-link">Rental Dozer Tasikmalaya</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cikarang-pusat" className="area-link">Sewa Dozer Delta Silicon</Link>
+                            <Link to="/sewa-alat-berat/lokasi/banjar" className="area-link">Sewa Alat Berat Banjar</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/karawang" className="area-link">Rental PC200 Suryacipta</Link>
+                            <Link to="/sewa-alat-berat/lokasi/pangandaran" className="area-link">Rental PC200 Pangandaran</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cibitung" className="area-link">Sewa Excavator MM2100 Cibitung</Link>
+                            <Link to="/sewa-alat-berat/lokasi/singaparna" className="area-link">Sewa Beko Singaparna</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cikarang" className="area-link">Rental Alat Berat Lippo Cikarang</Link>
+                            <Link to="/sewa-alat-berat/lokasi/cijeungjing" className="area-link">Sewa Excavator Cijeungjing</Link>
                         </div>
                     </div>
                     <div className="service-areas sub-areas">
                         <span className="area-label">KECAMATAN:</span>
                         <div className="area-links">
-                            <Link to="/sewa-alat-berat/lokasi/bekasi" className="area-link">Bekasi Timur</Link>
+                            <Link to="/sewa-alat-berat/lokasi/rajapolah" className="area-link">Rajapolah</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/bekasi" className="area-link">Tambun Selatan</Link>
+                            <Link to="/sewa-alat-berat/lokasi/ciawi" className="area-link">Ciawi</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cikarang-pusat" className="area-link">Cikarang Pusat</Link>
+                            <Link to="/sewa-alat-berat/lokasi/panjalu" className="area-link">Panjalu</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/bekasi" className="area-link">Bantar Gebang</Link>
+                            <Link to="/sewa-alat-berat/lokasi/cisaga" className="area-link">Cisaga</Link>
                             <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/bogor" className="area-link">Sentul Bogor</Link>
+                            <Link to="/sewa-alat-berat/lokasi/banjarsari" className="area-link">Banjarsari</Link>
                         </div>
                     </div>
 
                     <div className="footer-brand">
                         <img src="/asset/logo_brand.jpeg" alt="Terratron Logo" className="footer-brand-logo-img" />
                         <span className="footer-logo">TERRATRON INDONESIA HEAVY EQUIPMENT</span>
-                        <span className="footer-tagline">Solusi Alat Berat Jabodetabek</span>
+                        <span className="footer-tagline">Solusi Alat Berat Priangan Timur</span>
                     </div>
 
                     <div className="footer-trust">

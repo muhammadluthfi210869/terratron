@@ -99,6 +99,18 @@ body {
   min-height: 100dvh;
 }
 
+.app {
+  padding-top: 90px;
+  /* Offset for fixed Tactical Monolith Navbar */
+}
+
+@media (max-width: 992px) {
+  .app {
+    padding-top: 70px;
+    /* Offset for condensed/mobile navbar */
+  }
+}
+
 /* === SELECTION === */
 ::selection {
   background: var(--gold-primary);

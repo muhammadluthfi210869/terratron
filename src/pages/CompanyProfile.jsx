@@ -5,7 +5,7 @@ const CompanyProfile = ({ onBack }) => {
     const companyData = {
         name: 'PT Terratron Indonesia HEAVY EQUIPMENT',
         founded: '2015',
-        tagline: 'Mitra Strategis Infrastruktur & Konstruksi Sipil Terpercaya di Jawa Barat',
+        tagline: 'Mitra Strategis Infrastruktur & Konstruksi Sipil Terpercaya di Priangan Timur',
         address: 'Dsn. Cishung, RT.04/RW.08, Bojongmengger, Kec. Cijeungjing, Kab. Ciamis, Jawa Barat 46271',
         phone: '0822-6028-0392',
         email: 'admin@Terratron Indonesia-he.co.id',
@@ -15,7 +15,7 @@ const CompanyProfile = ({ onBack }) => {
             { val: '150+', label: 'COMPLETED PROJECTS' }
         ],
         timeline: [
-            { year: '2015', title: 'THE GENESIS', event: 'Pendirian & Pembelian Unit Pertama (PC200). Fokus pada penyewaan lokal Bekasi.', type: 'origin' },
+            { year: '2015', title: 'THE GENESIS', event: 'Pendirian & Pembelian Unit Pertama (PC200). Fokus pada penyewaan lokal Ciamis.', type: 'origin' },
             { year: '2018', title: 'INFRASTRUCTURE LEAP', event: 'Ekspansi ke Proyek Strategis Nasional (Tol Japek). Penambahan unit Dozer & Grader.', type: 'growth' },
             { year: '2021', title: 'DIGITAL & QUALITY CONTROL', event: 'Implementasi Fleet Management System & Sertifikasi ISO. Peremajaan armada besar-besaran.', type: 'quality' },
             { year: '2024', title: 'DOMINANCE', event: 'Perluasan Workshop & Gudang Suku Cadang. Total aset melampaui 15 unit spesifikasi tinggi.', type: 'current' }
@@ -146,15 +146,7 @@ const CompanyProfile = ({ onBack }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
         >
-            <header className="profile-header-bar">
-                <button className="back-btn" onClick={onBack}>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
-                        <path d="M19 12H5M12 19l-7-7 7-7" />
-                    </svg>
-                    <span>KEMBALI</span>
-                </button>
-                <div className="hq-badge">PT Terratron Indonesia HEAVY EQUIPMENT // HQ V2.0</div>
-            </header>
+
 
             <motion.main
                 className="profile-main"

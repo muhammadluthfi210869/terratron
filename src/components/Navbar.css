@@ -1,0 +1,489 @@
+/* === THE INDUSTRIAL HORIZON x SATELLITE STREAM === */
+:root {
+    --horizon-bg: rgba(8, 8, 8, 0.75);
+    --horizon-bg-scrolled: rgba(5, 5, 5, 0.95);
+    --horizon-border: rgba(212, 175, 55, 0.15);
+    /* Faint Gold */
+    --horizon-gold: #D4AF37;
+    --horizon-text: #F0F0F0;
+    --horizon-text-muted: #888888;
+    --font-heading: 'Outfit', 'Inter', system-ui, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+}
+
+.industrial-horizon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    z-index: 9999;
+    background: var(--horizon-bg);
+    backdrop-filter: blur(24px) saturate(140%);
+    -webkit-backdrop-filter: blur(24px) saturate(140%);
+    border-bottom: 1px solid var(--horizon-border);
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Condensed State (On Scroll) */
+.industrial-horizon.horizon-condensed {
+    height: 72px;
+    background: var(--horizon-bg-scrolled);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.7);
+}
+
+.horizon-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* DESKTOP VISIBILITY UTILS */
+.mobile-only {
+    display: none !important;
+}
+
+.desktop-only {
+    display: flex !important;
+}
+
+/* BRAND IDENTITY (Desktop) */
+.horizon-brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.3s ease;
+}
+
+.horizon-brand:hover {
+    opacity: 0.9;
+}
+
+.brand-logo-frame {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
+}
+
+.horizon-condensed .brand-logo-frame {
+    width: 36px;
+    height: 36px;
+}
+
+.brand-logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.1);
+}
+
+.brand-typography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-name {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    margin: 0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.brand-tagline {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--horizon-gold);
+    letter-spacing: 0.25em;
+    opacity: 0.8;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+
+.horizon-condensed .brand-tagline {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* NAVIGATION LINKS (Desktop) */
+.horizon-nav-desktop {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+.horizon-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizon-link-item {
+    position: relative;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.link-text {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--horizon-text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.horizon-link-item:hover .link-text,
+.horizon-link-item.active .link-text {
+    color: #FFFFFF;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+.active-indicator {
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: var(--horizon-gold);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--horizon-gold);
+}
+
+.link-hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.4s ease;
+    pointer-events: none;
+    border-radius: 4px;
+}
+
+.horizon-link-item:hover .link-hover-effect {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* ACTIONS (Desktop) */
+.horizon-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.horizon-cta {
+    position: relative;
+    padding: 12px 28px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizon-cta:hover {
+    border-color: var(--horizon-gold);
+    background: rgba(212, 175, 55, 0.1);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.cta-shine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: skewX(-20deg);
+    transition: left 0.6s ease;
+}
+
+.horizon-cta:hover .cta-shine {
+    left: 150%;
+}
+
+/* ========================================= */
+/* === MOBILE: THE SATELLITE STREAM === */
+/* ========================================= */
+
+.satellite-mobile-unit {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Level 1: Command Deck (Top) */
+.satellite-top-deck {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: rgba(5, 5, 5, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.satellite-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.satellite-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.satellite-brand-name {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    /* Metallic Sheen Gradient - Solid State (No Animation) */
+    background: linear-gradient(90deg,
+            var(--horizon-gold) 0%,
+            #FFF 50%,
+            var(--horizon-gold) 100%);
+    background-size: 100% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* ENHANCED MOBILE CTA - SOLID & BOLD (No Shimmer) */
+.satellite-cta-compact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.6);
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+    transition: all 0.3s ease;
+}
+
+@keyframes metallicSheen {
+    0% {
+        background-position: 200% center;
+    }
+
+    100% {
+        background-position: -200% center;
+    }
+}
+
+/* Level 2: Nav Stream (Center Aligned) */
+.satellite-stream-deck {
+    height: 48px;
+    /* Slightly taller for breathing room */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center Horizontal */
+    position: relative;
+    background: rgba(12, 12, 12, 0.92);
+    /* Darker, more solid */
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stream-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center Items inside track */
+    gap: 28px;
+    /* Increased gap for clarity */
+    padding: 0 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.stream-track::-webkit-scrollbar {
+    display: none;
+}
+
+.stream-node {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 0 4px;
+    /* Touch target enhancement */
+}
+
+.stream-label {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    /* Slightly larger */
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 0.08em;
+    /* Adjusted for centered balance */
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.stream-node.active .stream-label {
+    color: #FFF;
+    font-weight: 800;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.1em;
+    /* Slight expansion on active */
+}
+
+.stream-active-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--horizon-gold);
+    box-shadow: 0 -4px 12px rgba(212, 175, 55, 0.6);
+    border-radius: 2px 2px 0 0;
+}
+
+/* Edge Fades */
+.stream-fade-edge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+    /* Reduced width */
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(12, 12, 12, 1));
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Left Fade for symmetry */
+.stream-fade-edge-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 100%;
+    background: linear-gradient(-90deg, transparent, rgba(12, 12, 12, 1));
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Visual Bottom Edge */
+.horizon-edge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.3) 50%, transparent 100%);
+    pointer-events: none;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 850px) {
+
+    /* Hide Desktop Elements */
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: flex !important;
+    }
+
+    /* Adjust Main Container Height for Satellite Mode */
+    .industrial-horizon {
+        height: auto;
+        /* Allow auto height for stacking */
+        min-height: 96px;
+        /* 54 + 42 */
+        padding: 0;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .industrial-horizon.horizon-condensed {
+        height: auto;
+        /* Mantain structure on scroll */
+        min-height: 96px;
+    }
+
+    .horizon-container {
+        padding: 0;
+        display: none;
+        /* Double assurance */
+    }
+}
+
+@media (min-width: 851px) {
+    .mobile-only {
+        display: none !important;
+    }
+}

@@ -114,46 +114,7 @@ const HeroSection = () => {
                 <div className="hero-noise" />
             </div>
 
-            {/* THE SILENT AUTHORITY - WORLD CLASS MINIMALIST BRANDING */}
-            <motion.div
-                className="silent-brand-header"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5, duration: 1.2 }}
-            >
-                <div className="brand-anchor">
-                    <div className="brand-logo-minimal">
-                        <img src="/asset/logo_brand.jpeg" alt="Terratron" />
-                    </div>
-                    <div className="brand-v-line" /> {/* Tactical Guide Line */}
-                    <div className="brand-identity-text">
-                        <div className="brand-name-row">
-                            <span className="brand-name-main">TERRATRON</span>
-                            <span className="brand-name-sep">|</span>
-                            <span className="brand-name-sub">INDONESIA</span>
-                        </div>
-                        <div className="brand-system-row">
-                            <span className="system-tag">INDUSTRIAL AUTHORITY // HQ_BKS</span>
-                            <div className="system-pulse-container">
-                                <span className="system-pulse-dot" />
-                                <span className="system-status">SECURE</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                {/* Sub-Metadata Grid */}
-                <div className="brand-meta-grid">
-                    <div className="meta-col">
-                        <span className="meta-label">SECTOR</span>
-                        <span className="meta-val">HEAVY EQUIPMENT</span>
-                    </div>
-                    <div className="meta-col">
-                        <span className="meta-label">COORD</span>
-                        <span className="meta-val">6.230°S 106.997°E</span>
-                    </div>
-                </div>
-            </motion.div>
 
             {/* Content */}
             <motion.div
@@ -162,44 +123,92 @@ const HeroSection = () => {
                 initial="hidden"
                 animate="visible"
             >
-                {/* Company Name - THE GIANT NAMECARD (SLAM EFFECT) */}
                 <motion.div className="hero-namecard" variants={slamVariants}>
-                    <h1 className="company-name">
-                        <span className="name-main">PUSAT SEWA EXCAVATOR</span>
-                        <span className="name-heavy">& ALAT BERAT JABODETABEK</span>
-                    </h1>
-                    <div className="gold-divider" />
-                    <div className="fleet-tagline-center">
-                        Unit 2020+ • Operator SIO • Mekanik 24 Jam
+                    <div className="company-name">
+                        <h1 className="name-main">PUSAT SEWA EXCAVATOR & DOZER</h1>
+                        <h2 className="name-heavy">CIAMIS & TASIKMALAYA</h2>
                     </div>
                 </motion.div>
 
-                {/* Verified Owner Badge - METAL EMBLEM (Non-Interactive) */}
-                <div className="hero-cta-group">
-                    <motion.div className="verified-emblem" variants={fadeWeightedVariants}>
-                        <svg className="emblem-checkmark" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                        </svg>
-                        <span className="emblem-text">VERIFIED OWNER & POOL</span>
-                    </motion.div>
 
-                    <motion.a
-                        href="https://wa.me/6281234567890?text=Halo%20Terratron Indonesia%20Heavy%20Equipment,%20saya%20ingin%20cek%20ketersediaan%20unit..."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hero-primary-cta"
-                        variants={fadeWeightedVariants}
-                    >
-                        <span className="cta-wa-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+
+
+
+                {/* HERO BADGES - TACTICAL SPEC-OPS TAGS */}
+                <motion.div
+                    className="hero-badges-container"
+                    variants={fadeWeightedVariants}
+                    style={{ marginTop: '0px' }} /* Initial spacing handled by CSS */
+                >
+                    <div className="hero-badge">
+                        <span className="badge-icon-svg">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M3 21h18" />
+                                <path d="M5 21V7" />
+                                <path d="M19 21V7" />
+                                <path d="M4 7h16" />
+                                <path d="m12 2-8 5h16z" />
+                                <path d="M10 21V7" />
+                                <path d="M14 21V7" />
                             </svg>
                         </span>
-                        <span className="cta-text">WA: CEK KETERSEDIAAN UNIT</span>
-                    </motion.a>
-                </div>
+                        <span className="badge-text">Unit Standby di Pool Priangan Timur</span>
+                    </div>
+                    <div className="hero-badge">
+                        <span className="badge-icon-svg">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M12.29 17a5 5 0 0 1-4.29-8.5" />
+                                <path d="M21 12a9 9 0 1 1-9-9c1.9 0 3.65.6 5.1 1.6" />
+                                <path d="M16 9v4h4" />
+                            </svg>
+                        </span>
+                        <span className="badge-text">Zero-Tolerance Maintenance</span>
+                    </div>
+                    <div className="hero-badge">
+                        <span className="badge-icon-svg">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <path d="M14 2v6h6" />
+                                <path d="m9 15 2 2 4-4" />
+                            </svg>
+                        </span>
+                        <span className="badge-text">Semua Unit Dilengkapi SILO Aktif & Operator ber-SIO</span>
+                    </div>
+                </motion.div>
 
-                {/* Stats Tape Counter - INDUSTRIAL ODOMETER PANEL */}
+                {/* WORLD CLASS TACTICAL CTA - Relocated for optimal flow */}
+                {/* WORLD CLASS TACTICAL CTA - THE MONOLITH */}
+                <motion.a
+                    href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20sewa%20excavator%20di%20Ciamis/Tasikmalaya..."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hero-tactical-cta"
+                    variants={fadeWeightedVariants}
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                >
+                    <span className="cta-text">CEK UNIT DI TASIK/CIAMIS HARI INI</span>
+                    <div className="cta-tactical-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+                            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+                            <path d="m21 3 1 11h-2" />
+                            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+                            <path d="M3 4h8" />
+                        </svg>
+                    </div>
+                </motion.a>
+
+            </motion.div>
+
+            {/* STRATEGIC PROJECT PARTNERS - THE PREMIUM GLASS DECK */}
+            <motion.div
+                className="hero-partners-section"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.0, duration: 1, ease: [0.22, 1, 0.36, 1] }} // Earlier animation
+            >
+                {/* Stats Tape Counter - Relocated to Bottom Deck */}
                 <motion.div
                     className="stats-tape"
                     variants={statsContainerVariants}
@@ -230,43 +239,6 @@ const HeroSection = () => {
                     <div className="tape-scanline" />
                 </motion.div>
 
-                {/* Trust Line - Inline Badges */}
-                <motion.div
-                    className="trust-line"
-                    variants={statsContainerVariants}
-                    initial="hidden"
-                    animate="visible"
-                >
-                    <motion.span className="trust-item" variants={trustVariants}>
-                        <svg className="trust-check-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                        ISO 9001
-                    </motion.span>
-                    <motion.span className="trust-separator" variants={trustVariants}>•</motion.span>
-                    <motion.span className="trust-item" variants={trustVariants}>
-                        <svg className="trust-check-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                        K3 CERTIFIED
-                    </motion.span>
-                    <motion.span className="trust-separator" variants={trustVariants}>•</motion.span>
-                    <motion.span className="trust-item" variants={trustVariants}>
-                        <svg className="trust-check-svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4">
-                            <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                        SILO
-                    </motion.span>
-                </motion.div>
-            </motion.div>
-
-            {/* STRATEGIC PROJECT PARTNERS - THE PREMIUM GLASS DECK */}
-            <motion.div
-                className="hero-partners-section"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.8, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            >
                 <div className="partners-label">
                     <span className="partners-line" />
                     <span className="partners-text">STRATEGIC PROJECT PARTNERS</span>
@@ -288,7 +260,6 @@ const HeroSection = () => {
                     ))}
                 </div>
             </motion.div>
-
             {/* Scroll Indicator - Minimal Industrial */}
             <motion.div
                 className="scroll-indicator"
@@ -310,7 +281,7 @@ const HeroSection = () => {
                     </svg>
                 </motion.div>
             </motion.div>
-        </section>
+        </section >
     )
 }
 

@@ -136,7 +136,7 @@ const FleetSection = ({ units, onSelectUnit, onViewAllArmada }) => {
         </motion.div>
 
         <motion.h2 className="titan-title" variants={itemVariants}>
-          <span className="title-main">PILIHAN ARMADA</span>
+          <span className="title-main">11/11 UNIT</span>
           <span className="title-accent">EXCAVATOR & ALAT BERAT</span>
         </motion.h2>
 

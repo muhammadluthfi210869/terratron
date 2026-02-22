@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
@@ -18,11 +18,12 @@ import Projects from './pages/Projects'
 import CompanyProfile from './pages/CompanyProfile'
 import Pustaka from './pages/Pustaka'
 import { fleetData, faqData } from './data/fleetData'
+import Navbar from './components/Navbar'
 import SchemaOrg from './components/SchemaOrg'
 
 const ScrollToTop = () => {
     const { pathname } = useLocation()
-    useState(() => {
+    useEffect(() => {
         window.scrollTo(0, 0)
     }, [pathname])
     return null
@@ -35,9 +36,9 @@ function App() {
     // Determine current page ID for FloatingDock active state
     const getPageId = (path) => {
         if (path === '/') return 'home'
-        if (path === '/sewa-alat-berat') return 'armada'
-        if (path === '/profil-perusahaan') return 'profile'
-        if (path === '/proyek-kami') return 'portfolio'
+        if (path.startsWith('/sewa-alat-berat')) return 'armada'
+        if (path.startsWith('/profil-perusahaan')) return 'profile'
+        if (path.startsWith('/proyek-kami')) return 'portfolio'
         if (path.startsWith('/pustaka-konstruksi')) return 'blog'
         return 'home'
     }
@@ -70,7 +71,7 @@ function App() {
             "opens": "08:00",
             "closes": "21:00"
         },
-        "areaServed": ["Ciamis", "Tasikmalaya", "Banjar", "Cikarang", "Karawang", "Bekasi", "Bogor", "Jawa Barat"]
+        "areaServed": ["Ciamis", "Tasikmalaya", "Banjar", "Pangandaran", "Garut", "Priangan Timur"]
     }
 
     const faqSchema = {
@@ -89,6 +90,7 @@ function App() {
     return (
         <div className="app">
             <ScrollToTop />
+            <Navbar />
             <AnimatePresence mode="wait">
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={
@@ -99,8 +101,8 @@ function App() {
                             transition={{ duration: 0.3 }}
                         >
                             <Helmet>
-                                <title>Sewa Excavator Bekasi & Alat Berat Termurah (Unit 2020+) - Terratron Indonesia</title>
-                                <meta name="description" content="Terratron Indonesia Heavy Equipment: Pusat sewa excavator PC200, PC75, Dozer, dan Vibro di Bekasi & Cikarang. Unit terbaru, operator SIO, mekanik standby 24 jam. Cek harga promo!" />
+                                <title>Sewa Excavator Ciamis Tasikmalaya & Alat Berat Termurah (Unit 2020+) - Terratron Indonesia</title>
+                                <meta name="description" content="Terratron Indonesia Heavy Equipment: Pusat sewa excavator PC200, PC75, Dozer, dan Vibro di Ciamis & Tasikmalaya. Unit terbaru, operator SIO, mekanik standby 24 jam. Cek harga promo!" />
                             </Helmet>
                             <SchemaOrg schema={businessSchema} />
                             <SchemaOrg schema={faqSchema} />
@@ -188,8 +190,8 @@ function App() {
                             transition={{ duration: 0.3 }}
                         >
                             <Helmet>
-                                <title>Jasa Cut and Fill & Pematangan Lahan Karawang - Bekasi - Proyek Kami</title>
-                                <meta name="description" content="Portofolio pengerjaan cut and fill, galian basement, dan pembersihan lahan di Kawasan Industri KIIC, Jababeka, dan Delta Silicon." />
+                                <title>Jasa Cut and Fill & Pematangan Lahan Ciamis - Tasikmalaya - Proyek Kami</title>
+                                <meta name="description" content="Portofolio pengerjaan cut and fill, galian basement, dan pembersihan lahan di Priangan Timur." />
                             </Helmet>
                             <Projects />
                         </motion.div>
@@ -223,9 +225,6 @@ function App() {
                 </Routes>
             </AnimatePresence>
 
-            <FloatingDock
-                activePage={getPageId(location.pathname)}
-            />
 
             <AnimatePresence>
                 {selectedUnit && (
