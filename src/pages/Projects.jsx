@@ -183,7 +183,7 @@ const Projects = () => {
                             Diskusikan RAB (Rencana Anggaran Biaya) dan Metode Kerja dengan tim ahli kami. Konsultasi Gratis.
                         </p>
                         <a
-                            href="https://wa.me/6281283622416?text=Halo%20Terratron Indonesia%20Heavy%20Equipment,%20saya%20ingin%20konsultasi%20hitung%20RAB%20untuk%20proyek..."
+                            href="https://wa.me/6282260280392?text=Halo%20Terratron Indonesia%20Heavy%20Equipment,%20saya%20ingin%20konsultasi%20hitung%20RAB%20untuk%20proyek..."
                             className="cta-btn-wa"
                             target="_blank"
                             rel="noopener noreferrer"

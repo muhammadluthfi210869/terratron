@@ -179,7 +179,7 @@ const HeroSection = () => {
                 {/* WORLD CLASS TACTICAL CTA - Relocated for optimal flow */}
                 {/* WORLD CLASS TACTICAL CTA - THE MONOLITH */}
                 <motion.a
-                    href="https://wa.me/6281234567890?text=Halo,%20saya%20butuh%20sewa%20excavator%20di%20Ciamis/Tasikmalaya..."
+                    href="https://wa.me/6282260280392?text=Halo,%20saya%20butuh%20sewa%20excavator%20di%20Ciamis/Tasikmalaya..."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hero-tactical-cta"

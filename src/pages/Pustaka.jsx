@@ -202,7 +202,7 @@ const Pustaka = ({ onBack }) => {
                                 <h3>Butuh Konsultasi Teknis Terkait Proyek Anda?</h3>
                                 <p>Tim ahli Terratron Indonesia Heavy Equipment siap membantu menghitung estimasi kebutuhan alat dan biaya proyek secara akurat.</p>
                                 <div className="cta-actions">
-                                    <a href={`https://wa.me/6281211666113?text=Halo%20Terratron Indonesia,%20saya%20tertarik%20konsultasi%20mengenai%20${encodeURIComponent(selectedArticle.title)}`} className="cta-btn gold">HUBUNGI SPESIALIS (WA)</a>
+                                    <a href={`https://wa.me/6282260280392?text=Halo%20Terratron Indonesia,%20saya%20tertarik%20konsultasi%20mengenai%20${encodeURIComponent(selectedArticle.title)}`} className="cta-btn gold">HUBUNGI SPESIALIS (WA)</a>
                                     <button onClick={handleCloseDossier} className="cta-btn outline">LIHAT ARTIKEL LAINNYA</button>
                                 </div>
                             </div>

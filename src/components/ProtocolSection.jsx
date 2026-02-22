@@ -202,7 +202,7 @@ const ProtocolSection = () => {
                     transition={{ delay: 1.8, duration: 0.6 }}
                 >
                     <a
-                        href="https://wa.me/6281234567890?text=Halo%20Pak,%20saya%20ingin%20sewa%20unit"
+                        href="https://wa.me/6282260280392?text=Halo%20Pak,%20saya%20ingin%20sewa%20unit"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-button"
