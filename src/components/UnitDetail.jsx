@@ -166,7 +166,7 @@ const UnitDetail = ({ unit, onClose }) => {
                 {/* OFFICIAL PRINT DOCUMENT: TERRATRON INDONESIA (OFF-SCREEN) */}
                 <div className="official-print-document">
                     <div className="print-header-logo">
-                        <img src="/asset/logo_brand.jpeg" alt="Terratron Logo" className="print-brand-img" />
+                        <img src="/asset/logo_brand (1).webp" alt="Terratron Logo" className="print-brand-img" />
                         <span className="print-brand-text">TERRATRON INDONESIA // HEAVY EQUIPMENT</span>
                     </div>
                     <div className="print-header-main">

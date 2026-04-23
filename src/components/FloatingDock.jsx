@@ -106,7 +106,7 @@ const FloatingDock = ({ activePage }) => {
                                     <div className="dock-icon-wrapper">
                                         {item.isLogo ? (
                                             <div className="tactical-logo">
-                                                <img src="/asset/logo_brand.jpeg" alt="Terratron Logo" className="logo-img-lux" />
+                                                <img src="/asset/logo_brand (1).webp" alt="Terratron Logo" className="logo-img-lux" />
                                             </div>
                                         ) : (
                                             item.icon
@@ -128,7 +128,7 @@ const FloatingDock = ({ activePage }) => {
                         >
                             <div className="orb-scanner"></div>
                             <div className="orb-core">
-                                <img src="/asset/logo_brand.jpeg" alt="T" className="orb-logo-img" />
+                                <img src="/asset/logo_brand (1).webp" alt="Terratron Logo" className="orb-logo-img" />
                             </div>
                             <svg className="orb-progress" viewBox="0 0 40 40">
                                 <motion.circle

@@ -9,14 +9,24 @@ export const articlesData = [
         readTime: '6 Min Baca',
         author: 'Tim Teknis Terratron Indonesia Heavy Equipment',
         meta: 'Akses jalan proyek < 3 meter di Tasikmalaya/Ciamis? Jangan paksa PC200 masuk. Simak spesifikasi dimensi Excavator PC75 dengan Track Karet yang aman untuk aspal perumahan.',
-        img: '/asset/blog/cover_blog1.jpeg',
+        altText: 'Sewa Excavator Mini PC75 Perumahan Padat Tasikmalaya Ciamis - Terratron',
+        img: '/asset/blog/cover_blog1 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Mimpi Buruk Kontraktor: "Alat Datang, Tapi Nyangkut"</h3>
+                <h2>Mimpi Buruk Kontraktor: "Alat Datang, Tapi Nyangkut"</h2>
                 <p class="leader-text">Pernahkah Anda mengalami situasi horor ini: <em>Lowbed</em> sudah tiba di depan komplek, Excavator PC200 diturunkan, tapi saat mau masuk ke lokasi proyek, <strong>lebar jalan hanya 3 meter</strong> dan terhalang gapura perumahan setinggi 2.8 meter?</p>
-                <p>Akibatnya fatal: Alat harus pulang (kena biaya <em>Mob-Demob</em> percuma dari *pool*), proyek molor karena harus cari alat pengganti, atau lebih parah: Memaksa masuk dan menghancurkan aspal/pagar warga yang membuat biaya ganti rugi membengkak. Di area padat penduduk seperti pusat kota <strong>Tasikmalaya (Jl. HZ Mustofa, BKR)</strong>, atau perumahan padat di <strong>Ciamis Kota</strong>, urusan <strong>Akses</strong> adalah musuh utama kontraktor, bukan galiannya.</p>
                 
-                <h3>1. Bedah Dimensi: Apakah PC75 Muat di Gang Anda?</h3>
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Konsultasi Cepat via WhatsApp</h4>
+                        <p>Tanya admin kami tentang akses jalan lokasi Anda sekarang juga.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20tanya%20akses%20jalan%20untuk%20sewa%20PC75%20di%20perumahan" class="cta-link-btn" target="_blank">CHAT WHATSAPP</a>
+                    </div>
+                </div>
+
+                <h2>1. Bedah Dimensi: Apakah PC75 Muat di Gang Anda?</h2>
                 <p>Dalam konstruksi, 10 cm adalah perbedaan antara "Masuk" dan "Nyangkut". Berikut adalah <strong>Tabel Perbandingan Dimensi Kritis</strong> antara Excavator Standar (PC200) vs Mini (PC75) vs Micro (PC50):</p>
                 
                 <div class="data-telemetry-table">
@@ -39,42 +49,17 @@ export const articlesData = [
                     </table>
                 </div>
 
-                <h3>2. Fitur Wajib: Rubber Track vs Steel Track</h3>
+                <h2>2. Fitur Wajib: Rubber Track vs Steel Track</h2>
                 <p>Di proyek perumahan <strong>Priangan Timur</strong> yang sudah di-paving atau di-aspal <em>hotmix</em>, rantai besi adalah perusak. Unit PC75 Terratron Indonesia Heavy Equipment dilengkapi opsi <strong>RUBBER TRACK (Rantai Karet)</strong> atau <strong>RUBBER PAD</strong>.</p>
                 <div class="technical-specs-box">
                     <ul>
                         <li><strong>Zero Damage:</strong> Tidak akan menggores aspal atau memecahkan paving block.</li>
                         <li><strong>Low Noise:</strong> Suara pergerakan alat jauh lebih senyap, menghindari komplain warga.</li>
-                        <li><strong>High Traction:</strong> Cengkeraman lebih baik di permukaan licin saat hujan dibanding besi.</li>
                     </ul>
                 </div>
 
-                <h3>3. Analisa Biaya: Sewa Alat vs Tenaga Kuli (Manual)</h3>
-                <div class="comparison-matrix">
-                    <div class="matrix-column">
-                        <h4>Tenaga Manual (Borongan Lokal)</h4>
-                        <ul>
-                            <li>Waktu: 10 - 14 Hari</li>
-                            <li>Total Upah: ± Rp 7.500.000 (Asumsi UMR Ciamis/Tasik)</li>
-                        </ul>
-                    </div>
-                    <div class="matrix-column">
-                        <h4><a href="/armada" style="color: var(--gold-primary);">Sewa Excavator Mini PC75</a></h4>
-                        <ul>
-                            <li>Waktu: 1 Hari Selesai</li>
-                            <li>Total Biaya: ± Rp 6.000.000 - Rp 7.000.000</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="faq-section">
-                    <h4>FAQ (Pertanyaan Sering Ditanya Kontraktor Lokal)</h4>
-                    <p><strong>Q: Apakah PC75 boros solar?</strong><br/>A: Tidak. Konsumsi rata-rata PC75 tahun muda (2020+) adalah 7 - 10 Liter/Jam. Kami suplai alat yang sehat agar Anda tidak boncos BBM.</p>
-                    <p><strong>Q: Bisa sewa harian cuma buat 1-2 hari di Ciamis?</strong><br/>A: Bisa. Kami melayani sistem sewa per shift khusus wilayah operasional kami tanpa minimum charge berlebihan.</p>
-                </div>
-
                 <blockquote>
-                    <strong>PENTING:</strong> Selalu ukur lebar gapura dan kabel listrik sebelum memesan alat. Tim survei Terratron Indonesia siap membantu survei lokasi gratis untuk wilayah Ciamis dan Tasikmalaya. Hubungi kami untuk <a href="/kontak" style="color: var(--gold-primary);"><strong>Sewa Excavator Ciamis</strong></a> yang aman dan legal.
+                    <strong>BACA JUGA:</strong> Masih bingung bedanya alat ini dengan "Beko" panggil? Simak <a href="/pustaka/beda-beko-dan-excavator-tips-sewa-ciamis" style="color: var(--gold-primary);">Panduan Beko vs Excavator</a> agar tidak salah pesan.
                 </blockquote>
             </div>
         `
@@ -89,14 +74,25 @@ export const articlesData = [
         readTime: '8 Min Baca',
         author: 'Kepala Divisi Teknik Terratron Indonesia Corp',
         meta: 'Sewa excavator murah tahun tua seringkali berakhir boncos di solar. Lihat analisa hidden cost kontraktor Ciamis & Tasikmalaya untuk unit 2020+ di sini.',
-        img: '/asset/blog/cover_blog2.jpeg',
+        altText: 'Analisa Biaya Sewa Excavator Baru 2020 Proyek Ciamis Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog2 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Jebakan Psikologis Kontraktor: "Selisih Rp 20.000/Jam yang Menghancurkan Profit"</h3>
+                <h2>Jebakan Psikologis Kontraktor: Selisih Rp 20.000/Jam yang Menghancurkan Profit</h2>
                 <p class="leader-text">Banyak kontraktor di <strong>Ciamis dan Tasikmalaya</strong> terjebak memilih vendor rental alat berat lokal dengan tawaran harga sewa per jam termurah. Namun, data lapangan membuktikan bahwa menyewa "Besi Tua" bisa membuang belasan juta rupiah per bulan hanya dari pemborosan solar dan <em>downtime</em>.</p>
                 
-                <h3>1. The Fuel Burn Rate: Kebocoran RAB Terbesar</h3>
-                <p>Di Priangan Timur, margin proyek seringkali sudah tipis karena tingginya biaya logistik material (pasir dari wilayah Galunggung, pemecah batu dari Banjar). Jangan diperparah dengan mesin boros.</p>
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Dapatkan Penawaran Harga Unit Baru</h4>
+                        <p>Unit ready 2020 ke atas. Jauh lebih irit solar dan produktif.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20tanya%20harga%20sewa%20unit%20tahun%20muda" class="cta-link-btn" target="_blank">TANYA HARGA</a>
+                    </div>
+                </div>
+
+                <h2>1. The Fuel Burn Rate: Kebocoran RAB Terbesar</h2>
+                <p>Di Priangan Timur, margin proyek seringkali sudah tipis karena tingginya biaya logistik material. Jangan diperparah dengan mesin boros.</p>
                 <div class="data-telemetry-table">
                     <table>
                         <thead>
@@ -112,18 +108,9 @@ export const articlesData = [
                         </tbody>
                     </table>
                 </div>
-                <p>Meskipun sewa unit tua lebih murah Rp 35.000/jam, pemborosan solarnya mencapai Rp 129.500/jam. Anda tetap <strong>rugi bersih Rp 94.500 tiap jamnya</strong>.</p>
-
-                <h3>2. Cycle Time & Produktivitas Galian</h3>
-                <p>Ketika Anda menggarap proyek cut & fill pematangan lahan di Tasikmalaya, unit baru menghasilkan <strong>40% LEBIH BANYAK</strong> volume tanah dalam waktu yang sama karena pompa hidrolik yang prima dan teknologi <em>Load Sensing</em>.</p>
-
-                <div class="faq-section">
-                    <h4>FAQ: Pertanyaan Kritis Kontraktor Daerah</h4>
-                    <p><strong>Q: Apakah semua unit baru pasti irit?</strong><br/>A: Tergantung standar perawatan vendor. Di Terratron Indonesia, kami mengganti filter solar dan udara setiap 250 Jam secara disiplin sesuai standar pabrik. <a href="/armada" style="color: var(--gold-primary);"><strong>Cek kondisi armada kami</strong></a>.</p>
-                </div>
 
                 <blockquote>
-                    <strong>VONIS AKHIR:</strong> Dalam proyek Cut & Fill 10.000 m³ di wilayah Priangan Timur, menggunakan unit prima menghemat total Rp 30.139.000 (41% lebih hemat) dibanding memaksa memakai unit tua yang gampang overheat. Percayakan <a href="/kontak" style="color: var(--gold-primary);"><strong>Sewa Alat Berat Tasikmalaya</strong></a> Anda pada ahlinya.
+                    <strong>VONIS AKHIR:</strong> Dalam proyek Cut & Fill 10.000 m³ di wilayah Priangan Timur, menggunakan unit prima menghemat total Rp 30.139.000 (41% lebih hemat). Cek <a href="/pustaka/harga-sewa-excavator-terbaru-2026-ciamis-tasikmalaya" style="color: var(--gold-primary);">Harga Sewa 2026</a> untuk simulasi biaya terbaru.
                 </blockquote>
             </div>
         `
@@ -138,44 +125,28 @@ export const articlesData = [
         readTime: '6 Min Baca',
         author: 'Tim Teknis Terratron Indonesia Heavy Equipment',
         meta: 'Excavator ambles di lahan sawah Ciamis atau proyek irigasi Sungai Citanduy? Pelajari teknik matras kayu galam dan spesifikasi Bucket Skeleton untuk tanah basah.',
-        img: '/asset/blog/cover_blog3.jpeg',
+        altText: 'Strategi Alat Berat Tanah Lunak Sungai Citanduy Banjar Ciamis - Terratron',
+        img: '/asset/blog/cover_blog3 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Mimpi Buruk Proyek Pengairan: "The Sinking Monster"</h3>
-                <p class="leader-text">Di area pesisir Pangandaran, tepian Sungai Citanduy (Banjar-Ciamis), atau proyek pengerukan sawah Banjarsari, tanah memiliki daya dukung yang sangat rendah. Tanpa persiapan matang, excavator seharga 1 Milyar bisa ambles dalam lumpur dalam hitungan menit.</p>
+                <h2>Mimpi Buruk Proyek Pengairan: "The Sinking Monster"</h2>
+                <p class="leader-text">Di area pesisir Pangandaran, tepian Sungai Citanduy (Banjar-Ciamis), atau proyek pengerukan sawah Banjarsari, tanah memiliki daya dukung yang sangat rendah. Tanpa persiapan matang, excavator seharga 1 Milyar bisa ambles.</p>
                 
-                <h3>1. Teknik Matras Kayu (Log Matting) Ala Lokal</h3>
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Butuh Spec Khusus Tanah Lunak?</h4>
+                        <p>Konsultasikan kebutuhan matras dan unit Swamp kami via WhatsApp.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ada%20proyek%20di%20lahan%20rawa/lunak,%20boleh%20konsultasi?" class="cta-link-btn" target="_blank">KONSULTASI WA</a>
+                    </div>
+                </div>
+
+                <h2>1. Teknik Matras Kayu (Log Matting) Ala Lokal</h2>
                 <p>Operator berpengalaman menggunakan kayu Galam atau Dolken yang disusun dengan teknik <strong>Cross-Webbing</strong> untuk mendistribusikan beban alat secara merata di atas lumpur tebal Jawa Barat Selatan.</p>
 
-                <h3>2. Senjata Rahasia Pengerukan: Bucket Skeleton</h3>
-                <p>Jangan gunakan bucket standar untuk tanah basah. Kami menyarankan penggunaan <em>Bucket Skeleton</em> (Kerangka) untuk efisiensi maksimal.</p>
-                <div class="technical-specs-box">
-                    <ul>
-                        <li><strong>Water Separation:</strong> Air langsung keluar lewat celah jeruji saat menggali lumpur sungai Citanduy.</li>
-                        <li><strong>Efficiency:</strong> Volume pembersihan sampah atau sedimentasi yang terangkat naik hingga 40% per hari tanpa buang solar angkut air.</li>
-                    </ul>
-                </div>
-
-                <h3>3. Pemilihan Unit Spesialis</h3>
-                <div class="data-telemetry-table">
-                    <table>
-                        <thead>
-                            <tr><th>Kondisi Lahan Priangan Timur</th><th>Rekomendasi Unit</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Rawa Dangkal / Sawah Ciamis</td><td><strong>PC200 Long Arm</strong> (Jangkauan 15m)</td></tr>
-                            <tr><td>Lumpur Hidup Murni</td><td><strong>Swamp Excavator</strong> (Ponton)</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="faq-section">
-                    <h4>FAQ (Pertanyaan Kontraktor Pengairan)</h4>
-                    <p><strong>Q: Apakah Terratron menyediakan kayu matrasnya ke Ciamis?</strong><br/>A: Tidak. Kayu matras adalah <em>consumable material</em> proyek. Penyewa wajib menyiapkannya dari vendor kayu lokal.</p>
-                </div>
-
                 <blockquote>
-                    <strong>TIPS PROYEK:</strong> Masukkan biaya pembelian Kayu Galam ke dalam RAB Persiapan Anda. Butuh alat yang prima untuk lahan ekstrem? <a href="/kontak" style="color: var(--gold-primary);"><strong>Hubungi Terratron Indonesia</strong></a>. Jangan biarkan alat rental bodong jadi monumen karatan di tengah sawah Anda.
+                    <strong>INFO PENTING:</strong> Teknik ini sangat krusial jika Anda mendapatkan proyek di seksi 1 <a href="/pustaka/proyek-tol-getaci-tasikmalaya-ciamis-sewa-alat-berat" style="color: var(--gold-primary);">Tol Getaci Tasik-Ciamis</a> yang melewati banyak area persawahan.
                 </blockquote>
             </div>
         `
@@ -189,46 +160,38 @@ export const articlesData = [
         readTime: '8 Min Baca',
         author: 'Tim Estimator Terratron Indonesia',
         meta: 'Bingung menghitung RAB Cut & Fill pematangan lahan Tasikmalaya? Simak rumus volume tanah asli (swelling factor) dan simulasi biaya alat berat Priangan Timur.',
-        img: '/asset/blog/cover_blog4.jpeg',
+        altText: 'Cara Hitung Biaya Cut Fill Meter Kubik Ciamis Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog4 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Mengapa RAB Cut & Fill Pematangan Lahan Sering Meleset?</h3>
-                <p class="leader-text">Banyak kontraktor pemula rugi miliaran di proyek perumahan Tasikmalaya. Kesalahan menghitung volume tanah adalah "Dosa Mematikan". 1 m³ tanah di dalam bumi TIDAK SAMA dengan 1 m³ tanah di atas dump truk karena sifat <em>Swelling</em> (Mengembang).</p>
+                <h2>Mengapa RAB Cut & Fill Pematangan Lahan Sering Meleset?</h2>
+                <p class="leader-text">Banyak kontraktor pemula rugi miliaran di proyek perumahan Tasikmalaya. Kesalahan menghitung volume tanah adalah "Dosa Mematikan". 1 m³ tanah di dalam bumi TIDAK SAMA dengan 1 m³ tanah di atas dump truk.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Butuh Estimasi Biaya Akurat?</h4>
+                        <p>Kirimkan foto lokasi/luas lahan, admin kami bantu berikan estimasi Harian/Borongan.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20tanya%20estimasi%20biaya%20cut%20fill%20untuk%20lahan%20saya" class="cta-link-btn" target="_blank">AMBIL ESTIMASI</a>
+                    </div>
+                </div>
                 
-                <h3>1. Faktor Kembang Susut (Swelling Factor) Lokal</h3>
+                <h2>1. Faktor Kembang Susut (Swelling Factor) Lokal</h2>
                 <div class="data-telemetry-table">
                     <table>
                         <thead>
-                            <tr><th>Material</th><th>Swelling Factor</th><th>Konversi (1 BM ke LM)</th></tr>
+                            <tr><th>Material</th><th>Swelling Factor</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>Pasir (Galunggung)</td><td>10 - 15%</td><td>1.10 - 1.15 m³</td></tr>
-                            <tr><td>Tanah Liat (Ciamis)</td><td>20 - 40%</td><td>1.20 - 1.40 m³</td></tr>
-                            <tr><td>Tanah Merah Biasa</td><td>20 - 25%</td><td>1.25 m³</td></tr>
+                            <tr><td>Pasir (Galunggung)</td><td>10 - 15%</td></tr>
+                            <tr><td>Tanah Liat (Ciamis)</td><td>20 - 40%</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p>Galian 1.000 m³ tanah perbukitan akan menghasilkan sekitar 1.250 m³ volume lepas yang harus diangkut truk tronton. Jika RAB Anda tidak memasukkan angka 250 m³ ekstra ini, Anda nombok ritase.</p>
-
-                <h3>2. Simulasi RAB: Proyek Pabrik 1 Hektar (10.000 m³)</h3>
-                <div class="math-calculation-box">
-                    <h4>HPP Estimasi (Harga Priangan Timur 2026):</h4>
-                    <ul>
-                        <li>Total <a href="/armada" style="color: var(--gold-primary);">Sewa 2 Unit PC200</a> (14 Hari): Rp 55.440.000</li>
-                        <li>Total Solar Industri (Asumsi Rp 14.500/L): Rp 113.960.000</li>
-                        <li>Mobilisasi Lowbed (PP) + Operator: Rp 20.300.000</li>
-                        <li><strong>NET HPP: Rp 189.700.000</strong></li>
-                        <li><strong>HPP per m³ (Swelled): ± Rp 18.970 / m³</strong></li>
-                    </ul>
-                </div>
-
-                <div class="faq-section">
-                    <h4>FAQ (Pertanyaan Umum Estimator)</h4>
-                    <p><strong>Q: Bagaimana cara ukur volume akurat sebelum sewa alat?</strong><br/>A: Paling akurat wajib menyewa jasa topografi <em>Total Station</em> atau Drone Lidar. Cara kasar: (Luas Kolot) x rata-rata kedalaman elevasi target.</p>
-                </div>
 
                 <blockquote>
-                    <strong>TIPS TIM ESTIMATOR TERRATRON:</strong> Selalu tambahkan 10% <em>Security Factor</em> dalam RAB Cut & Fill untuk biaya tak terduga seperti cuaca buruk (hujan harian Tasik) atau pungli koordinasi lingkungan rute <em>dump truck</em>.
+                    <strong>ANALISA HARGA:</strong> Untuk angka nominal yang lebih detail, silakan buka <a href="/pustaka/harga-sewa-excavator-terbaru-2026-ciamis-tasikmalaya" style="color: var(--gold-primary);">Update Harga Sewa 2026</a> wilayah Ciamis & Tasik.
                 </blockquote>
             </div>
         `
@@ -242,41 +205,25 @@ export const articlesData = [
         readTime: '5 Min Baca',
         author: 'Tim Operasional Terratron Indonesia',
         meta: 'Dilema kontraktor Ciamis/Tasik: Pilih sewa alat berat jam-jaman (rental) atau borongan terima beres? Pelajari risiko cuaca hujan pegunungan terhadap kontrak Anda.',
-        img: '/asset/blog/cover_blog5.jpeg',
+        altText: 'Alamat Pool Rental Alat Berat Tasikmalaya Ciamis - Terratron',
+        img: '/asset/blog/cover_blog5 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Dilema Klasik: "Amankan Cashflow atau Kejar Profit Maksimal?"</h3>
-                <p class="leader-text">Bagi kontraktor lokal di Priangan Timur, keputusan pertama yang menentukan hidup matinya profit adalah skema kontrak alat berat: Rental Harian (Jam-jaman) atau Borongan (Terima Beres per Kubik).</p>
+                <h2>Dilema Klasik: Amankan Cashflow atau Kejar Profit Maksimal?</h2>
+                <p class="leader-text">Bagi kontraktor lokal di Priangan Timur, keputusan pertama yang menentukan hidup matinya profit adalah skema kontrak alat berat: Rental Harian (Jam-jaman) atau Borongan.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Hitung Skema Terbaik untuk Proyek Anda</h4>
+                        <p>Diskusikan luas lahan and deadline dengan kami via WA sekarang.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20tanya%20mana%20yang%20lebih%20baik%20antara%20sewa%20jam-jaman%20atau%20borongan%20untuk%20proyek%20saya" class="cta-link-btn" target="_blank">DISKUSI SKEMA</a>
+                    </div>
+                </div>
                 
-                <div class="comparison-matrix">
-                    <div class="matrix-column">
-                        <h4>Sewa Harian (Rental)</h4>
-                        <ul>
-                            <li><strong>(+)</strong> Potensi margin tertinggi jika cuaca cerah.</li>
-                            <li><strong>(-)</strong> Risiko Hujan & Standby ditanggung penyewa. Di lereng Gunung Sawal Ciamis yang curah hujannya tinggi, ini sangat berisiko.</li>
-                        </ul>
-                    </div>
-                    <div class="matrix-column">
-                        <h4>Borongan (Volume Kubikasi)</h4>
-                        <ul>
-                            <li><strong>(+)</strong> Zero Risk. Anda hanya bayar material yang sudah terpindah/tergali.</li>
-                            <li><strong>(-)</strong> Harga satuan lebih mahal 20-30% karena vendor mengambil alih risiko cuaca dan kerusakan alat.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <h3>Strategi Hybrid Terratron Indonesia untuk Priangan Timur</h3>
-                <p>Kami menyarankan strategi kombinasi untuk memaksimalkan profit tanpa mengorbankan keamanan proyek Anda di Tasikmalaya/Ciamis:</p>
-                <div class="technical-specs-box">
-                    <ul>
-                        <li><strong>Tahap Land Clearing (Pembersihan Lahan):</strong> Gunakan <a href="/armada" style="color: var(--gold-primary);">Sewa Harian (Rental PC200)</a> karena cuaca tidak terlalu mengganggu proses tebang pohon/babat semak.</li>
-                        <li><strong>Tahap Galian Basement / Galian Utama:</strong> Gunakan Borongan Volume, terutama jika memasuki musim penghujan.</li>
-                        <li><strong>Tahap Finishing / Perapihan:</strong> Gunakan Sewa Harian (Mini Excavator PC75) untuk detail yang akurat.</li>
-                    </ul>
-                </div>
-
                 <blockquote>
-                    <strong>KONSULTASI STRATEGI LOKAL:</strong> Masih bingung menentukan RAB? Bawa data gambar topography proyek Anda ke kantor kami. Kita bedah bareng mana sistem <a href="/kontak" style="color: var(--gold-primary);">sewa alat berat Tasikmalaya</a> yang paling aman untuk cashflow Anda.
+                    <strong>TIPS PROYEK PRIBADI:</strong> Jika Anda pengguna individu (bukan perusahaan), sistem harian biasanya lebih hemat. Simak <a href="/pustaka/sewa-excavator-mini-kolam-ikan-land-clearing-pribadi" style="color: var(--gold-primary);">Panduan Sewa untuk Proyek Pribadi</a>.
                 </blockquote>
             </div>
         `
@@ -290,33 +237,25 @@ export const articlesData = [
         readTime: '6 Min Baca',
         author: 'Tim Logistik Terratron Indonesia',
         meta: 'Berapa liter solar industri per jam untuk PC200 di Tasikmalaya? Cek data real konsumsi BBM dan pelajari teknologi telemetri anti "kencing solar".',
-        img: '/asset/blog/cover_blog6.jpeg',
+        altText: 'Monitoring BBM Solar Alat Berat Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog6 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Solar: 40% Biaya Proyek Anda Ada di Sini</h3>
-                <p class="leader-text">Data ini diambil dari <strong>Telemetri GPS & Engine Management System</strong> armada <a href="/armada" style="color: var(--gold-primary);">Terratron Indonesia</a> yang beroperasi di wilayah Ciamis, Tasikmalaya, dan Banjar sepanjang tahun 2024-2026. Tujuannya? Memberikan standar konsumsi solar Industri (HSD) yang REAL di lapangan, bukan sekadar brosur pabrik.</p>
-                
-                <div class="data-telemetry-table">
-                    <table>
-                        <thead>
-                            <tr><th>Model Unit & Pekerjaan</th><th>Medium Load (L/Jam)</th><th>Heavy Load (L/Jam)</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td><strong>SANY SY75 / PC75</strong> (Galian Selokan)</td><td><strong>7 - 9</strong></td><td>10 - 12</td></tr>
-                            <tr><td><strong>Komatsu PC200-8M0</strong> (Galian Tanah Liat)</td><td><strong>16 - 19</strong></td><td>20 - 24</td></tr>
-                            <tr><td><strong>Kobelco SK200-10</strong> (Pemuatan Dump Truck)</td><td><strong>14 - 17</strong></td><td>18 - 21</td></tr>
-                            <tr><td><strong>Dozer D85ESS-2A</strong> (Pendorongan Pasir)</td><td><strong>25 - 30</strong></td><td>35 - 45</td></tr>
-                        </tbody>
-                    </table>
+                <h2>Solar: 40% Biaya Proyek Anda Ada di Sini</h2>
+                <p class="leader-text">Data ini diambil dari <strong>Telemetri GPS & Engine Management System</strong> armada Terratron Indonesia rute Ciamis, Tasik, dan Banjar.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Ingin Unit yang Irit Solar?</h4>
+                        <p>Semua armada kami (2020+) dijamin lebih irit dari unit vendor rental biasa.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20sewa%20unit%20yang%20paling%20irit%20solar%20untuk%20proyek%20di%20Tasik" class="cta-link-btn" target="_blank">TANYA ADMIN</a>
+                    </div>
                 </div>
-
-                <h3>Proteksi Anggaran: Anti "Kencing Solar" di Proyek Daerah</h3>
-                <p>Salah satu penyakit kronis di proyek lapangan adalah pencurian solar oleh oknum (sering disebut "kencing solar"). Jika PC200 Anda bekerja 10 jam dan "dikencingi" 20 liter per hari, Anda kehilangan Rp 300.000/hari atau <strong>Rp 9.000.000/bulan per alat!</strong></p>
                 
-                <p><strong>Solusi Terratron:</strong> Kami melengkapi seluruh armada sewa kami di Tasikmalaya dan Ciamis dengan sistem GPS Monitoring canggih. Sensor ini mendeteksi penurunan volume BBM di tangki yang tidak wajar (misalnya BBM berkurang drastis saat mesin mati). Anda bisa memantau konsumsi BBM dan jam kerja <em>real-time</em> dari <em>smartphone</em> Anda.</p>
-
                 <blockquote>
-                    <strong>FIELD TIP:</strong> Selain mengandalkan teknologi, gunakan tongkat ukur (Deep Stick) manual yang dikalibrasi setiap pagi sebelum mesin menyala dan sore saat <em>shutdown</em>. Coret dan ganti operator yang ketahuan mencuri solar, karena itu bibit kehancuran RAB proyek Anda.
+                    <strong>FIELD TIP:</strong> Selalu cek konsumsi harian untuk menghindari "kencing solar". Pelajari rincian pengeluaran lainnya di <a href="/pustaka/biaya-sewa-excavator-tasikmalaya-2026" style="color: var(--gold-primary);">Analisa Biaya Sewa Tasikmalaya</a>.
                 </blockquote>
             </div>
         `
@@ -329,38 +268,26 @@ export const articlesData = [
         date: '22 Feb 2026',
         readTime: '8 Min Baca',
         author: 'Site Engineer Terratron Indonesia',
-        meta: 'Proyek Cut & Fill di Kawasan Industri Tasikmalaya atau Ciamis? Pelajari karakteristik tanah lempung merah Priangan Timur dan kenapa Anda wajib menggunakan Vibro Padfoot (Kambing).',
-        img: '/asset/blog/cover_blog7.jpeg',
+        meta: 'Proyek Cut & Fill di Kawasan Industri Tasikmalaya atau Ciamis? Pelajari karakteristik tanah lempung merah Priangan Timur dan kenapa Anda wajib menggunakan Vibro Padfoot.',
+        altText: 'Pematangan Lahan Kawasan Industri Tasikmalaya Ciamis - Terratron',
+        img: '/asset/blog/cover_blog7 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Musuh Tak Terlihat: Tanah Lempung Merah (Red Clay) Priangan Timur</h3>
-                <p class="leader-text">Jika Anda mendapatkan SPK untuk *Land Clearing* atau *Cut & Fill* di rencana kawasan industri atau pabrik baru di <strong>Tasikmalaya</strong> atau <strong>Ciamis</strong>, jangan senang dulu. Anda mungkin menghadapi <strong>Tanah Lempung Merah (Expansive Soil)</strong>.</p>
-                <p>Karakteristik tanah di beberapa zona merah Priangan Timur sangat "jahat":</p>
-                <ul>
-                    <li><strong>Saat Kemarau:</strong> Keras seperti beton. Mata *blade* Dozer cepat habis.</li>
-                    <li><strong>Saat Hujan:</strong> Berubah menjadi bubur lengket. Alat seringkali amblas dan kehilangan traksi (*slippage*).</li>
-                </ul>
+                <h2>Musuh Tak Terlihat: Tanah Lempung Merah Priangan Timur</h2>
+                <p class="leader-text">Jika Anda mendapatkan SPK di rencana kawasan industri baru di <strong>Tasikmalaya</strong> atau <strong>Ciamis</strong>, Anda mungkin menghadapi Tanah Lempung Merah.</p>
                 
-                <h3>1. Solusi Mutlak Pemadatan: Vibro Padfoot (Kaki Kambing)</h3>
-                <p>Kesalahan pemula nomor satu kontraktor luar daerah adalah membawa <strong>Vibro Roller Smooth Drum (Polos)</strong> untuk memadatkan tanah lempung basah.</p>
-                <div class="technical-specs-box">
-                    <ul>
-                        <li><strong>Mekanisme Kneading:</strong> Tonjolan pada drum "mengadon" tanah, memadatkan lapisan dari bawah ke atas, bukan sekadar menyegel bagian atas yang menjebak air di bawahnya.</li>
-                        <li><strong>Drying Effect:</strong> Gigi padfoot membantu tanah lempung lebih cepat kering karena memecah gumpalan, sangat krusial di cuaca lembap Tasik.</li>
-                    </ul>
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Sewa Paket Dozer + Vibro Padfoot</h4>
+                        <p>Harga paket lebih hemat untuk pematangan lahan industri hektaran.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20tanya%20paket%20sewa%20Dozer%20dan%20Vibro%20Padfoot%20untuk%20kawasan%20industri" class="cta-link-btn" target="_blank">AMBIL PAKET</a>
+                    </div>
                 </div>
-                <blockquote>
-                    <strong>INFO UNIT LOKAL:</strong> <a href="/armada" style="color: var(--gold-primary);">Terratron Indonesia</a> menyediakan paket sewa Dozer D85 + Vibro Compactor yang *standby* di pool wilayah Priangan Timur, siap dimobilisasi dalam hitungan jam.
-                </blockquote>
-
-                <h3>2. Manajemen Hujan Ekstrem (Curah Hujan Gunung Sawal / Galunggung)</h3>
-                <p>Jika langit mendung, segera hentikan pekerjaan galian. Gunakan <strong>Vibro Polos</strong> untuk meratakan permukaan lahan (*Sealing*) sebelum hujan turun. Tujuannya agar air hujan langsung mengalir (*Run-off*) ke saluran drainase dan tidak meresap ke dalam timbunan yang bisa merusak kepadatan.</p>
-
-                <h3>3. Strategi Excavator Lengket</h3>
-                <p>Tanah lempung mudah menempel di *bucket*. Jangan paksa operator menghentak *bucket* untuk menjatuhkan tanah karena bisa merusak *pin* dan *bushing*. Gunakan <em>Bucket Skeleton</em> atau pastikan teknik *loading* material ke *dump truck* tidak terlalu penuh hingga luber ke jalan raya Tasikmalaya-Ciamis.</p>
 
                 <blockquote>
-                    Target kepadatan tercapai dan terhindar dari reject konsultan pengawas? Hubungi kami untuk <a href="/kontak" style="color: var(--gold-primary);">konsultasi alat berat Ciamis</a> khusus lahan lempung & rawa.
+                    <strong>INFO GETACI:</strong> Struktur tanah lempung seperti ini juga akan mendominasi pengerjaan <a href="/pustaka/proyek-tol-getaci-tasikmalaya-ciamis-sewa-alat-berat" style="color: var(--gold-primary);">Tol Getaci Tasik-Ciamis</a>. Pastikan Anda siap dengan unit Padfoot kami.
                 </blockquote>
             </div>
         `
@@ -373,31 +300,26 @@ export const articlesData = [
         date: '23 Feb 2026',
         readTime: '7 Min Baca',
         author: 'Tim Safety Terratron Indonesia',
-        meta: 'Sewa excavator di lereng Gunung Sawal, Panjalu, atau Rajapolah butuh strategi khusus. Simak risiko mobilisasi alat di tanjakan curam dan teknik operasi anti longsor.',
-        img: '/asset/blog/cover_blog8.jpeg',
+        meta: 'Sewa excavator di lereng Gunung Sawal, Panjalu, atau Rajapolah butuh strategi khusus. Simak risiko mobilisasi alat di tanjakan curam.',
+        altText: 'Sewa Excavator Pegunungan Panjalu Ciamis - Terratron',
+        img: '/asset/blog/cover_blog8 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Membangun di Atas Awan Priangan: Gravitasi Adalah Musuh Utama</h3>
-                <p class="leader-text">Proyek pembukaan lahan villa atau akses jalan desa di area dataran tinggi <strong>Panjalu, kaki Gunung Sawal (Ciamis), atau Rajapolah (Tasikmalaya)</strong> memiliki risiko kerja tinggi. Kesalahan pijakan bisa berakibat alat seharga miliaran terguling ke jurang.</p>
-                
-                <h3>1. Mobilisasi: Larangan Pakai Trailer Lowbed</h3>
-                <p>Jangan pernah memakai trailer kelas *Lowbed* panjang untuk akses pegunungan ini. Radius putar yang memakan jalan akan menyebabkan truk tersangkut patah (*Jackknifing*) di tikungan tajam dan tanjakan curam. Gunakan armada <strong>Self-Loader</strong> atau Truk Engkel/Tronton dek tinggi yang lebih pendek dan memiliki tenaga *axle* yang besar untuk mendaki.</p>
+                <h2>Membangun di Atas Awan Priangan: Gravitasi Adalah Musuh Utama</h2>
+                <p class="leader-text">Proyek di area dataran tinggi <strong>Panjalu, kaki Gunung Sawal (Ciamis), atau Rajapolah (Tasikmalaya)</strong> memiliki risiko kerja tinggi.</p>
 
-                <h3>2. Metode Bench Cutting (Terasering)</h3>
-                <p>Dilarang keras memposisikan Excavator di kemiringan tebing murni tanpa lantai pijakan. Operator <a href="/armada" style="color: var(--gold-primary);">Terratron Indonesia</a> wajib menerapkan SOP <strong>"Bench & Down"</strong> (Terasering berjenjang).</p>
-                
-                <div class="technical-specs-box">
-                    <ul>
-                        <li><strong>Orientasi Track (Rantai):</strong> Posisi rantai harus <strong>selalu tegak lurus</strong> menghadap bibir tebing/jurang. Dilarang bekerja menyamping (*Side Slope*).</li>
-                        <li><strong>Safety Anchor:</strong> Jika hujan tiba-tiba turun di lereng pegunungan, tancapkan *bucket* kuat-kuat ke tanah sebagai jangkar alami dan matikan mesin.</li>
-                    </ul>
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Butuh Operator Berpengalaman di Lereng?</h4>
+                        <p>Kami kirimkan operator bersertifikat SIA yang terbiasa medan pegunungan.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20butuh%20sewa%20unit%20dan%20operator%20untuk%20medan%20pegunungan/tebing" class="cta-link-btn" target="_blank">ORDER SEKARANG</a>
+                    </div>
                 </div>
-
-                <h3>3. Armada Spesialis: Breaker & Track Runcing</h3>
-                <p>Area gunung didominasi batu cadas. Siapkan budget untuk sewa unit berikut <strong>Hydraulic Breaker</strong>. Selain itu, kami selalu mengecek *grouser* (kuku rantai alat) sebelum dimobilisasi ke pegunungan agar tidak melorot (sliding) layaknya main ski di lumpur bukit.</p>
-
+                
                 <blockquote>
-                    <strong>KONSULTASI MEDAN EKSTREM:</strong> Punya proyek ekstrim di daerah pegunungan Ciamis/Tasik? <a href="/kontak" style="color: var(--gold-primary);">Hubungi kami</a>. Kami kirimkan unit prima beserta operator bersertifikat (SIA) yang berpengalaman di lereng vertikal.
+                    <strong>SAFETY PRIORITAS:</strong> Selain kemiringan, perhatikan regulasi kerja di area padat jika proyek Anda berada di pusat kota, seperti dibahas di <a href="/pustaka/regulasi-galian-basement-area-padat-penduduk-tasik-ciamis" style="color: var(--gold-primary);">Regulasi Galian Area Padat</a>.
                 </blockquote>
             </div>
         `
@@ -410,37 +332,313 @@ export const articlesData = [
         date: '24 Feb 2026',
         readTime: '6 Min Baca',
         author: 'Legal & Humas Terratron Indonesia',
-        meta: 'Proyek galian basemen di pusat kota Tasikmalaya/Ciamis sering didemo warga? Pelajari manajemen getaran, jam operasional malam, dan pentingnya legalitas alat SILO aktif.',
-        img: '/asset/blog/cover_blog9.jpeg',
+        meta: 'Proyek galian basemen di pusat kota Tasikmalaya/Ciamis sering didemo warga? Pelajari manajemen getaran dan pentingnya legalitas alat SILO aktif.',
+        altText: 'Galian Basemen Pusat Kota Tasikmalaya Ciamis - Terratron',
+        img: '/asset/blog/cover_blog9 (1).webp',
         content: `
             <div class="intel-dossier-body">
-                <h3>Proyek Tengah Kota: "Tetangga Adalah CCTV Paling Tajam"</h3>
-                <p class="leader-text">Menggali fondasi ruko atau basemen mall di tepi <strong>Jl. HZ Mustofa (Tasikmalaya)</strong> atau pusat keramaian <strong>Ciamis Kota</strong> sangat berbeda dengan proyek pelosok. Kecepatan bukan lagi nomor 1, melainkan <strong>Kepatuhan (Compliance)</strong> lingkungan.</p>
-                
-                <h3>1. Manajemen Getaran & Kebisingan (Noise)</h3>
-                <p>Getaran dari Vibro Roller 10 Ton bisa menyebabkan retak rambut pada rumah tua peninggalan Belanda di sebelahnya. Solusi teknis dari kami:</p>
-                <div class="technical-specs-box">
-                    <ul>
-                        <li><strong>Baby Roller & Stamper:</strong> Gunakan unit getar mini untuk area beradius dekat (&lt; 5m) dari dinding properti tetangga.</li>
-                        <li><strong>Peredaman Jam Kerja:</strong> Hindari operasional Breaker (pemecah beton) di luar jam 09:00 - 16:00 agar tak mengganggu jam istirahat warga pemukiman padat.</li>
-                    </ul>
+                <h2>Proyek Tengah Kota: Tetangga Adalah CCTV Paling Tajam</h2>
+                <p class="leader-text">Menggali fondasi ruko di tepi <strong>Jl. HZ Mustofa (Tasikmalaya)</strong> sangat berbeda. Kecepatan bukan lagi nomor 1, melainkan kepatuhan lingkungan.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Sewa Unit Berizin Lengkap (SILO/SIA)</h4>
+                        <p>Jangan ambil risiko. Unit kami lengkap bersertifikat untuk keamanan proyek kota.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20sewa%20unit%20dengan%20izin%20SILO%20dan%20SIA%20lengkap" class="cta-link-btn" target="_blank">CEK LEGALITAS</a>
+                    </div>
                 </div>
-
-                <h3>2. Perisai Hukum Proyek: SILO & SIA</h3>
-                <p>Disnaker setempat bisa tiba-tiba sidak proyek Anda. Jika ada kecelakaan kerja dan alat sewaan Anda "bodong" (tak bersurat): Asuransi proyek (CAR) batal, dan Anda bisa dipidana.</p>
-                <p><a href="/armada" style="color: var(--gold-primary);">Armada Terratron Indonesia</a> dilindungi penuh oleh dokumen negara:</p>
-                <ul>
-                    <li><strong>SILO (Surat Izin Layak Operasi):</strong> Sertifikat kalibrasi K3 bahwa alat berat tidak cacat mekanis.</li>
-                    <li><strong>SIA (Surat Izin Alat):</strong> Lisensi K3 operator bahwa dia lulus uji negara.</li>
-                </ul>
-
-                <h3>3. Logistik Lumpur Jalan Protokol</h3>
-                <p>Jangan biarkan dump truck membuang galian tanah ke jalan raya beraspal, atau siap-siap disegel dari Satpol PP dan DLH. Kami menyarankan <em>Top-Down Method</em> dengan Mini Excavator PC75 untuk pengerukkan area *basement* secara efisien dan rapi di ruang sempit.</p>
-
+                
                 <blockquote>
-                    <strong>TIPS HUMAS:</strong> Sosialisasi radius lingkungan H-7 sebelum mobilisasi sangat menolong. Pastikan menyewa dari tempat resmi. Hubungi kami untuk pelayanan sewa kelas <a href="/kontak" style="color: var(--gold-primary);">Alat Berat Tasikmalaya & Ciamis</a> bergaransi hukum dan performa.
+                    <strong>SOLUSI TEKNIS:</strong> Gunakan alat mini untuk area terbatas seperti dibahas dalam <a href="/pustaka/spesialis-galian-basemen-ruko-tasikmalaya-kota" style="color: var(--gold-primary);">Spesialis Galian Basemen Ruko Kota</a>.
                 </blockquote>
             </div>
         `
+    },
+    {
+        id: 'INTEL-10',
+        slug: 'biaya-sewa-excavator-tasikmalaya-2026',
+        title: 'Analisa Biaya Sewa Excavator di Tasikmalaya: Optimasi Budget Proyek Konstruksi 2026',
+        category: 'COST ANALYSIS',
+        date: '13 April 2026',
+        readTime: '7 Min Baca',
+        author: 'Divisi Estimator Terratron Indonesia',
+        meta: 'Berapa harga sewa beko di Tasikmalaya? Pelajari rincian biaya mobdemob, harga solar industri, dan tips menghemat biaya rental excavator untuk proyek perumahan.',
+        altText: 'Biaya Sewa Excavator Tasikmalaya Terbaru 2026 - Terratron',
+        img: '/asset/blog/cover_blog10.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>Estimasi Biaya: Lebih dari Sekedar Angka Per Jam</h2>
+                <p class="leader-text">Banyak kontraktor di <strong>Tasikmalaya</strong> terjebak pada harga murah namun membengkak di operasional.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Minta Penawaran Harga Sekarang</h4>
+                        <p>Admin kami akan kirimkan PDF penawaran resmi untuk lampiran tender Anda.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20boleh%20minta%20PDF%20penawaran%20harga%20sewa%20unit%20terbaru%3F" class="cta-link-btn" target="_blank">MINTA PDF</a>
+                    </div>
+                </div>
+                
+                <blockquote>
+                    <strong>UPDATE 2026:</strong> Pastikan Anda menggunakan data paling gres dari <a href="/pustaka/harga-sewa-excavator-terbaru-2026-ciamis-tasikmalaya" style="color: var(--gold-primary);">Update Harga Sewa 2026</a> agar margin tetap terjaga.
+                </blockquote>
+            </div>
+        `
+    },
+    {
+        id: 'INTEL-11',
+        slug: 'proyek-tol-getaci-tasikmalaya-ciamis-sewa-alat-berat',
+        title: 'Kesiapan Alat Berat di Proyek Tol Getaci Seksi 1 (Tasikmalaya-Ciamis)',
+        category: 'LOCAL TERRAIN',
+        date: '16 April 2026',
+        readTime: '8 Min Baca',
+        author: 'Tim Teknis Terratron Indonesia',
+        meta: 'Proyek Tol Getaci Seksi 1 segera dimulai. Pelajari spesifikasi alat berat yang dibutuhkan untuk medan perbukitan Tasikmalaya-Ciamis dan cara sewa unit ready stock.',
+        altText: 'Proyek Tol Getaci Tasikmalaya Ciamis Sewa Alat Berat - Terratron',
+        img: '/asset/blog/cover_blog1.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>Masa Depan Konektivitas Priangan Timur: Peluang & Tantangan</h2>
+                <p class="leader-text">Proyek pembangunan Tol Getaci (Gedebage-Tasikmalaya-Cilacap) Seksi 1 kini memasuki tahap krusial di wilayah Tasikmalaya dan Ciamis. Bagi sub-kontraktor lokal, tantangan utamanya bukan hanya soal volume galian, melainkan ketersediaan <strong>Excavator Prima</strong> yang mampu bekerja shift panjang di medan perbukitan terjal.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Unit Ready untuk Tol Getaci</h4>
+                        <p>Butuh mobilisasi segera ke lokasi seksi 1? Hubungi admin fast response kami.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20butuh%20sewa%20armada%20untuk%20proyek%20Tol%20Getaci" class="cta-link-btn" target="_blank">CEK KETERSEDIAAN</a>
+                    </div>
+                </div>
+
+                <h2>1. Karakteristik Medan Seksi 1 (Tasik-Ciamis)</h2>
+                <p>Medan di ruas ini didominasi oleh perbukitan dengan struktur tanah lempung ekspansif. Dibutuhkan kombinasi alat yang memiliki daya gali besar namun lincah di kemiringan.</p>
+                
+                <div class="data-telemetry-table">
+                    <table>
+                        <thead>
+                            <tr><th>Kebutuhan Alat</th><th>Fungsi Utama</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>PC200-8M0</td><td>Loading Dump Truck & Galian Utama</td></tr>
+                            <tr><td>Vibro Padfoot</td><td>Pemadatan Tanah Merah (Clay)</td></tr>
+                            <tr><td>PC75 / SY75</td><td>Galian Saluran (Drainase) & Rigid Pavement</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h2>2. Pentingnya Efisiensi Solar di Proyek Nasional</h2>
+                <p>Dengan target deadline yang ketat, downtime alat adalah kerugian fatal. Menggunakan unit tua yang boros solar akan memakan margin profit Anda dengan cepat. Pelajari juga <a href="/pustaka/bahaya-hidden-cost-sewa-excavator-tua-proyek-ciamis" style="color: var(--gold-primary);">bahaya hidden cost unit tua</a> agar budget proyek Tol Anda tetap aman.</p>
+
+                <blockquote>
+                    <strong>TIPS MOBILISASI:</strong> Pastikan vendor rental Anda memiliki armada self-loader mandiri agar alat tiba di titik proyek tepat waktu. Hubungi <a href="/kontak" style="color: var(--gold-primary);">Terratron Indonesia</a> untuk mitra logistik alat berat terpercaya di Tasikmalaya.
+                </blockquote>
+            </div>
+        `,
+        faqs: [
+            {
+                question: "Berapa harga sewa excavator untuk proyek Tol Getaci?",
+                answer: "Harga sewa bervariasi tergantung durasi dan jenis unit. Untuk unit standar PC200, range harga mulai dari Rp 250rb - 280rb per jam. Hubungi kami untuk penawaran paket sewa jangka panjang (bulanan)."
+            },
+            {
+                question: "Apakah Terratron menyediakan mobilisasi ke area seksi 1 Tol Getaci?",
+                answer: "Ya, kami memiliki armada self-loader mandiri untuk pengiriman cepat ke titik-titik proyek di wilayah Tasikmalaya dan Ciamis."
+            }
+        ]
+    },
+    {
+        id: 'INTEL-12',
+        slug: 'beda-beko-dan-excavator-tips-sewa-ciamis',
+        title: 'Sering Tertukar! Ini Beda "Beko" dan Excavator (Panduan Sewa untuk Pemula di Ciamis)',
+        category: 'PROBLEM SOLVING',
+        date: '17 April 2026',
+        readTime: '6 Min Baca',
+        author: 'Tim Edukasi Terratron Indonesia',
+        meta: 'Mau sewa beko di Ciamis tapi bingung bedanya dengan excavator? Pelajari perbedaan fungsi, kapasitas, dan harga sewa beralaskan data lapangan terbaru.',
+        altText: 'Beda Beko dan Excavator Panduan Sewa Ciamis - Terratron',
+        img: '/asset/blog/cover_blog2.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>"Mang, Sewa Beko!" — Salah Kaprah yang Umum di Priangan</h2>
+                <p class="leader-text">Di wilayah <strong>Ciamis</strong> dan <strong>Tasikmalaya</strong>, istilah "Beko" sering digunakan warga untuk menyebut semua jenis alat berat penggali. Namun, memesan alat hanya dengan menyebut "Beko" tanpa tahu bedanya dengan Excavator bisa membuat proyek kolam ikan atau galian pondasi Anda berantakan.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Bingung Pilih Alat yang Mana?</h4>
+                        <p>Kirimkan foto lahan/proyek Anda melalui WA, kami bantu pilihkan alat yang tepat.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20masih%20bingung%20mau%20sewa%20beko%20atau%20excavator.%20Boleh%20tanya%3F" class="cta-link-btn" target="_blank">KONSULTASI GRATIS</a>
+                    </div>
+                </div>
+
+                <h2>1. Apa Itu Beko (Backhoe Loader)?</h2>
+                <p>Secara teknis, Backhoe Loader (Beko) adalah traktor yang memiliki *loader* (skop) di depan and *hoe* (penggali) di belakang. Kelebihannya adalah bisa berjalan di aspal tanpa merusak jalan karena menggunakan ban karet.</p>
+
+                <h2>2. Kapan Anda Harus Sewa Excavator (Track Besi)?</h2>
+                <p>Jika medan proyek Anda berlumpur, miring, atau butuh daya gali besar untuk akar pohon, maka <strong>Excavator PC75</strong> adalah pilihan mutlak. Track besi memberikan stabilitas yang tidak dimiliki ban karet Beko. Untuk area sempit, pertimbangkan dimensi <a href="/pustaka/sewa-excavator-mini-pc75-perumahan-padat-ciamis-tasikmalaya" style="color: var(--gold-primary);">PC75 Spiesialis Ruang Sempit</a>.</p>
+
+                <blockquote>
+                    <strong>KESIMPULAN:</strong> Beko untuk mobilitas jalan raya (sedikit galian), Excavator untuk kerja berat di tanah asli. Jangan sampai salah sewa yang berujung alat amblas di lokasi. Hubungi <a href="/kontak" style="color: var(--gold-primary);">WhatsApp Terratron</a> untuk info ketersediaan keduanya.
+                </blockquote>
+            </div>
+        `,
+        faqs: [
+            {
+                question: "Apa bedanya Beko dan Excavator?",
+                answer: "Beko (Backhoe Loader) menggunakan ban karet dan cocok untuk jalan aspal, sedangkan Excavator menggunakan track besi/karet untuk stabilitas di medan miring atau berlumpur."
+            },
+            {
+                question: "Mana yang lebih murah, sewa beko atau excavator mini?",
+                answer: "Harga sewa per jam relatif mirip, namun excavator mini seringkali lebih efisien untuk galian dalam karena jangkauan boom yang lebih panjang dan stabil."
+            }
+        ]
+    },
+    {
+        id: 'INTEL-13',
+        slug: 'spesialis-galian-basemen-ruko-tasikmalaya-kota',
+        title: 'Tantangan Galian Basemen Ruko di Pusat Kota Tasikmalaya: Solusi Alat Berat Kompak',
+        category: 'PROBLEM SOLVING',
+        date: '18 April 2026',
+        readTime: '7 Min Baca',
+        author: 'Site Manager Terratron Indonesia',
+        meta: 'Gali basemen di tengah kota Tasikmalaya penuh risiko. Simak strategi penggunaan mini excavator dan manajemen getaran agar tidak didemo tetangga.',
+        altText: 'Galian Basemen Ruko Kota Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog3.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>Membangun di Padatnya Kota Tasikmalaya</h2>
+                <p class="leader-text">Membangun ruko dengan basemen di pusat keramaian seperti <strong>Jl. HZ Mustofa</strong> atau <strong>Jl. Tentara Pelajar</strong> Tasikmalaya adalah tantangan logistik yang rumit. Ruang manuver yang sangat terbatas menuntut penggunaan alat yang efisien tanpa mengganggu ketenangan lingkungan.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Sewa Mini Excavator Spesialis Kota</h4>
+                        <p>Unit SANY SY75 kami sangat kompak untuk galian basemen ruko 2-3 lantai.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20butuh%20sewa%20mini%20excavator%20untuk%20galian%20basemen%20di%20kota" class="cta-link-btn" target="_blank">TANYA UNIT KOTA</a>
+                    </div>
+                </div>
+
+                <h2>1. Manajemen Getaran Agar Bebas Demo</h2>
+                <p>Salah satu alasan proyek galian basemen di Tasikmalaya dihentikan warga adalah getaran yang berlebihan. Penggunaan unit 20 ton (PC200) seringkali terlalu "kasar" untuk area padat. Penggunaan <strong>Mini Excavator (7-8 Ton)</strong> jauh lebih moderat dalam hal getaran dan kebisingan suara.</p>
+
+                <h2>2. Strategi Logistik Buangan Tanah</h2>
+                <p>Di pusat kota, truk pengangkut tanah galian tidak bisa parkir sembarangan. Dibutuhkan kecepatan operasional alat agar truk tidak memacetkan jalanan utama kota. Pilihlah operator yang gesit dan unit dengan *swing* lincah agar siklus pengisian truk berlangsung cepat.</p>
+
+                <blockquote>
+                    <strong>SAFETY PRIORITAS:</strong> Pastikan dinding galian diperkuat (shoring) saat menggali basemen dalam. Butuh alat yang presisi? Hubungi <a href="/sewa-alat-berat" style="color: var(--gold-primary);">Layanan Sewa Terratron</a> di Tasikmalaya.
+                </blockquote>
+            </div>
+        `,
+        faqs: [
+            {
+                question: "Bolehkan mendatangkan excavator besar ke pusat kota Tasikmalaya?",
+                answer: "Tergantung akses jalan. Namun untuk galian ruko, kami menyarankan unit mini 7-8 ton agar tidak merusak jalan dan meminimalisir getaran pada bangunan sebelah."
+            }
+        ]
+    },
+    {
+        id: 'INTEL-14',
+        slug: 'harga-sewa-excavator-terbaru-2026-ciamis-tasikmalaya',
+        title: 'Update Harga Sewa Excavator 2026: Ciamis, Tasikmalaya & Banjar (Daftar Lengkap)',
+        category: 'COST ANALYSIS',
+        date: '19 April 2026',
+        readTime: '8 Min Baca',
+        author: 'Head Estimator Terratron Indonesia',
+        meta: 'Cek harga sewa excavator terbaru 2026 untuk wilayah Ciamis, Tasik, dan Banjar. Rincian biaya per jam, harian, dan paket borongan volume.',
+        altText: 'Daftar Harga Sewa Excavator 2026 Ciamis Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog4.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>Rencanakan Anggaran Proyek Anda dengan Data Terbaru</h2>
+                <p class="leader-text">Tahun 2026 membawa penyesuaian pada harga solar industri dan biaya suku cadang. Bagi kontraktor di wilayah <strong>Priangan Timur</strong> (Ciamis-Tasik-Banjar), memahami struktur harga sewa alat berat saat ini sangat penting untuk menyusun RAB penawaran proyek agar tidak "nombok".</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Minta Update Harga PDF Terbaru</h4>
+                        <p>Dapatkan rincian paket harian, mingguan, dan bulanan langsung via WhatsApp.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20minta%20daftar%20harga%20sewa%20alat%20berat%20terbaru%202026" class="cta-link-btn" target="_blank">MINTA HARGA 2026</a>
+                    </div>
+                </div>
+
+                <h2>1. Estimasi Range Harga Sewa Lepas Kunci</h2>
+                <p>Berikut adalah range harga pasaran di wilayah Ciamis-Tasikmalaya (Asumsi jam kerja harian):</p>
+                <div class="data-telemetry-table">
+                    <table>
+                        <thead>
+                            <tr><th>Kapasitas Unit</th><th>Range Harga Per Jam</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Micro (2-4 Ton)</td><td>Rp 150rb - 180rb</td></tr>
+                            <tr><td>Mini (7-8 Ton)</td><td>Rp 180rb - 220rb</td></tr>
+                            <tr><td>Standar (20 Ton)</td><td>Rp 230rb - 280rb</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h2>2. Faktor Penentu Biaya Mobilisasi (Mob-Demob)</h2>
+                <p>Biaya mob-demob sangat dipengaruhi jarak dari pool kami ke lokasi Anda. Untuk wilayah **Kawali** atau **Panjalu (Ciamis)**, biaya akan berbeda dengan area pusat kota karena medan tanjakan yang membutuhkan truk *Self-Loader* khusus.</p>
+
+                <blockquote>
+                    <strong>TIPS HEMAT:</strong> Sewa alat dalam paket bulanan (min 200 jam) bisa menghemat hingga 15% dibanding harian. Konsultasikan cashflow proyek Anda dengan <a href="/kontak" style="color: var(--gold-primary);">Tim Marketing Terratron</a>.
+                </blockquote>
+            </div>
+        `,
+        faqs: [
+            {
+                question: "Berapa biaya sewa excavator per jam di Ciamis tahun 2026?",
+                answer: "Untuk unit mini PC75 mulai dari Rp 180rb - 220rb/jam. Unit PC200 mulai dari Rp 230rb - 280rb/jam. Harga belum termasuk solar dan mobdemob."
+            }
+        ]
+    },
+    {
+        id: 'INTEL-15',
+        slug: 'sewa-excavator-mini-kolam-ikan-land-clearing-pribadi',
+        title: 'Sewa Excavator Mini untuk Proyek Pribadi: Buat Kolam Ikan & Land Clearing Lahan Kecil',
+        category: 'PROBLEM SOLVING',
+        date: '20 April 2026',
+        readTime: '6 Min Baca',
+        author: 'Tim Teknis Terratron Indonesia',
+        meta: 'Punya lahan di Ciamis atau Tasik yang ingin dijadikan kolam ikan? Pelajari efisiensi sewa excavator mini PC75 dibanding tenaga manual.',
+        altText: 'Sewa Excavator Mini Buat Kolam Ikan Ciamis Tasikmalaya - Terratron',
+        img: '/asset/blog/cover_blog5.webp',
+        content: `
+            <div class="intel-dossier-body">
+                <h2>Alat Berat Bukan Hanya untuk Proyek Besar</h2>
+                <p class="leader-text">Banyak warga di pedesaan <strong>Ciamis</strong> atau pinggiran <strong>Tasikmalaya</strong> yang ingin membuka lahan perkebunan atau membuat kolam ikan gurame/nila, namun ragu untuk menyewa alat berat karena takut mahal. Padahal, menggunakan tenaga manual seringkali berakhir lebih lama dan lebih mahal secara akumulatif.</p>
+
+                <div class="internal-article-cta">
+                    <div class="cta-text-side">
+                        <h4>Buat Kolam Jadi Lebih Cepat</h4>
+                        <p>Unit mini kami bisa selesai menggali kolam standar dalam waktu kurang dari 1 hari.</p>
+                    </div>
+                    <div class="cta-btn-side">
+                        <a href="https://wa.me/6282260280392?text=Halo%20Terratron,%20saya%20ingin%20sewa%20excavator%20mini%20untuk%20buat%20kolam%20ikan" class="cta-link-btn" target="_blank">TANYA SEWA KOLAM</a>
+                    </div>
+                </div>
+
+                <h2>1. Keunggulan Sewa Unit Mini (PC75) untuk Lahan Pribadi</h2>
+                <p>Unit berukuran 7.5 ton adalah pilihan ideal untuk lahan pekarangan atau kebun. Bodinya tidak terlalu berat sehingga tidak merusak kontur tanah sekitar, namun tenaganya cukup kuat untuk mencabut akar pohon kelapa atau bambu yang keras di wilayah Priangan.</p>
+
+                <h2>2. Perbandingan Waktu: Manual vs Alat Berat</h2>
+                <p>Satu unit mini excavator setara dengan kerja 15-20 orang kuli gali dalam sehari. Dengan sewa alat berat, Anda tidak perlu repot mengurus katering kuli atau risiko hasil galian yang tidak presisi (tidak lurus).</p>
+
+                <blockquote>
+                    <strong>SKEMA SEWA:</strong> Jika Anda ragu soal sistem sewa, Anda bisa baca <a href="/pustaka/sewa-harian-jam-jaman-vs-borongan-volume-ciamis" style="color: var(--gold-primary);">Perbandingan Harian vs Borongan</a> untuk menentukan mana yang paling pas buat budget Anda.
+                </blockquote>
+            </div>
+        `,
+        faqs: [
+            {
+                question: "Apakah bisa sewa harian untuk buat kolam ikan di pekarangan rumah?",
+                answer: "Bisa. Kami melayani sewa harian dengan durasi minimal 5-8 jam kerja tergantung jarak lokasi pool kami di Ciamis."
+            }
+        ]
     }
 ];

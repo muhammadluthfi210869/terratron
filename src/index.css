@@ -27,8 +27,10 @@
 
   /* === TEXT === */
   --text-primary: #FFFFFF;
-  --text-secondary: #9CA3AF;
-  --text-muted: #6B7280;
+  --text-secondary: #D1D5DB;
+  /* Gray-300: Improved Contrast */
+  --text-muted: #9CA3AF;
+  /* Gray-400: Improved Contrast */
 
   /* === STATUS COLORS (Industrial Safety) === */
   --status-available: #22C55E;

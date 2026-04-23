@@ -67,41 +67,6 @@
     line-height: 1.6;
 }
 
-/* STICKY FILTER TACTICAL */
-.filter-sticky-wrapper {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(5, 5, 5, 0.85);
-    backdrop-filter: blur(20px);
-    border-bottom: 0.5px solid rgba(212, 175, 55, 0.2);
-    padding: 1rem 0;
-}
-
-.filter-bar {
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
-}
-
-.filter-btn {
-    white-space: nowrap;
-    padding: 0.6rem 1.5rem;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
-}
-
-.filter-btn.active {
-    color: var(--gold-primary);
-    border-color: var(--gold-primary);
-    background: rgba(212, 175, 55, 0.05);
-}
 
 /* STACKED LIST - OPSI A (INDUSTRIAL DATASHEET) */
 .stacked-armada-list {
@@ -2287,10 +2252,212 @@
     color: var(--text-primary);
 }
 
-@media (max-width: 768px) {
-    .floating-action-hud {
-        bottom: 20px;
-        right: 20px;
-        left: 20px;
+@media (max-width: 600px) {
+    .full-armada-page {
+        padding-bottom: 4rem;
     }
-}
+
+    /* TIGHT HERO */
+    .armada-hero {
+        height: 35vh;
+    }
+
+    .hero-h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtext {
+        font-size: 0.8rem;
+        max-width: 100%;
+    }
+
+    /* TACTICAL CATALOG HUD (SINGLE SCREEN CARDS) */
+    .stacked-armada-list {
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .industrial-datasheet-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        background: #080808;
+    }
+
+    .image-container-16-9 {
+        aspect-ratio: 21 / 9; /* Ultra wide to save vertical space */
+    }
+
+    .datasheet-body {
+        padding: 1.25rem;
+    }
+
+    .unit-primary-info {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.75rem;
+    }
+
+    .card-nickname {
+        font-size: 0.6rem;
+        margin-bottom: 2px;
+    }
+
+    .unit-model-header {
+        font-size: 1.25rem;
+        margin-bottom: 2px;
+    }
+
+    .unit-type-tag {
+        font-size: 0.6rem;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0.1em;
+    }
+
+    .unit-type-tag::after {
+        display: none;
+    }
+
+    /* ICON-INDEXED DATA GRID (3-COLUMN) */
+    .tactical-specs-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-bottom: 1.25rem;
+        padding: 0.75rem;
+        background: rgba(255, 255, 255, 0.03);
+        border: 0.5px solid rgba(212, 175, 55, 0.1);
+    }
+
+    .spec-pill {
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+    }
+
+    .spec-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .spec-label {
+        font-size: 0.65rem;
+    }
+
+    /* COMPACT BADGES */
+    .card-badges-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 1rem;
+    }
+
+    .card-badge-chip {
+        padding: 4px 8px;
+        font-size: 0.55rem;
+    }
+
+    /* BRIEF DESC HIDDEN ON MOBILE TO PREVENT CLUTTER */
+    .seo-context-box {
+        display: none;
+    }
+
+    /* COMPACT CTA */
+    .btn-industrial-cta {
+        padding: 1rem;
+    }
+
+    .btn-label {
+        font-size: 0.8rem;
+    }
+
+    /* FLOATING ACTIONS HUD */
+    .floating-action-hud {
+        bottom: 15px;
+        right: 15px;
+        left: 15px;
+    }
+
+    .floating-back-btn {
+        padding: 10px 15px;
+        font-size: 0.6rem;
+    }
+
+    .floating-wa-btn {
+        padding: 12px;
+    }
+
+    /* DEDICATED UNIT PAGE OPTIMIZATION */
+    .dedicated-unit-page.cinematic-full-page {
+        padding-top: 80px;
+        padding-bottom: 5rem;
+    }
+
+    .unit-hero-identity-hud {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .unit-hero-title {
+        font-size: 2.5rem;
+    }
+
+    .unit-gallery-wrapper {
+        margin-bottom: 0;
+    }
+
+    .hud-side-panels {
+        gap: 1rem;
+    }
+
+    .glass-panel-hud {
+        padding: 1.25rem;
+    }
+
+    .panel-label {
+        font-size: 0.55rem;
+    }
+
+    .hm-number {
+        font-size: 2.5rem;
+    }
+
+    .tech-spec-row-standalone {
+        padding: 8px 0;
+    }
+
+    .spec-key, .spec-val {
+        font-size: 0.7rem;
+    }
+
+    .hud-action-btn {
+        padding: 1.25rem;
+        font-size: 0.8rem;
+    }
+
+    /* SECTION HEADERS */
+    .section-header-blueprint {
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
+
+    .section-h2 {
+        font-size: 1.25rem;
+    }
+
+    /* DETAILED GRID */
+    .unit-specs-detailed-grid-hud {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .spec-detailed-item-hud {
+        padding: 12px;
+    }
+
+    /* TABLES */
+    .load-chart-table th, .load-chart-table td {
+        padding: 10px 8px;
+        font-size: 0.75rem;
+    }
+}

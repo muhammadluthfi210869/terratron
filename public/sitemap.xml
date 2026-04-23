@@ -5,97 +5,30 @@
   <url><loc>https://terratron.id/sewa-alat-berat</loc><priority>0.9</priority></url>
   <url><loc>https://terratron.id/profil-perusahaan</loc><priority>0.8</priority></url>
   <url><loc>https://terratron.id/pustaka-konstruksi</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/proyek-kami</loc><priority>0.8</priority></url>
 
-  <!-- Location Landing Pages -->
-  
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/bekasi</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/cikarang</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/karawang</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/cibitung</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/bogor</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/depok</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/lokasi/cikarang-pusat</loc>
-    <priority>0.8</priority>
-  </url>
+  <!-- Location Landing Pages (Targeted Local SEO) -->
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/tasikmalaya</loc><priority>0.9</priority></url>
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/ciamis</loc><priority>0.9</priority></url>
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/banjar</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/kawali</loc><priority>0.7</priority></url>
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/rajapolah</loc><priority>0.7</priority></url>
+  <url><loc>https://terratron.id/sewa-alat-berat/lokasi/singaparna</loc><priority>0.7</priority></url>
 
-  <!-- Unit Product Pages -->
-  
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/sewa-excavator-komatsu-pc200-8-bekasi</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/rental-excavator-kobelco-sk200-10-cikarang</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/sewa-excavator-cat-320d-heavy-duty</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/sewa-alat-berat/sewa-excavator-mini-pc75-masuk-gang-bekasi</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Dynamic Articles -->
-  
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/sewa-excavator-mini-pc75-proyek-perumahan</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/analisa-hidden-cost-sewa-alat-berat-tua-vs-muda</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/strategi-alat-berat-tanah-lunak-swamp-rawa</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/cara-menghitung-biaya-cut-fill-lahan-meter-kubik</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/sewa-harian-jam-jaman-vs-borongan-volume</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/standar-konsumsi-bbm-solar-excavator-pc200-dozer</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/pematangan-lahan-kawasan-industri-cikarang-karawang</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/tantangan-mobilisasi-cut-fill-pegunungan-puncak-bogor</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/regulasi-galian-basement-area-padat-penduduk</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://terratron.id/pustaka-konstruksi/komatsu-pc200-vs-kobelco-sk200-perbandingan-irit-solar</loc>
-    <priority>0.7</priority>
-  </url>
+  <!-- Dynamic Articles (Cluster SEO) -->
+  <url><loc>https://terratron.id/pustaka-konstruksi/sewa-excavator-mini-pc75-perumahan-padat-ciamis-tasikmalaya</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/bahaya-hidden-cost-sewa-excavator-tua-proyek-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/strategi-alat-berat-tanah-lunak-rawa-sungai-citanduy</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/cara-menghitung-biaya-cut-fill-lahan-meter-kubik-tasikmalaya</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/sewa-harian-jam-jaman-vs-borongan-volume-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/standar-konsumsi-bbm-solar-excavator-pc200-tasikmalaya</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/pematangan-lahan-kawasan-industri-tasikmalaya-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/tantangan-mobilisasi-cut-fill-pegunungan-panjalu-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/regulasi-galian-basement-area-padat-penduduk-tasik-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/biaya-sewa-excavator-tasikmalaya-2026</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/proyek-tol-getaci-tasikmalaya-ciamis-sewa-alat-berat</loc><priority>0.9</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/beda-beko-dan-excavator-tips-sewa-ciamis</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/spesialis-galian-basemen-ruko-tasikmalaya-kota</loc><priority>0.8</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/harga-sewa-excavator-terbaru-2026-ciamis-tasikmalaya</loc><priority>0.9</priority></url>
+  <url><loc>https://terratron.id/pustaka-konstruksi/sewa-excavator-mini-kolam-ikan-land-clearing-pribadi</loc><priority>0.8</priority></url>
 </urlset>

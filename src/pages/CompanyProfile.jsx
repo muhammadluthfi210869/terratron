@@ -81,7 +81,7 @@ const CompanyProfile = ({ onBack }) => {
                 id: 'WORKSHOP',
                 title: 'In-House Workshop',
                 desc: 'Fungsi workshop mandiri menjamin kesiapan tempur unit 100% sebelum mobilisasi tanpa ketergantungan sub-kon.',
-                img: '/asset/about/inhouse_workshop_cover.jpeg', // Actual industrial workshop
+                img: '/asset/about/inhouse_workshop_cover (1).webp', // Actual industrial workshop
                 telemetry: { status: 'OPERATIONAL', cap: '1000m²', load: '85%' },
                 stats: [{ val: '24/7', label: 'MONITORING' }]
             },
@@ -89,7 +89,7 @@ const CompanyProfile = ({ onBack }) => {
                 id: 'SERVICE',
                 title: 'Rapid Response 4x4',
                 desc: 'Mobile Service Car dengan peralatan lengkap siap menembus medan ekstrim. Downtime adalah musuh utama.',
-                img: '/asset/about/rapid_response_cover.jpeg', // Rugged vehicle
+                img: '/asset/about/rapid_response_cover (1).webp', // Rugged vehicle
                 telemetry: { status: 'READY', unit: '2_FLEET', res: '<4HR' },
                 stats: [{ val: '4x4', label: 'OFF-ROAD' }]
             },
@@ -97,7 +97,7 @@ const CompanyProfile = ({ onBack }) => {
                 id: 'WAREHOUSE',
                 title: 'Parts Warehouse',
                 desc: 'Stok komponen fast-moving (filter, hoses, teeth) tersedia melimpah untuk mempercepat perbaikan.',
-                img: '/asset/about/parts_warehouse.jpeg',
+                img: '/asset/about/parts_warehouse (1).webp',
                 telemetry: { status: 'STOCK_READY', sku: '500+', type: 'GENUINE' },
                 stats: [{ val: 'GENUINE', label: 'PARTS' }]
             }
@@ -109,7 +109,7 @@ const CompanyProfile = ({ onBack }) => {
                 name: 'SENIOR TECHNICAL ASSET',
                 metrics: { exp: '15+ YRS', cert: 'CAT/KOMATSU', focus: 'HYDRAULICS' },
                 text: 'Ahli diagnosa sistem hidrolik kompleks dengan pengalaman di Principal utama.',
-                img: '/asset/about/senior_technical_asset_cover.jpeg'
+                img: '/asset/about/senior_technical_asset_cover (1).webp'
             },
             {
                 id: 'OPER_01',
@@ -117,7 +117,7 @@ const CompanyProfile = ({ onBack }) => {
                 name: 'HEAVY UNIT SPECIALIST',
                 metrics: { exp: '8 YRS', cert: 'SIO LEVEL A', focus: 'PRECISION' },
                 text: 'Operator ahli yang memahami efisiensi siklus kerja dan keselamatan medan ekstrim.',
-                img: '/asset/about/heavy_unit_specialist_cover.jpeg'
+                img: '/asset/about/heavy_unit_specialist_cover (1).webp'
             }
         ]
     }
@@ -157,7 +157,7 @@ const CompanyProfile = ({ onBack }) => {
                 {/* 1. HERO IDENTITY */}
                 <motion.section className="hero-identity" variants={itemVariants}>
                     <div className="hero-visual-bg">
-                        <img src="/asset/Generated Image February 17, 2026 - 9_30AM.png" alt="Heavy Equipment Authority" fetchpriority="high" />
+                        <img src="/asset/Generated Image February 17, 2026 - 9_30AM (1).webp" alt="Heavy Equipment Authority" fetchpriority="high" />
                         <div className="hero-overlay-gradient" />
                     </div>
                     <div className="hero-id-content">

@@ -7,7 +7,7 @@
 /* === SECTION BASE === */
 .titan-fleet-section {
     position: relative;
-    padding: var(--space-3xl) 0 var(--space-2xl);
+    padding: var(--space-xl) 0 var(--space-lg); /* Reduced padding */
     background: var(--bg-primary);
     overflow: hidden;
 }
@@ -36,7 +36,7 @@
 .titan-header {
     text-align: center;
     padding: 0 var(--space-md);
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-md); /* Reduced from xl */
     position: relative;
     z-index: 2;
 }
@@ -46,7 +46,7 @@
     align-items: center;
     justify-content: center;
     gap: var(--space-sm);
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-sm); /* Reduced from lg */
 }
 
 .titan-eyebrow .eyebrow-line {
@@ -70,9 +70,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--space-sm);
+    gap: var(--space-xs);
     line-height: 1;
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-md); /* Reduced from xl */
 }
 
 .titan-title .title-main {
@@ -117,17 +117,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
-    padding: 16px 24px;
+    gap: 8px; /* Reduced gap */
+    padding: 10px 16px; /* Reduced padding */
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(15px);
     border: 1px solid rgba(34, 197, 94, 0.25);
     border-radius: var(--radius-lg);
-    box-shadow:
-        0 8px 32px rgba(0, 0, 0, 0.4),
-        inset 0 1px 0 rgba(255, 255, 255, 0.05),
-        0 0 40px rgba(34, 197, 94, 0.08);
-    min-width: 260px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    min-width: 220px; /* Reduced min-width */
 }
 
 /* Gauge Header */
@@ -394,16 +391,16 @@
 /* === STATUS BADGE - PROMINENT === */
 .titan-status {
     position: absolute;
-    top: var(--space-md);
-    left: var(--space-md);
+    top: 10px;
+    left: 10px;
     z-index: 10;
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 16px;
+    gap: 6px;
+    padding: 6px 12px;
     background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(15px);
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
     border: 1px solid transparent;
 }
 
@@ -469,9 +466,9 @@
 /* === HERO IMAGE - DOMINANT 55vh === */
 .titan-image-container {
     position: relative;
-    height: 55vh;
-    min-height: 280px;
-    max-height: 400px;
+    height: 35vh; /* Reduced from 55vh */
+    min-height: 220px;
+    max-height: 320px;
     background: radial-gradient(ellipse 120% 100% at 50% 100%,
             rgba(20, 20, 20, 1) 0%,
             rgba(5, 5, 5, 1) 100%);
@@ -496,8 +493,8 @@
 }
 
 .titan-image {
-    width: 95%;
-    height: 90%;
+    width: 90%;
+    height: 85%;
     object-fit: contain;
     filter: contrast(1.1) brightness(0.95);
     position: relative;
@@ -527,10 +524,10 @@
 /* Weight Badge */
 .weight-badge {
     position: absolute;
-    bottom: var(--space-md);
-    right: var(--space-md);
+    bottom: 10px;
+    right: 10px;
     z-index: 10;
-    padding: 8px 14px;
+    padding: 6px 12px;
     background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(212, 175, 55, 0.4);

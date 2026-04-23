@@ -45,11 +45,11 @@ const Navbar = () => {
                 {/* Brand Identity Section */}
                 <div className="horizon-brand" onClick={() => navigate('/')}>
                     <div className="brand-logo-frame">
-                        <img src="/asset/logo_brand.jpeg" alt="Terratron" className="brand-logo-img" />
+                        <img src="/asset/logo_brand (1).webp" alt="Terratron" className="brand-logo-img" />
                     </div>
                     <div className="brand-typography">
                         <h1 className="brand-name">TERRATRON</h1>
-                        <span className="brand-tagline">HEAVY EQUIPMENT CIAMIS - TASIKMALAYA</span>
+                        <span className="brand-tagline">HEAVY EQUIPMENT TASIKMALAYA - CIAMIS</span>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@ const Navbar = () => {
                 {/* Level 1: Command Deck (Brand + Primary Action) */}
                 <div className="satellite-top-deck">
                     <div className="satellite-brand" onClick={() => navigate('/')}>
-                        <img src="/asset/logo_brand.jpeg" alt="T" className="satellite-logo" />
+                        <img src="/asset/logo_brand (1).webp" alt="Terratron Logo" className="satellite-logo" />
                         <span className="satellite-brand-name">TERRATRON</span>
                     </div>
                     <a
@@ -104,7 +104,7 @@ const Navbar = () => {
                         rel="noopener noreferrer"
                         className="satellite-cta-compact"
                     >
-                        KONSULTASI
+                        KONSULTASI SEKARANG
                     </a>
                 </div>
 

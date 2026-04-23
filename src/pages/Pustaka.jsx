@@ -21,7 +21,10 @@ const Pustaka = ({ onBack }) => {
     const selectedArticleSchema = useMemo(() => {
         if (!selectedArticle) return null;
 
-        const articleSchema = {
+        const schemas = [];
+
+        // Article Schema
+        schemas.push({
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": selectedArticle.title,
@@ -38,12 +41,13 @@ const Pustaka = ({ onBack }) => {
                 "name": "Terratron Indonesia Heavy Equipment",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://terratron.id/asset/logo/Terratron Indonesia-logo.png"
+                    "url": "https://terratron.id/asset/logo_brand (1).webp"
                 }
             }
-        };
+        });
 
-        const breadcrumbSchema = {
+        // Breadcrumb Schema
+        schemas.push({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
@@ -66,9 +70,25 @@ const Pustaka = ({ onBack }) => {
                     "item": `https://terratron.id/pustaka-konstruksi/${selectedArticle.slug}`
                 }
             ]
-        };
+        });
 
-        return [articleSchema, breadcrumbSchema];
+        // FAQ Schema (New)
+        if (selectedArticle.faqs && selectedArticle.faqs.length > 0) {
+            schemas.push({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": selectedArticle.faqs.map(faq => ({
+                    "@type": "Question",
+                    "name": faq.question,
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": faq.answer
+                    }
+                }))
+            });
+        }
+
+        return schemas;
     }, [selectedArticle])
 
     const relatedArticles = useMemo(() => {
@@ -131,7 +151,7 @@ const Pustaka = ({ onBack }) => {
                         <meta property="og:url" content="https://terratron.id/pustaka-konstruksi" />
                         <meta property="og:title" content="Pustaka Alat Berat & Strategi Konstruksi | Terratron Indonesia Heavy" />
                         <meta property="og:description" content="Kumpulan panduan teknis operasional alat berat, estimasi biaya, dan solusi manajemen proyek konstruksi." />
-                        <meta property="og:image" content="https://terratron.id/asset/logo/Terratron Indonesia-logo.png" />
+                        <meta property="og:image" content="https://terratron.id/asset/logo_brand (1).webp" />
                     </>
                 )}
             </Helmet>
@@ -171,7 +191,7 @@ const Pustaka = ({ onBack }) => {
                                 <span>EST. READ: {selectedArticle.readTime}</span>
                             </div>
                             <div className="article-hero-img">
-                                <img src={selectedArticle.img} alt={selectedArticle.title} />
+                                <img src={selectedArticle.img} alt={selectedArticle.altText || selectedArticle.title} title={selectedArticle.altText || selectedArticle.title} />
                                 <div className="img-tech-overlay" />
                             </div>
                         </header>
@@ -213,7 +233,7 @@ const Pustaka = ({ onBack }) => {
                         <motion.section className="pustaka-hero" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
                             <div className="intel-hero-layout" onClick={() => handleSelectArticle(featuredArticle)}>
                                 <div className="intel-hero-visual">
-                                    <img src={featuredArticle.img} alt={featuredArticle.title} />
+                                    <img src={featuredArticle.img} alt={featuredArticle.altText || featuredArticle.title} />
                                     <div className="intel-overlay-grid" />
                                     <div className="scan-line-hero" />
                                     <div className="hero-coords">LAT: -6.2088 // LONG: 106.8456</div>
@@ -269,7 +289,7 @@ const Pustaka = ({ onBack }) => {
                                             onClick={() => handleSelectArticle(art)}
                                         >
                                             <div className="card-media-side">
-                                                <img src={art.img} alt={art.title} loading="lazy" />
+                                                <img src={art.img} alt={art.altText || art.title} loading="lazy" />
                                                 <div className="media-scanline" />
                                                 <div className="cat-tag-mini">{art.category}</div>
                                             </div>

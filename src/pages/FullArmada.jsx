@@ -270,7 +270,6 @@ const getBadgeIcon = (iconName) => {
 const FullArmada = () => {
     const { slug, area } = useParams()
     const navigate = useNavigate()
-    const [activeFilter, setActiveFilter] = useState('all')
 
     const formattedArea = area
         ? area.charAt(0).toUpperCase() + area.slice(1).replace(/-/g, ' ')
@@ -338,18 +337,7 @@ const FullArmada = () => {
         return { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items }
     }, [selectedUnit])
 
-    // ── FILTERS ────────────────────────────────────────────
-    const filterOptions = [
-        { id: 'all', label: 'SEMUA UNIT' },
-        { id: 'mini', label: 'MIDI / MINI (5–8 TON)' },
-        { id: 'standard', label: 'STANDARD (20 TON+)' },
-        { id: 'attachment', label: 'ALAT BANTU' }
-    ]
-
-    const filteredUnits = useMemo(
-        () => (activeFilter === 'all' ? fleetData : fleetData.filter(u => u.category === activeFilter)),
-        [activeFilter]
-    )
+    const filteredUnits = fleetData
 
     const handleSelectUnit = unit => navigate(`/sewa-alat-berat/${unit.slug}`)
     const handleBackToList = () => navigate('/sewa-alat-berat')
@@ -933,7 +921,7 @@ const FullArmada = () => {
                     {/* 1. HERO */}
                     <section className="armada-hero">
                         <div className="hero-bg-detail">
-                            <img src="/asset/hero_background_mobile2.png" alt="Fleet Terratron" fetchPriority="high" />
+                            <img src="/asset/hero_background_mobile2 (1).webp" alt="Fleet Terratron" fetchPriority="high" />
                         </div>
                         <div className="hero-bg-overlay" />
                         <div className="hero-context container">
@@ -971,20 +959,6 @@ const FullArmada = () => {
                         </div>
                     </section>
 
-                    {/* 2. FILTER */}
-                    <div className="filter-sticky-wrapper">
-                        <div className="filter-bar container hide-scrollbar">
-                            {filterOptions.map(opt => (
-                                <button
-                                    key={opt.id}
-                                    className={`filter-btn ${activeFilter === opt.id ? 'active' : ''}`}
-                                    onClick={() => setActiveFilter(opt.id)}
-                                >
-                                    {opt.label}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
 
                     {/* 3. UNIT LIST */}
                     <section className="unit-list-section container">

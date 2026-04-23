@@ -20,16 +20,16 @@ export const fleetData = [
         nickName: 'The Efficiency King',
 
         // ── VISUAL ASSETS ─────────────────────────────────────
-        image: '/asset/units/COVER_SANY_SY75.jpeg',
+        image: '/asset/units/COVER_SANY_SY75 (1).webp',
         seoAlt: 'Sewa Excavator SANY SY75 7 Ton hemat BBM untuk proyek galian saluran dan pematangan lahan di Ciamis Tasikmalaya',
         gallery: [
             {
-                src: '/asset/units/SANY_SY75_1.jpeg',
+                src: '/asset/units/SANY_SY75_1 (1).webp',
                 caption: 'SANY SY75 — Kondisi Unit Aktual',
                 type: 'unit'
             },
             {
-                src: '/asset/units/SANY_SY75_2.jpeg',
+                src: '/asset/units/SANY_SY75_2 (1).webp',
                 caption: 'SANY SY75 — Tampak Operasional',
                 type: 'operasional'
             }
@@ -175,21 +175,21 @@ export const fleetData = [
         nickName: 'The Compact Precision',
 
         // ── VISUAL ASSETS ─────────────────────────────────────
-        image: '/asset/units/COVER_CAT 305.5E2.jpeg',
+        image: '/asset/units/COVER_CAT 305.5E2 (1).webp',
         seoAlt: 'Sewa Mini Excavator CAT 305.5E2 lebar 1.98 meter zero tail swing untuk galian kabel pipa ruang sempit Ciamis Tasikmalaya',
         gallery: [
             {
-                src: '/asset/units/CAT_305.5E2_1.jpeg',
+                src: '/asset/units/CAT_305.5E2_1 (1).webp',
                 caption: 'CAT 305.5E2 — Kondisi Unit Aktual',
                 type: 'unit'
             },
             {
-                src: '/asset/units/CAT_305.5E2_2.jpeg',
+                src: '/asset/units/CAT_305.5E2_2 (1).webp',
                 caption: 'CAT 305.5E2 — Detail Kabin & Attachment',
                 type: 'detail'
             },
             {
-                src: '/asset/units/CAT_305.5E2_3.jpeg',
+                src: '/asset/units/CAT_305.5E2_3 (1).webp',
                 caption: 'CAT 305.5E2 — Posisi Operasional',
                 type: 'operasional'
             }
@@ -343,16 +343,16 @@ export const fleetData = [
         nickName: 'The Legend',
 
         // ── VISUAL ASSETS ─────────────────────────────────────
-        image: '/asset/units/COVER_KOMATSU PC75.jpeg',
+        image: '/asset/units/COVER_KOMATSU PC75 (1).webp',
         seoAlt: 'Sewa Excavator Komatsu PC75 untuk land clearing lahan sawit dan galian medan berat berbatu di Tasikmalaya Ciamis',
         gallery: [
             {
-                src: '/asset/units/KOMATSU_PC75_1.jpeg',
+                src: '/asset/units/KOMATSU_PC75_1 (1).webp',
                 caption: 'Komatsu PC75 — Kondisi Unit Aktual',
                 type: 'unit'
             },
             {
-                src: '/asset/units/KOMATSUPC75_2.jpeg',
+                src: '/asset/units/KOMATSUPC75_2 (1).webp',
                 caption: 'Komatsu PC75 — Tampak Operasional',
                 type: 'operasional'
             }
@@ -501,16 +501,16 @@ export const fleetData = [
         nickName: 'The Speedster',
 
         // ── VISUAL ASSETS ─────────────────────────────────────
-        image: '/asset/units/COVER_SUMITOMO SH75.jpeg',
+        image: '/asset/units/COVER_SUMITOMO SH75 (1).webp',
         seoAlt: 'Sewa Excavator Sumitomo SH75 untuk loading cepat cut and fill perumahan dan proyek ritase tinggi di Tasikmalaya Ciamis Banjar',
         gallery: [
             {
-                src: '/asset/units/SUMITOMO_SH75_1.jpeg',
+                src: '/asset/units/SUMITOMO_SH75_1 (1).webp',
                 caption: 'Sumitomo SH75 — Kondisi Unit Aktual',
                 type: 'unit'
             },
             {
-                src: '/asset/units/SUMITOMOSH75_2.jpeg',
+                src: '/asset/units/SUMITOMOSH75_2 (1).webp',
                 caption: 'Sumitomo SH75 — Tampak Operasional',
                 type: 'operasional'
             }
@@ -662,11 +662,11 @@ export const fleetData = [
         tagline: 'Kompak, tangguh, dan lincah bermanuver di area pemukiman padat.',
         nickName: 'The Urban Ninja',
 
-        image: '/asset/units/cover_kobelcoSK50p.jpeg',
+        image: '/asset/units/cover_kobelcoSK50p (1).webp',
         seoAlt: 'Sewa Excavator Mini Kobelco SK50P untuk galian perumahan dan saluran sempit di Tasikmalaya Ciamis',
         gallery: [
             {
-                src: '/asset/units/Kobelco SK50P.jpeg',
+                src: '/asset/units/Kobelco SK50P (1).webp',
                 caption: 'Kobelco SK50P — Kondisi Aktual',
                 type: 'unit'
             }
@@ -744,11 +744,11 @@ export const fleetData = [
         tagline: 'Tenaga ekstra di kelas Midi untuk galian pondasi tangguh dan ritase stabil.',
         nickName: 'The Compact Powerhouse',
 
-        image: '/asset/units/cover_sumitomopc80.jpeg',
+        image: '/asset/units/cover_sumitomopc80 (1).webp',
         seoAlt: 'Sewa Excavator Sumitomo SH80 Setara PC80 untuk pematangan lahan dan galian pondasi',
         gallery: [
             {
-                src: '/asset/units/cover_sumitomopc80.jpeg',
+                src: '/asset/units/cover_sumitomopc80 (1).webp',
                 caption: 'Sumitomo SH80 Setara PC80',
                 type: 'unit'
             }
@@ -824,16 +824,16 @@ export const fleetData = [
         tagline: 'Raja ritase untuk manuver pengerukan volume massal dalam waktu singkat.',
         nickName: 'The Volume Conqueror',
 
-        image: '/asset/units/cover_sumitomopc200.jpeg',
+        image: '/asset/units/cover_sumitomopc200 (1).webp',
         seoAlt: 'Sewa Excavator Sumitomo SH200 (20 Ton) untuk pengerukan massal dan infrastruktur di Priangan Timur',
         gallery: [
             {
-                src: '/asset/units/cover_sumitomopc200.jpeg',
+                src: '/asset/units/cover_sumitomopc200 (1).webp',
                 caption: 'Sumitomo SH200 (Setara PC200)',
                 type: 'unit'
             },
             {
-                src: '/asset/units/excavator-pc200.png',
+                src: '/asset/units/excavator-pc200 (1).webp',
                 caption: 'Ilustrasi Model SH200/PC200 Class',
                 type: 'operasional'
             }
@@ -909,16 +909,16 @@ export const fleetData = [
         tagline: 'Raja lahan basah. Pemadatan dan perataan tanah lunak tanpa kendala amblas.',
         nickName: 'The Swamp Master',
 
-        image: '/asset/units/cover_komatsuD31p.jpeg',
+        image: '/asset/units/cover_komatsuD31p (1).webp',
         seoAlt: 'Sewa Swamp Dozer Komatsu D31P untuk perataan tanah rawa dan leveling permukaan tanah di Tasikmalaya dan Ciamis',
         gallery: [
             {
-                src: '/asset/units/cover_komatsuD31p.jpeg',
+                src: '/asset/units/cover_komatsuD31p (1).webp',
                 caption: 'Komatsu D31P - Cover',
                 type: 'unit'
             },
             {
-                src: '/asset/units/dozer Komatsu D31P.jpeg',
+                src: '/asset/units/dozer Komatsu D31P (1).webp',
                 caption: 'Komatsu D31P - Lapangan Operasional',
                 type: 'operasional'
             }
@@ -994,16 +994,16 @@ export const fleetData = [
         tagline: 'Keseimbangan daya dorong ekstrem dengan kelincahan Swamp Track.',
         nickName: 'The Earth Mover',
 
-        image: '/asset/units/cover_komatsuD51.jpeg',
+        image: '/asset/units/cover_komatsuD51 (1).webp',
         seoAlt: 'Sewa Medium Dozer Komatsu D51P pendorong tanah dan perataan kawasan industri di Priangan Timur Ciamis Tasik',
         gallery: [
             {
-                src: '/asset/units/cover_komatsuD51.jpeg',
+                src: '/asset/units/cover_komatsuD51 (1).webp',
                 caption: 'Komatsu D51P - Tampilan Fisik',
                 type: 'unit'
             },
             {
-                src: '/asset/units/dozer Komatsu D51.jpeg',
+                src: '/asset/units/dozer Komatsu D51 (1).webp',
                 caption: 'Komatsu D51P - Menyiapkan Land Clearing',
                 type: 'operasional'
             }
@@ -1075,7 +1075,7 @@ export const attachmentData = [
     {
         id: 'breaker',
         name: 'Hydraulic Breaker',
-        image: '/asset/units/CAT_305.5E2_2.jpeg',
+        image: '/asset/units/CAT_305.5E2_2 (1).webp',
         spec: 'Chisel ∅68mm | 400–800 BPM',
         desc: 'Untuk bobok beton K-250/K-400, kupas aspal, demolisi. Tersedia untuk CAT 305.5E2.',
         compatibleWith: ['cat-305']
@@ -1083,7 +1083,7 @@ export const attachmentData = [
     {
         id: 'bucket-ditch',
         name: 'Bucket Ditch Cleaning',
-        image: '/asset/units/KOMATSU_PC75_1.jpeg',
+        image: '/asset/units/KOMATSU_PC75_1 (1).webp',
         spec: 'Kapasitas 0.50 m³',
         desc: 'Untuk galian saluran U-Ditch lebar dan normalisasi drainase.',
         compatibleWith: ['sany-sy75', 'komatsu-pc75', 'sumitomo-sh75']
@@ -1091,7 +1091,7 @@ export const attachmentData = [
     {
         id: 'ripper',
         name: 'Bucket Ripper / Tip',
-        image: '/asset/units/KOMATSUPC75_2.jpeg',
+        image: '/asset/units/KOMATSUPC75_2 (1).webp',
         spec: 'Heavy Duty Steel',
         desc: 'Untuk penetrasi tanah cadas, batu keras ringan, dan akar pohon besar.',
         compatibleWith: ['sany-sy75', 'komatsu-pc75']
@@ -1105,48 +1105,48 @@ export const deploymentHistory = [
     {
         id: 'proj-1',
         category: 'PERSIAPAN LAHAN MEDIS',
-        title: 'Pekerjaan Grading & Stripping Pembangunan RS Mitra Idaman Banjar',
-        image: '/asset/projects/rs_mitra_grading_v3_1771639871654.png',
+        title: 'Grading & Stripping RS Mitra Idaman Banjar',
+        image: '/asset/projects/rs_mitra_grading_v3_1771639871654 (1).webp',
         imageAlt: 'Jasa Grading Tanah Banjar, Sewa Mini Excavator Banjar, Stripping Lahan Proyek',
         units: '1x Mini Excavator CAT 305',
-        challenge: 'Area pembangunan fasilitas kesehatan membutuhkan pengupasan tanah bagian atas (stripping) dan pembentukan elevasi dasar (grading) dengan tingkat presisi tinggi sebelum pondasi dicor.',
-        solution: 'Kami mengandalkan Mini Excavator Caterpillar 305. Ukurannya yang compact dipadukan dengan hidrolik presisi khas CAT memastikan pengupasan lapisan tanah atas di lokasi RS Mitra Idaman Banjar dilakukan dengan sangat rapi dan akurat, sesuai dengan patok elevasi dari konsultan perencana.',
+        challenge: 'Stripping dan grading dengan presisi tinggi pada lahan RS Mitra Idaman sebelum pondasi dicor.',
+        solution: 'CAT 305 mengeksekusi pengupasan tanah atas secara rapi sesuai elevasi konsultan perencana.',
         location: 'RS Mitra Idaman, Banjar',
         duration: '14 Hari (Target Presisi)'
     },
     {
         id: 'proj-2',
         category: 'DEMOLISI STRUKTUR LAMA',
-        title: 'Pekerjaan Bongkaran Bangunan Eksisting RS Mitra Idaman Banjar',
-        image: '/asset/projects/rs_mitra_demo_v3_1771639888009.png',
+        title: 'Demolisi Bangunan RS Mitra Idaman Banjar',
+        image: '/asset/projects/rs_mitra_demo_v3_1771639888009 (1).webp',
         imageAlt: 'Jasa Bongkar Gedung Banjar, Demolisi Bangunan Banjar, Sewa Excavator Sumitomo SH78',
         units: '1x Excavator Sumitomo SH78',
-        challenge: 'Sebelum RS Mitra Idaman yang baru bisa dibangun, struktur bangunan lama di lokasi harus dihancurkan dan dibersihkan (site clearance) dengan cepat tanpa mengganggu aktivitas warga sekitar.',
-        solution: 'Tugas berat ini dieksekusi oleh Excavator Sumitomo SH78. Unit kelas 7 ton ini memiliki kombinasi tenaga pembongkaran yang brutal namun dengan kecepatan swing yang lincah. Puing-puing beton dan dinding bangunan lama berhasil dibongkar dan dimuat ke dump truck dengan efisiensi waktu maksimal, memastikan lahan bersih tepat waktu untuk fase konstruksi selanjutnya.',
+        challenge: 'Demolisi struktur lama dan site clearance cepat di area RS tanpa mengganggu lingkungan sekitar.',
+        solution: 'Sumitomo SH78 membongkar puing beton secara agresif dan memuatnya ke truk dengan ritase tinggi.',
         location: 'RS Mitra Idaman, Banjar',
         duration: '7 Hari (Site Clearance)'
     },
     {
         id: 'proj-3',
         category: 'LEVELING INFRASTRUKTUR',
-        title: 'Pekerjaan Grading & Leveling Lahan di Binangun, Kota Banjar',
-        image: '/asset/projects/binangun_leveling_v3_1771639913360.png',
+        title: 'Grading & Leveling Lahan Binangun, Banjar',
+        image: '/asset/projects/binangun_leveling_v3_1771639913360 (1).webp',
         imageAlt: 'Jasa Leveling Tanah Binangun, Cut and Fill Banjar, Sewa Dozer Komatsu D31P',
         units: 'Komatsu PC75 & Dozer Komatsu D31P',
-        challenge: 'Pekerjaan meratakan kontur tanah yang bergelombang (Leveling) di area Binangun, Banjar yang menuntut pemindahan kubikasi tanah sekaligus pemadatan awal.',
-        solution: 'Kami menggunakan formasi combo alat berat: Excavator Komatsu PC75 bertugas menggali dan mendistribusikan tumpukan tanah, yang langsung disusul oleh Bulldozer Komatsu D31P (Swamp Dozer). Pemilihan Dozer D31P dengan Low Ground Pressure sangat strategis untuk mendorong dan meratakan tanah di kontur Binangun tanpa risiko unit amblas, menghasilkan hamparan sub-grade yang rata dan padat sempurna.',
+        challenge: 'Meratakan kontur tanah bergelombang yang menuntut pemindahan volume tanah masif sekaligus pemadatan.',
+        solution: 'Sinergi PC75 dan Dozer D31P menghasilkan leveling sub-grade yang padat tanpa risiko unit amblas.',
         location: 'Binangun, Kota Banjar',
         duration: '21 Hari (Pemadatan Awal)'
     },
     {
         id: 'proj-4',
         category: 'DEMOLISI RITEL KOMERSIAL',
-        title: 'Pembongkaran Serentak Rantai Ritel Erablue di Priangan Timur',
-        image: '/asset/projects/erablue_demo_v3_1771639932998.png',
+        title: 'Pembongkaran Ritel Erablue Priangan Timur',
+        image: '/asset/projects/erablue_demo_v3_1771639932998 (1).webp',
         imageAlt: 'Jasa Pembongkaran Ruko Ciamis, Bongkar Bangunan Rajapolah, Sewa Alat Berat Tasikmalaya',
         units: 'Armada Excavator Multi-Unit',
-        challenge: 'Persiapan lahan untuk ekspansi gerai toko elektronik nasional (Erablue) yang menuntut pembongkaran ruko dan bangunan tua di tiga pusat komersial yang padat lalu lintas secara paralel.',
-        solution: 'Tim pembongkaran kami dipercaya mengeksekusi lahan di Pusat Kota Ciamis, Kota Banjar, dan area Rajapolah - Tasikmalaya. Manuver operator kami memastikan bangunan eksisting rata dengan tanah dan sisa puing terangkut bersih tanpa merusak struktur properti tetangga yang berhimpitan. Eksekusi cepat di tiga wilayah strategis Priangan Timur ini membantu Erablue mengejar target Grand Opening mereka.',
+        challenge: 'Pembongkaran paralel ruko tua di tiga pusat komersial padat lalu lintas untuk ekspansi Erablue.',
+        solution: 'Tim taktis Terratron membersihkan lahan secara serentak tanpa merusak struktur properti yang berhimpitan.',
         location: 'Ciamis, Banjar, Rajapolah (Tasikmalaya)',
         duration: '10 Hari per Titik'
     }
@@ -1186,12 +1186,12 @@ export const faqData = [
 //  CLIENT LOGOS (Brand Partners)
 // ============================================================
 export const clientLogos = [
-    { id: 'pp', name: 'PT PP (Persero)', image: '/asset/logo/logo_PT_PP.svg.png' },
-    { id: 'pupr', name: 'Kementerian PUPR', image: '/asset/logo/logo_pupr.png' },
-    { id: 'waskita', name: 'Waskita Karya', image: '/asset/logo/logo_waskita.jpg' },
-    { id: 'freeport', name: 'PT Freeport Indonesia', image: '/asset/logo/logo_pt_freeport.webp' },
-    { id: 'sinarmas', name: 'Sinarmas Land', image: '/asset/logo/logo_sinarmas_land_logo.jpg' },
-    { id: 'adaro', name: 'PT Adaro Energy', image: '/asset/logo/logo_AdroJK.png' }
+    { id: 'pp', name: 'PT PP (Persero)', image: '/asset/logo/logo_PT_PP.svg (1).webp' },
+    { id: 'pupr', name: 'Kementerian PUPR', image: '/asset/logo/logo_pupr (1).webp' },
+    { id: 'waskita', name: 'Waskita Karya', image: '/asset/logo/logo_waskita (1).webp' },
+    { id: 'freeport', name: 'PT Freeport Indonesia', image: '/asset/logo/logo_pt_freeport (1).webp' },
+    { id: 'sinarmas', name: 'Sinarmas Land', image: '/asset/logo/logo_sinarmas_land_logo (1).webp' },
+    { id: 'adaro', name: 'PT Adaro Energy', image: '/asset/logo/logo_AdroJK (1).webp' }
 ]
 
 // ============================================================

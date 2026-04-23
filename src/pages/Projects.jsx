@@ -102,7 +102,7 @@ const Projects = () => {
 
                                 <div className="dossier-main-content">
                                     <div className="dossier-visual">
-                                        <img src={project.image} alt={project.title} />
+                                        <img src={project.image} alt={project.imageAlt || project.title} />
                                         <div className="visual-scan" />
                                         <div className="dossier-frame-decor">
                                             <div className="d-corner tl" /><div className="d-corner br" />

@@ -141,22 +141,24 @@ const GroundingSection = () => {
                         </div>
                     </div>
                     <div className="service-areas sub-areas">
-                        <span className="area-label">KECAMATAN:</span>
+                        <span className="area-label">KECAMATAN TASIKMALAYA:</span>
                         <div className="area-links">
-                            <Link to="/sewa-alat-berat/lokasi/rajapolah" className="area-link">Rajapolah</Link>
+                            <Link to="/sewa-alat-berat/lokasi/kawalu" className="area-link">Kawalu</Link>
+                            <span className="area-dot">•</span>
+                            <Link to="/sewa-alat-berat/lokasi/cipedes" className="area-link">Cipedes</Link>
+                            <span className="area-dot">•</span>
+                            <Link to="/sewa-alat-berat/lokasi/indihiang" className="area-link">Indihiang</Link>
+                            <span className="area-dot">•</span>
+                            <Link to="/sewa-alat-berat/lokasi/mangkubumi" className="area-link">Mangkubumi</Link>
+                            <span className="area-dot">•</span>
+                            <Link to="/sewa-alat-berat/lokasi/singaparna" className="area-link">Singaparna</Link>
                             <span className="area-dot">•</span>
                             <Link to="/sewa-alat-berat/lokasi/ciawi" className="area-link">Ciawi</Link>
-                            <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/panjalu" className="area-link">Panjalu</Link>
-                            <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/cisaga" className="area-link">Cisaga</Link>
-                            <span className="area-dot">•</span>
-                            <Link to="/sewa-alat-berat/lokasi/banjarsari" className="area-link">Banjarsari</Link>
                         </div>
                     </div>
 
                     <div className="footer-brand">
-                        <img src="/asset/logo_brand.jpeg" alt="Terratron Logo" className="footer-brand-logo-img" />
+                        <img src="/asset/logo_brand (1).webp" alt="Terratron Logo" className="footer-brand-logo-img" />
                         <span className="footer-logo">TERRATRON INDONESIA HEAVY EQUIPMENT</span>
                         <span className="footer-tagline">Solusi Alat Berat Priangan Timur</span>
                     </div>

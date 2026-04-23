@@ -221,7 +221,7 @@
 /* Statement Quote */
 .bridge-statement {
     position: relative;
-    margin-bottom: var(--space-lg);
+    margin-bottom: 0; /* Removed margin since button is gone */
 }
 
 .statement-quote {
@@ -237,12 +237,12 @@
 }
 
 .statement-text {
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger for emphasis */
     color: var(--text-secondary);
-    line-height: 1.7;
-    max-width: 320px;
+    line-height: 1.8;
+    max-width: 400px;
     margin: 0 auto;
-    padding-top: var(--space-md);
+    padding-top: var(--space-lg);
 }
 
 .statement-highlight {

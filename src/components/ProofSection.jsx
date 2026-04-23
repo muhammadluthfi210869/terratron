@@ -20,15 +20,28 @@ const ProofSection = () => {
             <div className="theater-ambient-glow" />
 
             <div className="theater-container">
-                {/* TOP CONTROL BAR - HUD STYLE */}
+                {/* SECTION HEADLINE - WORLD CLASS */}
+                <div className="proof-headline-block">
+                    <div className="headline-eyebrow">
+                        <span className="eyebrow-dot" />
+                        <span className="eyebrow-text">MISSION LOGS & FIELD PROOF</span>
+                    </div>
+                    <h2 className="headline-title">
+                        <span className="text-white">REKAM JEJAK</span>
+                        <span className="text-gold">PROJECT</span>
+                    </h2>
+                    <div className="headline-divider">
+                        <div className="divider-line" />
+                        <div className="divider-diamond" />
+                        <div className="divider-line" />
+                    </div>
+                </div>
+
+                {/* TOP CONTROL BAR - HUD STYLE (META ONLY) */}
                 <div className="theater-hud-top">
                     <div className="hud-meta">
                         <span className="hud-label">ARCHIVE_ID:</span>
                         <span className="hud-value">TRN/OPS/00{currentIndex + 1}</span>
-                    </div>
-                    <div className="hud-title-center">
-                        <h2 className="hud-section-title">REKAM JELAJAH TASIKMALAYA - CIAMIS</h2>
-                        <div className="hud-line-glow" />
                     </div>
                     <div className="hud-meta text-right">
                         <span className="hud-label">PROTOCOL:</span>
@@ -47,67 +60,58 @@ const ProofSection = () => {
                             exit={{ opacity: 0, scale: 0.95, filter: 'blur(10px)' }}
                             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                         >
-                            <div className="theater-visual-frame">
-                                <img src={activeProject.image} alt={activeProject.imageAlt || activeProject.title} className="theater-main-img" />
-                                <div className="theater-scanline" />
-                                <div className="theater-vignette" />
-                                <div className="theater-frame-edges">
-                                    <div className="edge tl" /><div className="edge tr" />
-                                    <div className="edge bl" /><div className="edge br" />
-                                </div>
-                                <div className="theater-category-badge">{activeProject.category}</div>
+                            <div className="theater-header">
+                                <span className="mission-id">PROJECT_LOG_{activeProject.id}</span>
+                                <div className="theater-category-pill">{activeProject.category}</div>
                             </div>
 
-                            <div className="theater-content-hud">
-                                <motion.div
-                                    className="theater-text-block"
-                                    initial={{ opacity: 0, x: 30 }}
-                                    animate={{ opacity: 1, x: 0 }}
-                                    transition={{ delay: 0.3, duration: 0.6 }}
-                                >
-                                    <h3 className="theater-project-name">{activeProject.title}</h3>
+                            <div className="theater-main-content">
+                                <div className="theater-visual-frame">
+                                    <img src={activeProject.image} alt={activeProject.title} className="theater-main-img" />
+                                    <div className="theater-location-tag">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        {activeProject.location}
+                                    </div>
+                                    <div className="theater-frame-edges">
+                                        <div className="edge tl" /><div className="edge tr" />
+                                        <div className="edge bl" /><div className="edge br" />
+                                    </div>
+                                </div>
 
-                                    <div className="theater-mission-data">
-                                        <div className="data-node">
-                                            <div className="node-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                                                    <path d="M12 2v20M2 12h20M12 2l4 4M12 22l-4-4M2 12l4-4M22 12l-4 4" />
-                                                </svg>
+                                <div className="theater-info-pane">
+                                    <h3 className="theater-project-title">{activeProject.title}</h3>
+                                    
+                                    <div className="tactical-brief-grid">
+                                        <div className="brief-item">
+                                            <div className="brief-header">
+                                                <div className="brief-dot" />
+                                                <span className="brief-label">CHALLENGE</span>
                                             </div>
-                                            <div className="node-info">
-                                                <span className="node-label">TANTANGAN MEDAN</span>
-                                                <p className="node-desc">{activeProject.challenge}</p>
-                                            </div>
+                                            <p className="brief-text">{activeProject.challenge}</p>
                                         </div>
-
-                                        <div className="data-node">
-                                            <div className="node-icon">
-                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.77 3.77z" />
-                                                </svg>
+                                        <div className="brief-item">
+                                            <div className="brief-header">
+                                                <div className="brief-dot gold" />
+                                                <span className="brief-label gold">SOLUTION</span>
                                             </div>
-                                            <div className="node-info">
-                                                <span className="node-label">SOLUSI TAKTIS</span>
-                                                <p className="node-desc">{activeProject.solution}</p>
-                                            </div>
+                                            <p className="brief-text">{activeProject.solution}</p>
                                         </div>
                                     </div>
 
-                                    <div className="theater-metadata-grid">
-                                        <div className="meta-item">
-                                            <span className="m-label">STATUS</span>
-                                            <span className="m-value gold">{activeProject.duration}</span>
+                                    <div className="theater-meta-row">
+                                        <div className="meta-capsule">
+                                            <span className="capsule-label">TIME</span>
+                                            <span className="capsule-value">{activeProject.duration}</span>
                                         </div>
-                                        <div className="meta-item">
-                                            <span className="m-label">LOCATION</span>
-                                            <span className="m-value">{activeProject.location}</span>
-                                        </div>
-                                        <div className="meta-item">
-                                            <span className="m-label">DEPLOYED_UNIT</span>
-                                            <span className="m-value">{activeProject.units}</span>
+                                        <div className="meta-capsule">
+                                            <span className="capsule-label">UNITS</span>
+                                            <span className="capsule-value">{activeProject.units}</span>
                                         </div>
                                     </div>
-                                </motion.div>
+                                </div>
                             </div>
                         </motion.div>
                     </AnimatePresence>

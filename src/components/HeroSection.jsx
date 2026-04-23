@@ -101,7 +101,7 @@ const HeroSection = () => {
             {/* Background Image with VOID Overlay */}
             <div className="hero-background">
                 <img
-                    src="/asset/hero_background_mobile2.png"
+                    src="/asset/Steel_excavator_track_202604231202.jpeg"
                     alt="Excavator in action"
                     className="hero-bg-image"
                     fetchpriority="high"
@@ -126,7 +126,7 @@ const HeroSection = () => {
                 <motion.div className="hero-namecard" variants={slamVariants}>
                     <div className="company-name">
                         <h1 className="name-main">PUSAT SEWA EXCAVATOR & DOZER</h1>
-                        <h2 className="name-heavy">CIAMIS & TASIKMALAYA</h2>
+                        <h2 className="name-heavy">TASIKMALAYA & CIAMIS</h2>
                     </div>
                 </motion.div>
 
@@ -138,7 +138,6 @@ const HeroSection = () => {
                 <motion.div
                     className="hero-badges-container"
                     variants={fadeWeightedVariants}
-                    style={{ marginTop: '0px' }} /* Initial spacing handled by CSS */
                 >
                     <div className="hero-badge">
                         <span className="badge-icon-svg">
@@ -172,7 +171,7 @@ const HeroSection = () => {
                                 <path d="m9 15 2 2 4-4" />
                             </svg>
                         </span>
-                        <span className="badge-text">Semua Unit Dilengkapi SILO Aktif & Operator ber-SIO</span>
+                        <span className="badge-text">Unit Ber-SILO & Operator Ber-SIO</span>
                     </div>
                 </motion.div>
 
@@ -187,7 +186,7 @@ const HeroSection = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                 >
-                    <span className="cta-text">CEK UNIT DI TASIK/CIAMIS HARI INI</span>
+                    <span className="cta-text">KONSULTASIKAN KEBUTUHAN ANDA</span>
                     <div className="cta-tactical-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                             <path d="m11 17 2 2a1 1 0 1 0 3-3" />

@@ -48,7 +48,7 @@ function App() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Terratron Indonesia Heavy Equipment",
-        "image": "https://terratron.id/asset/hero_background_mobile2.png",
+        "image": "https://terratron.id/asset/hero_background_mobile2 (1).webp",
         "@id": "https://terratron.id/#localbusiness",
         "url": "https://terratron.id",
         "telephone": "+6282260280392",
@@ -71,7 +71,7 @@ function App() {
             "opens": "08:00",
             "closes": "21:00"
         },
-        "areaServed": ["Ciamis", "Tasikmalaya", "Banjar", "Pangandaran", "Garut", "Priangan Timur"]
+        "areaServed": ["Tasikmalaya", "Ciamis", "Banjar", "Pangandaran", "Garut", "Priangan Timur"]
     }
 
     const faqSchema = {
@@ -101,8 +101,8 @@ function App() {
                             transition={{ duration: 0.3 }}
                         >
                             <Helmet>
-                                <title>Sewa Excavator Ciamis Tasikmalaya & Alat Berat Termurah (Unit 2020+) - Terratron Indonesia</title>
-                                <meta name="description" content="Terratron Indonesia Heavy Equipment: Pusat sewa excavator PC200, PC75, Dozer, dan Vibro di Ciamis & Tasikmalaya. Unit terbaru, operator SIO, mekanik standby 24 jam. Cek harga promo!" />
+                                <title>Sewa Excavator Tasikmalaya & Ciamis | Alat Berat Terdekat (Unit 2020+) - Terratron Indonesia</title>
+                                <meta name="description" content="Sewa Excavator Tasikmalaya & Ciamis: Ready PC200, PC75, Mini Excavator, & Dozer. Unit sehat, SILO aktif, operator SIO PRO. Hubungi Terratron Indonesia untuk harga sewa terbaik hari ini!" />
                             </Helmet>
                             <SchemaOrg schema={businessSchema} />
                             <SchemaOrg schema={faqSchema} />
@@ -112,10 +112,10 @@ function App() {
                                 onSelectUnit={setSelectedUnit}
                                 onViewAllArmada={() => { }} // Navigation handled by Router
                             />
-                            <AuthoritySection onViewProfile={() => { }} />
-                            <MaintenancePulse />
                             <ProofSection />
+                            <AuthoritySection onViewProfile={() => { }} />
                             <ProtocolSection />
+                            <MaintenancePulse />
                             <FAQSection />
                             <GroundingSection />
                             <WhatsAppCTA />

@@ -140,32 +140,7 @@ const FleetSection = ({ units, onSelectUnit, onViewAllArmada }) => {
           <span className="title-accent">EXCAVATOR & ALAT BERAT</span>
         </motion.h2>
 
-        <motion.div className="availability-gauge" variants={itemVariants}>
-          <div className="gauge-header">
-            <span className="gauge-pulse" />
-            <span className="gauge-label">LIVE AVAILABILITY</span>
-          </div>
 
-          <div className="gauge-bar-container">
-            <div className="gauge-bar-track">
-              <div
-                className="gauge-bar-fill"
-                style={{ width: `${(availableCount / totalCount) * 100}%` }}
-              />
-              <div
-                className="gauge-bar-glow"
-                style={{ left: `${(availableCount / totalCount) * 100}%` }}
-              />
-            </div>
-            <div className="gauge-stats">
-              <span className="gauge-available">{availableCount}</span>
-              <span className="gauge-separator">/</span>
-              <span className="gauge-total">{totalCount}</span>
-              <span className="gauge-unit">UNIT READY</span>
-            </div>
-          </div>
-          <p className="gauge-tagline">Tersedia untuk proyek Anda</p>
-        </motion.div>
       </motion.header>
 
       <div className="titan-theater">
