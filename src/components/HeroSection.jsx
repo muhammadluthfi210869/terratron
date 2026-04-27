@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { track } from '@vercel/analytics'
 import { companyStats, clientLogos } from '../data/fleetData'
 import './HeroSection.css'
 
@@ -186,6 +187,7 @@ const HeroSection = () => {
                     variants={fadeWeightedVariants}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
+                    onClick={() => track('Hero_CTA_Click')}
                 >
                     <span className="cta-text">CEK KETERSEDIAAN & HARGA</span>
                     <div className="cta-tactical-icon">
