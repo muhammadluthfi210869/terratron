@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { track } from '@vercel/analytics'
+import posthog from 'posthog-js'
 import './WhatsAppCTA.css'
 
 const WhatsAppCTA = () => {
@@ -114,7 +114,7 @@ const WhatsAppCTA = () => {
                         onMouseLeave={() => setIsExpanded(false)}
                         onTouchStart={() => setIsExpanded(true)}
                         onTouchEnd={() => setTimeout(() => setIsExpanded(false), 2000)}
-                        onClick={() => track('WhatsApp_Floating_Click')}
+                        onClick={() => posthog.capture('WhatsApp_Floating_Click')}
                     >
                         {/* Pulse Ring */}
                         <span className="fab-pulse-ring" />

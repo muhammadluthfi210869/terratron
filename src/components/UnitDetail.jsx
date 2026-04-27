@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { track } from '@vercel/analytics'
+import posthog from 'posthog-js'
 import './UnitDetail.css'
 
 const UnitDetail = ({ unit, onClose }) => {
@@ -14,7 +14,7 @@ const UnitDetail = ({ unit, onClose }) => {
     }, [])
 
     const handlePrint = () => {
-        track('Unit_Print_Datasheet', { model: unit.model })
+        posthog.capture('Unit_Print_Datasheet', { model: unit.model })
         setIsPreparingPrint(true)
         setTimeout(() => {
             window.print()
@@ -153,7 +153,7 @@ const UnitDetail = ({ unit, onClose }) => {
                                     className="action-btn-cinematic secondary"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    onClick={() => track('Unit_Inquiry_WA_Click', { model: unit.model })}
+                                    onClick={() => posthog.capture('Unit_Inquiry_WA_Click', { model: unit.model })}
                                 >
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
                                         <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-14h.8A8.4 8.4 0 0 1 21 11.5z" />
