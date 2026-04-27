@@ -181,12 +181,13 @@ const HeroSection = () => {
                     href="https://wa.me/6282260280392?text=Halo,%20saya%20butuh%20sewa%20excavator%20di%20Ciamis/Tasikmalaya..."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hero-tactical-cta"
+                    id="hero-wa-cta"
+                    className="hero-tactical-cta btn-cta"
                     variants={fadeWeightedVariants}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                 >
-                    <span className="cta-text">KONSULTASIKAN KEBUTUHAN ANDA</span>
+                    <span className="cta-text">CEK KETERSEDIAAN & HARGA</span>
                     <div className="cta-tactical-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                             <path d="m11 17 2 2a1 1 0 1 0 3-3" />

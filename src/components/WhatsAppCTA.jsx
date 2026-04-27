@@ -96,8 +96,8 @@ const WhatsAppCTA = () => {
                                 animate="visible"
                                 exit="exit"
                             >
-                                <span className="tooltip-title">Chat Owner</span>
-                                <span className="tooltip-sub">Fast Response 24 Jam</span>
+                                <span className="tooltip-title">Konsultasi Cepat</span>
+                                <span className="tooltip-sub">Respon Admin 24 Jam</span>
                             </motion.div>
                         )}
                     </AnimatePresence>
@@ -107,7 +107,8 @@ const WhatsAppCTA = () => {
                         href="https://wa.me/6282260280392?text=Halo%20Pak,%20saya%20tertarik%20sewa%20unit%20excavator"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="wa-fab-button"
+                        id="fab-wa-cta"
+                        className="wa-fab-button btn-cta"
                         onMouseEnter={() => setIsExpanded(true)}
                         onMouseLeave={() => setIsExpanded(false)}
                         onTouchStart={() => setIsExpanded(true)}

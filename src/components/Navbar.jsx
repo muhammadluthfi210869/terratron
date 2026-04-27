@@ -82,7 +82,8 @@ const Navbar = () => {
                         href="https://wa.me/6282260280392"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="horizon-cta"
+                        id="navbar-wa-cta"
+                        className="horizon-cta btn-cta"
                     >
                         <span className="cta-content">HUBUNGI KAMI</span>
                         <div className="cta-shine" />
@@ -102,7 +103,8 @@ const Navbar = () => {
                         href="https://wa.me/6282260280392"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="satellite-cta-compact"
+                        id="mobile-navbar-wa-cta"
+                        className="satellite-cta-compact btn-cta"
                     >
                         KONSULTASI SEKARANG
                     </a>

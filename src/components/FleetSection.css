@@ -621,39 +621,79 @@
 .titan-cta-zone {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 8px;
+    justify-content: space-between;
+    gap: 12px;
     padding: var(--space-sm) var(--space-md);
     background: linear-gradient(180deg,
-            rgba(212, 175, 55, 0.1) 0%,
-            rgba(212, 175, 55, 0.05) 100%);
-    border-top: 1px solid rgba(212, 175, 55, 0.15);
-    transition: all 0.2s ease;
+            rgba(212, 175, 55, 0.08) 0%,
+            rgba(212, 175, 55, 0.04) 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.titan-cta-zone .cta-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
 }
 
 .titan-cta-zone .cta-text {
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    letter-spacing: 0.15em;
-    color: var(--gold-primary);
+    letter-spacing: 0.1em;
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
 }
 
 .titan-cta-zone .cta-arrow {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     color: var(--gold-primary);
-    transition: transform 0.2s ease;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Direct WA Button */
+.titan-direct-wa {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border: none;
+    flex-shrink: 0;
+}
+
+.titan-direct-wa svg {
+    width: 20px;
+    height: 20px;
+}
+
+.titan-direct-wa:hover {
+    transform: scale(1.15) rotate(8deg);
+    background: #22c55e;
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
 }
 
 .titan-card.active:hover .titan-cta-zone {
     background: linear-gradient(180deg,
-            rgba(212, 175, 55, 0.18) 0%,
-            rgba(212, 175, 55, 0.1) 100%);
+            rgba(212, 175, 55, 0.15) 0%,
+            rgba(212, 175, 55, 0.08) 100%);
+    border-top-color: rgba(212, 175, 55, 0.2);
+}
+
+.titan-card.active:hover .cta-text {
+    color: var(--gold-primary);
 }
 
 .titan-card.active:hover .cta-arrow {
-    transform: translateX(5px);
+    transform: translateX(4px);
 }
 
 /* === FADE OVERLAYS === */
